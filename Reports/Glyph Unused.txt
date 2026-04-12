@@ -259,8 +259,8 @@ X	 	 	 	1	pine wand.png
  	 	 	X	1	platonics water.png
 X	 	 	 	1	psychedelic book.png
  	 	 	X	1	red jelly.png
+ 	 	 	X	1	robot arcanist.png
  	 	 	X	1	robot female.png
- 	 	 	X	1	robot male vampire gunslinger.png
  	 	 	X	1	robot sentry.png
  	 	 	X	1	robot singer.png
  	 	 	X	1	rose axe.png

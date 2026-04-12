@@ -1,3 +1,4 @@
+arcanist    : divination, enchantment, evocation, necromancy, transmutation
 barbarian   : evocation
 bard        : abjuration, clerical, divination, enchantment
 caveman     : transmutation

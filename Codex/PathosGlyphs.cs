@@ -2797,6 +2797,9 @@ namespace Pathos
     public readonly Glyph splatter_Y;
     public readonly Glyph splatter_Z;
 
+
+
+
     // specials.
     public readonly Glyph colossus;
     public readonly Glyph fugitive;

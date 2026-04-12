@@ -1360,8 +1360,45 @@ namespace Pathos
         C.Startup.Loot.AddKit(Chance.OneIn5, Items.magic_marker);
         C.Startup.Loot.AddKit(Chance.OneIn5, Items.blindfold);
       });
-      
-      necromancer = AddClass(C =>
+
+            wizard = AddClass(C =>
+            {
+                C.Name = "arcanist";
+                C.Description = "arcanist test";
+                C.Backpack = Items.Backpack;
+                C.LifeAdvancement.Set(12, 1.d6());
+                C.ManaAdvancement.Set(3, 1.d2());
+                C.SetDistribution(Attributes.intelligence, Attributes.dexterity, Attributes.charisma, Attributes.wisdom, Attributes.constitution, Attributes.strength);
+                C.AddAvatar(Genders.male, Glyphs.Van_Helsing);
+                C.AddAvatar(Genders.female, Glyphs.Van_Helsing);
+                C.AddAvatar(Genders.nonbinary, Glyphs.Van_Helsing);
+
+                C.AddFeat(1, Properties.appraisal);
+                C.AddFeat(5, Properties.mana_regeneration);
+                C.AddFeat(10, Properties.beatitude);
+                C.AddFeat(15, Properties.quickness);
+                C.AddFeat(20, Properties.deflection);
+                C.Startup.SetSkill(Qualifications.proficient,
+                  Skills.bartering, Skills.crafting, Skills.literacy,
+                  Skills.traps, Skills.divination, Skills.enchantment, Skills.evocation, Skills.necromancy, Skills.transmutation,
+                  Skills.light_armour,
+                  Skills.light_blade,
+                  Skills.club, Skills.dart, Skills.sling, Skills.firearms);
+                C.Startup.AddGrimoire(Dice.One, Spells.force_bolt);
+                C.Startup.AddGrimoire(Dice.One, Spells.identify);
+                C.Startup.AddGrimoire(Dice.Fixed(1), DesireableSpellArray(C));
+                C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, Items.knife);
+                C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.cloak_of_magic_resistance);
+                C.Startup.Loot.AddKit(Dice.Fixed(1), Chance.Always, DesirableItemArray(C, Stocks.ring));
+                C.Startup.Loot.AddKit(Dice.Fixed(1), Chance.Always, DesirableItemArray(C, Stocks.amulet));
+                C.Startup.Loot.AddKit(Dice.Fixed(2), Chance.Always, DesirableItemArray(C, Stocks.wand));
+                C.Startup.Loot.AddKit(Chance.OneIn5, Items.magic_marker);
+                C.Startup.Loot.AddKit(Chance.OneIn5, Items.bag_of_holding);
+                C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, Items.pistol);
+                C.Startup.Loot.AddKit(Chance.Always, 1.d100() + 100, Modifier.Plus0, Items.bullet);
+            });
+
+            necromancer = AddClass(C =>
       {
         C.Name = "necromancer";
         C.Description = "Obsessed with blurring the line between life and death, these meddlers of dark forces prefer to associate with cadavers over the living. To some, the rituals are grotesque, but they see pure majesty in the manipulation of the natural order.";
@@ -1436,5 +1473,6 @@ namespace Pathos
     public readonly Class tourist;
     public readonly Class valkyrie;
     public readonly Class wizard;
-  }
+    public readonly Class arcanist;
+    }
 }

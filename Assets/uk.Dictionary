@@ -705,6 +705,7 @@ CharacterName,Zimn,Зімн
 CharacterName,Zonagan,Зонаган
 CharacterName,Zultry,Зултрі
 ClassDescription,"After many years of intense contemplation these soothsayers are ready to venture into the world. Masters of their own mind, they are capable of acts of formidable willpower.","Після багатьох років напруженого міркування ці віщуни готові піти у світ. Володіючи власним розумом наповну, вони здатні діяти застосовуючи грізну силу волі."
+ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","Доброзичливі доглядачі завжди бажають подати помічну руку слабким. Привчені розправлятися зі хворобами, вони не тільки призначені для допомоги, а й є зразками чистоти та гігієни. Вони повинні покладатися лише на постійних товаришів заради спільгого виживання."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.","Чемпіони зимових царств, люті і горді. Витривалі та сильні. Вони сміливо зіткнуться з будь-яким претендентом, поки не зустрінуть славну смерть."
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.","Чарівні менестрелі, пробираючись по світу своїми піснями та історіями. Вони є темною конячкою увсіх торгах; Поряд зі своїми талантами трубадурів, вони бавляться як бойовими навичками, так і заклинаннями."
@@ -734,6 +735,9 @@ ClassDescription,"Sworn to uphold justice, these righteous warriors are dogmatic
 ClassDescription,"Venerable men-at-arms clad in gleaming armour, renowned for their unyielding chivalry and conviction. They are high-born and are educated to be strategists and capable leaders on any battlefront.","Поважні воїни, одягнені в блискучі обладунки, відомі своєю непохитною лицарською гідністю та переконаннями. Вони мають високе походження і навчені бути стратегами та здібними лідерами на будь-якому полі битви."
 ClassDescription,"Warrior slaves compelled to battle for the entertainment of raucous crowds, often to the death. Those that can survive this cauldron are trained into the most brutal of pit fighters.","Поневолені воїни що змушені битися для розваги галасливого натовпу, часто на смерть. Ті, кому вдається вижити в цьому котлі, стають найжорстокішими бійцями ям."
 ClassDescription,"Wilderness sentinels who understand the true balance of the universe. With bow in hand, they have devoted their lives to protecting the forces of nature from the corrupting touch of civilisation.","Вартові дикої природи, які розуміють справжній баланс Всесвіту. З луком у руках вони присвятили своє життя захисту сил природи від руйнівного впливу цивілізації."
+ClassName,arcanist//female,
+ClassName,arcanist//male,
+ClassName,arcanist//non-binary,
 ClassName,barbarian//female,варварка
 ClassName,barbarian//male,варвар
 ClassName,barbarian//non-binary,варвар

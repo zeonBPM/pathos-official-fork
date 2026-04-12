@@ -705,6 +705,7 @@ CharacterName,Zimn,
 CharacterName,Zonagan,
 CharacterName,Zultry,
 ClassDescription,"After many years of intense contemplation these soothsayers are ready to venture into the world. Masters of their own mind, they are capable of acts of formidable willpower.","Matapos ang maraming taon ng matinding pagmumuni-muni ng mga mahuhusay na ito ay handa nang makipagsapalaran sa mundo. Mga master ng kanilang sariling pag-iisip, may kakayahang gumawa sila ng mabibigat na paghahangad."
+ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","Mahusay na tagapag-alaga, laging handang magbigay ng tulong sa mahihina. Sanay sa pagharap sa karamdaman, sila ay may mga talino tungkol sa kalinisan at hygiene, nilalayon para sa tulong. Dahil dito, dapat silang umasa sa patuloy na pagsasama sa mga kakampi upang mabuhay."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.","Mga kampeon ng mundo ng taglamig, mabangis at mayabang. Matapang at matibay, buong tapang nilang haharapin ang sinumang manlalaban hanggang sa makamit nila ang isang maluwalhating kamatayan."
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.","Kaakit-akit na mga minstrel, na dumadaan sa buong mundo sa kanilang mga kanta at kwento. Sila ang mga jacks-of-all-trade; kasabay ng kanilang mga talino sa pag-aabala, nakikipag-usap sila sa parehong kasanayan sa martial skills at spellcraft."
@@ -734,6 +735,9 @@ ClassDescription,"Sworn to uphold justice, these righteous warriors are dogmatic
 ClassDescription,"Venerable men-at-arms clad in gleaming armour, renowned for their unyielding chivalry and conviction. They are high-born and are educated to be strategists and capable leaders on any battlefront.","Kagalang-galang na mga man-at-arms na nakasuot sa nakasisilaw na baluti, kilala sa kanilang chivalry at paniniwala. Marangal ang kanilang mga magulang, na-educate sila sa pagiging strategist at merong silang kakayahang na maging pinuno sa anumang battlefront."
 ClassDescription,"Warrior slaves compelled to battle for the entertainment of raucous crowds, often to the death. Those that can survive this cauldron are trained into the most brutal of pit fighters.","Ang mga mandirigmang alipin ay pinilit sa pakikipagbaka para sa libangan ng mga mapang-akit sa karamihan ng tao, madalas hanggang sa kamatayan. Ang mga makakaligtas sa kaldero na ito ay sinanay sa pinakapintas ng mga mandirigma sa labanan."
 ClassDescription,"Wilderness sentinels who understand the true balance of the universe. With bow in hand, they have devoted their lives to protecting the forces of nature from the corrupting touch of civilisation.","Mga tagabantay sa mga kagubatan, sila ang mga taong nakakaintindi sa totoong pagkabalanse ng ating universe. Sa paggamit ng kanilang pana, inilaan nila ang kanilang buhay sa pagprotekta sa kalikasan mula sa nakakapinsalang ugnayan ng sibilisasyon."
+ClassName,arcanist//female,
+ClassName,arcanist//male,
+ClassName,arcanist//non-binary,
 ClassName,barbarian//female,
 ClassName,barbarian//male,
 ClassName,barbarian//non-binary,

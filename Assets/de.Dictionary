@@ -705,6 +705,7 @@ CharacterName,Zimn,Zimn
 CharacterName,Zonagan,Zonagan
 CharacterName,Zultry,Zultry
 ClassDescription,"After many years of intense contemplation these soothsayers are ready to venture into the world. Masters of their own mind, they are capable of acts of formidable willpower.",Nach vielen Jahren intensiver Betrachtung sind diese Wahrsager bereit sich in die Welt zu wagen. Sie beherrschen ihren eigenen Verstand und sind zu Handlungen von gewaltiger Willenskraft fähig.
+ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","Wohlwollende Wächter, die immer bereit sind, den Schwachen zu helfen. Sie sind an den Umgang mit Krankheiten gewöhnt und ein Paradebeispiel für Hygiene und Sauberkeit. Als solche müssen sie sich auf ständige Kameradschaft verlassen, um zu überleben."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.","Champions der Winterreiche wild und stolz. Hart und stark werden sie sich mutig jedem Herausforderer stellen, bis sie einen glorreichen Tod finden."
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.","Charmante Musikanten die mit ihren Liedern und Geschichten ihren Weg durch die Welt finden. Sie sind Alleskönner, neben ihren Troubadour-Talenten versuchen sie sich sowohl in Kampfkünsten als auch in Zauberkunst."
@@ -734,6 +735,9 @@ ClassDescription,"Sworn to uphold justice, these righteous warriors are dogmatic
 ClassDescription,"Venerable men-at-arms clad in gleaming armour, renowned for their unyielding chivalry and conviction. They are high-born and are educated to be strategists and capable leaders on any battlefront.","Ehrwürdige Waffenmänner in glänzender Rüstung, bekannt für ihre unnachgiebige Ritterlichkeit und Überzeugung. Sie sind hochgeboren und dazu ausgebildet, Strategen und fähige Anführer an jeder Front zu sein."
 ClassDescription,"Warrior slaves compelled to battle for the entertainment of raucous crowds, often to the death. Those that can survive this cauldron are trained into the most brutal of pit fighters.","Kriegersklaven, gezwungen für die Unterhaltung rasender Menschenmengen zu kämpfen, oft bis zum bitteren Ende. Diejenigen, die diese Todesfalle überleben, werden zu den brutalsten Kämpfern ausgebildet."
 ClassDescription,"Wilderness sentinels who understand the true balance of the universe. With bow in hand, they have devoted their lives to protecting the forces of nature from the corrupting touch of civilisation.","Wildniswächter, die das wahre Gleichgewicht des Universums verinnerlicht haben. Mit dem Bogen in der Hand haben sie ihr Leben dem Schutz der Natur vor der korrumpierenden Berührung der Zivilisation gewidmet."
+ClassName,arcanist//female,
+ClassName,arcanist//male,
+ClassName,arcanist//non-binary,
 ClassName,barbarian//female,Barbarin
 ClassName,barbarian//male,Barbar
 ClassName,barbarian//non-binary,Barbar

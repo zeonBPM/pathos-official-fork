@@ -705,6 +705,7 @@ CharacterName,Zimn,짐느
 CharacterName,Zonagan,조너건
 CharacterName,Zultry,줄트리
 ClassDescription,"After many years of intense contemplation these soothsayers are ready to venture into the world. Masters of their own mind, they are capable of acts of formidable willpower.","수년간의 깊은 명상 끝에 세상을 탐험할 준비가 된 예언자. 자신의 정신에 통달한 이들은, 가공할 의지력을 휘두르는 데 능하다."
+ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","언제나 기꺼이 약자들을 돕는 자애로운 간병인. 질병을 능숙하게 다루고 위생과 청결을 잘 지키며, 남을 돕기 위해 살아간다. 이 때문에, 그들은 살아남기 위해 끊임없이 동료들에게 의존해야 한다."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.",사납고 긍지 높은 겨울 세계의 투사. 강하고 굳건한 그들은 영광스러운 죽음을 맞이할 때까지 어떤 도전에도 용감하게 맞설 것이다.
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.",노래와 이야기로 세상을 헤쳐나가는 매력적인 음악가. 예술적 감각 뿐만 아니라 무술과 마법을 적당히 다룰 줄 아는 팔방미인.
@@ -734,6 +735,9 @@ ClassDescription,"Sworn to uphold justice, these righteous warriors are dogmatic
 ClassDescription,"Venerable men-at-arms clad in gleaming armour, renowned for their unyielding chivalry and conviction. They are high-born and are educated to be strategists and capable leaders on any battlefront.","빛나는 명품 갑옷을 입은 덕망 있는 전사. 굳센 기사도와 신념으로 유명하다. 그는 고상하며, 어떤 전선에서도 유능한 전략가이자 지휘관이 되도록 전술을 익혔다."
 ClassDescription,"Warrior slaves compelled to battle for the entertainment of raucous crowds, often to the death. Those that can survive this cauldron are trained into the most brutal of pit fighters.","시끄러운 대중을 기쁘게 하기 위해 전투를 강요받는 노예 전사. 전투 중 죽을 수도 있으며, 이 투기장에서 살아남는 자는 가장 무자비한 투사로 훈련받는다."
 ClassDescription,"Wilderness sentinels who understand the true balance of the universe. With bow in hand, they have devoted their lives to protecting the forces of nature from the corrupting touch of civilisation.","우주의 진정한 균형을 이해하는 황야의 감시자. 활을 손에 들고, 문명의 타락한 손길에서 자연의 힘을 보호하는 것에 생을 바쳤다."
+ClassName,arcanist//female,
+ClassName,arcanist//male,
+ClassName,arcanist//non-binary,
 ClassName,barbarian//female,바바리안
 ClassName,barbarian//male,바바리안
 ClassName,barbarian//non-binary,바바리안

@@ -705,6 +705,7 @@ CharacterName,Zimn,זימן
 CharacterName,Zonagan,זונגן
 CharacterName,Zultry,זולטריי
 ClassDescription,"After many years of intense contemplation these soothsayers are ready to venture into the world. Masters of their own mind, they are capable of acts of formidable willpower.","אחרי שנים רבות של התבוננות מעמיקה, מגידי העתידות האלה מוכנים לצאת אל העולם. בשליטתם במוחם שלהם, הם מסוגלים למעשים שדורשים כוח רצון מעורר יראה."
+ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","מרפאים שוחרי טוב, תמיד מוכנים להושיט יד עוזרת לחלשים. הם רגילים להתמודד עם מחלות והם דוגמה ומופת להיגיינה וניקיון, מוכנים לסיוע. לכן עליהם להסתמך על ליווי מתמיד אם הם רוצים לשרוד."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.","אלופי ממלכות החורף, פראים וגאים. קשוחים וחזקים. הם יעמדו באומץ אל מול כל תוקף עד למותם רב התהילה."
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.","זמרים נודדים מקסימים, עושים את דרכם בעולם באמצעות שירים וסיפורים. הם רבי כישרונות; לצד כישוריהם כטרובדורים, הם עוסקים גם באומנויות לחימה ובכישופים."
@@ -734,6 +735,9 @@ ClassDescription,"Sworn to uphold justice, these righteous warriors are dogmatic
 ClassDescription,"Venerable men-at-arms clad in gleaming armour, renowned for their unyielding chivalry and conviction. They are high-born and are educated to be strategists and capable leaders on any battlefront.","לוחמים מכובדים עטויי שריון נוצץ, ידועים באבירותם הבלתי מתפשרת ואמונתם בצדקתם. הם בעלי מוצא אצילי והם מחונכים להיות אסטרטגים ומנהיגים מוכשרים בכל חזית."
 ClassDescription,"Warrior slaves compelled to battle for the entertainment of raucous crowds, often to the death. Those that can survive this cauldron are trained into the most brutal of pit fighters.","עבדים לוחמים שהוכרחו ללחום לצורך בידור קהלים משולהבים, לפעמים עד המוות. אלה שמצליחים לשרוד את היורה הרותחת הזאת מאומנים והופכים להיות לוחמי הזירה האלימים ביותר."
 ClassDescription,"Wilderness sentinels who understand the true balance of the universe. With bow in hand, they have devoted their lives to protecting the forces of nature from the corrupting touch of civilisation.","זקיפים בשממה, שמבינים את האיזון האמיתי ביקום. עם קשת ביד, הם מקדישים את חייהם להגנה על כוחות הטבע מפני המגע המשחית של הציביליזציה."
+ClassName,arcanist//female,
+ClassName,arcanist//male,
+ClassName,arcanist//non-binary,
 ClassName,barbarian//female,ברברית
 ClassName,barbarian//male,ברברי
 ClassName,barbarian//non-binary,ברברי.ת

@@ -705,6 +705,7 @@ CharacterName,Zimn,Zimn
 CharacterName,Zonagan,Zonagan
 CharacterName,Zultry,Zultry
 ClassDescription,"After many years of intense contemplation these soothsayers are ready to venture into the world. Masters of their own mind, they are capable of acts of formidable willpower.",经过多年的深思熟虑，这些占卜者准备出世冒险。掌握了自己的思想，他们能够以强大的意志力行动。
+ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.",慈善的看护人，他们总会给予弱者援助。并对于对抗疾病已习以为常，他们是卫生与清洁的模范，并藉此以援助。不过也因此，他们需要依赖长期与他人的友谊而生存。
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.",寒冬边境以内的领主，她们勇猛且高傲，坚韧且强壮。她们会直面任何挑战者直到充满荣耀地牺牲。
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.",富有魅力的诗人，他们以诗歌与故事而闻名世界。同时他们对万物略知一二；排除开他们在诗歌上的天赋，他们也精通武术与法术。
@@ -734,6 +735,9 @@ ClassDescription,"Sworn to uphold justice, these righteous warriors are dogmatic
 ClassDescription,"Venerable men-at-arms clad in gleaming armour, renowned for their unyielding chivalry and conviction. They are high-born and are educated to be strategists and capable leaders on any battlefront.",受人尊敬的圣甲战士，他们因他们的身份与信念而受人尊敬， 他们皆出生于贵族并且受过良好的教育，能够在前线领导军队。
 ClassDescription,"Warrior slaves compelled to battle for the entertainment of raucous crowds, often to the death. Those that can survive this cauldron are trained into the most brutal of pit fighters.",被迫以战斗给喧嚣的群众取乐的奴隶，死亡是他们的旧友。在角斗场上的生存将他们磨炼成最残忍的角斗士。
 ClassDescription,"Wilderness sentinels who understand the true balance of the universe. With bow in hand, they have devoted their lives to protecting the forces of nature from the corrupting touch of civilisation.",狂野的哨兵，他们深知宇宙之间的真正平衡。他们执弓于手， 将自己献身于保护自然之力免受其它文明的腐蚀。
+ClassName,arcanist//female,
+ClassName,arcanist//male,
+ClassName,arcanist//non-binary,
 ClassName,barbarian//female,野蛮人
 ClassName,barbarian//male,野蛮人
 ClassName,barbarian//non-binary,野蛮人

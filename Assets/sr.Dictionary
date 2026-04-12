@@ -705,6 +705,7 @@ CharacterName,Zimn,Zimn
 CharacterName,Zonagan,Zonagan
 CharacterName,Zultry,Zultraj
 ClassDescription,"After many years of intense contemplation these soothsayers are ready to venture into the world. Masters of their own mind, they are capable of acts of formidable willpower.","Posle mnogo godina intenzivne kontemplacije, ovi gatari su spremni da se upuste u svet. Gospodari sopstvenog uma, sposobni su za dela ogromne snage volje."
+ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","Dobronamerni staratelji, uvek spremni da pruže ruku pomoći slabima. Navikli da se nose sa bolešću, oni su uzori higijene i čistoće, namenjeni za pomoć. Kao takvi, moraju se oslanjati na stalno druženje da bi preživeli."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.","Šampioni zimskih carstava, žestoki i ponosni. Izdržljivi i jaki, hrabro će se suočiti sa svakim izazivačem dok ne dočekaju slavnu smrt."
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.","Šarmantni ministranti koji se probijaju kroz svet sa svojim pesmama i pričama. Oni su majstori za sve zanate; pored svojih trubadurskih talenata, bave se i borilačkim veštinama i čarolijama."
@@ -734,6 +735,9 @@ ClassDescription,"Sworn to uphold justice, these righteous warriors are dogmatic
 ClassDescription,"Venerable men-at-arms clad in gleaming armour, renowned for their unyielding chivalry and conviction. They are high-born and are educated to be strategists and capable leaders on any battlefront.","Časni vojnici obučeni u blistave oklope, poznati po svom nepopustljivom viteštvu i ubeđenju. Visoko su rođeni i obrazovani su da budu stratezi i sposobni vođe na svakom frontu."
 ClassDescription,"Warrior slaves compelled to battle for the entertainment of raucous crowds, often to the death. Those that can survive this cauldron are trained into the most brutal of pit fighters.","Robovi ratnici primorani da se bore za zabavu razularenih gomila, često do smrti. Oni koji mogu da prežive ovaj kotao obučeni su u najbrutalnije borce u jame."
 ClassDescription,"Wilderness sentinels who understand the true balance of the universe. With bow in hand, they have devoted their lives to protecting the forces of nature from the corrupting touch of civilisation.","Čuvari divljine koji razumeju pravu ravnotežu univerzuma. Sa lukom u ruci, oni su svoje živote posvetili zaštiti prirodnih sila od kvarnog dodira civilizacije."
+ClassName,arcanist//female,
+ClassName,arcanist//male,
+ClassName,arcanist//non-binary,
 ClassName,barbarian//female,varvarin
 ClassName,barbarian//male,varvarin
 ClassName,barbarian//non-binary,varvarin

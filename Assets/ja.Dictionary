@@ -705,6 +705,7 @@ CharacterName,Zimn,ジン
 CharacterName,Zonagan,ゾナガン
 CharacterName,Zultry,ズルトリー
 ClassDescription,"After many years of intense contemplation these soothsayers are ready to venture into the world. Masters of their own mind, they are capable of acts of formidable willpower.",長年の熟考と計画を経、人の世に出でんとする予見者。自分の精神を自在にコントロールし、鋼の意志で艱難辛苦に立ち向かう。
+ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.",弱っている者に手を差し伸べることを喜びとする、面倒見のいい博愛主義者。人助けのため病気とは切っても切れない関係であり、衛生観念の鑑である。あくまで慈善の人であり、仲間の助け無くしては生き残りは厳しいだろう。
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.",獰猛で誇り高い北国の守護者。強靭な心と体でどんな相手にも果敢に立ち向かう。栄誉の死を迎えるその時まで。
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.",歌と話で世を渡る、どこでも好かれる吟遊楽人。何にでも興味を示し、詩歌の他にも戦闘術や魔術もかじる。
@@ -734,6 +735,9 @@ ClassDescription,"Sworn to uphold justice, these righteous warriors are dogmatic
 ClassDescription,"Venerable men-at-arms clad in gleaming armour, renowned for their unyielding chivalry and conviction. They are high-born and are educated to be strategists and capable leaders on any battlefront.",光る鎧に身を包んだ、騎士道と信念を固く貫く高潔な重騎兵。良家に生まれ、戦略を教え込まれた彼らはたとえどんな戦場においても優秀なリーダーである。
 ClassDescription,"Warrior slaves compelled to battle for the entertainment of raucous crowds, often to the death. Those that can survive this cauldron are trained into the most brutal of pit fighters.",騒々しい観客の娯楽として戦いを強いられる奴隷。この地獄を生き抜いたことこそ、彼らが最も猛々しい戦士として鍛え上げられた証拠である。
 ClassDescription,"Wilderness sentinels who understand the true balance of the universe. With bow in hand, they have devoted their lives to protecting the forces of nature from the corrupting touch of civilisation.",万物の均衡の何たるかを知る原野の番人。弓を手に、大自然の力を文明の穢れから守ることに生涯を捧げる。
+ClassName,arcanist//female,
+ClassName,arcanist//male,
+ClassName,arcanist//non-binary,
 ClassName,barbarian//female,蛮族
 ClassName,barbarian//male,蛮族
 ClassName,barbarian//non-binary,蛮族
