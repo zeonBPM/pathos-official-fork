@@ -1027,6 +1027,7 @@ EntityDescription,"Ravenous, predatory species of monstrous humanoid with a seve
 EntityDescription,"Shape-shifting deviants, who thrive on their deceptive talents.",Des déviants qui changent de forme et qui prospèrent grâce à leurs talents trompeurs.
 EntityDescription,"Small folk who prefer simple lives. They are notably gregarious, and their build lends them well to less-than-noble endeavours.","Du petit peuple qui préfèrent une vie simple. Ils sont particulièrement grégaires, et leur carrure les prête bien à des efforts peu nobles."
 EntityDescription,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.","Des êtres spirituels friands de nature et de magie. Ils sont physiquement similaires aux humains, mais souvent plus petits et plus agiles."
+EntityDescription,"starspawn test warning, telepathy, telekinesis",
 EntityDescription,"Stout, short, and hardy folk. They are known for their stubbornness, metalworking, and love of alcohol.","Des gens robustes, petits et courants. Ils sont connus pour leur entêtement, leurs talents et leur amour de l'alcool."
 EntityDescription,"Subterranean peoples of diminutive stature, fond of tinkering and magic. Evolved for subsistence living, their metabolism is suited for long adventures where food is scarce.","Peuples souterrains de petite taille, fondu de bricolage et de magie. Développé pour la subsistance, leur métabolisme est adapté aux longues aventures où la nourriture est rare."
 EntityDescription,"The lesser of the two ferrozygotic puddings, the brown pudding is said to taste more akin to rotted milk than a chocolate dessert. The pudding itself feeds upon fabrics and hides of all kind but its most known ability is its unique reproductive method. When brought into contact with iron the miracle of rotten slime binary fission takes place, creating two voracious offspring. Owing to the ubiquity of iron in the arms wielded by adventurers, this creature's population has only been growing with time.","Le plus petit des deux puddings ferrozygotic, on dit que le pudding brun a plus le goût de lait pourri que de dessert au chocolat. Le pudding lui-même se nourrit de tissus et de peaux de toutes sortes mais il est surtout connu pour son unique méthode de reproduction. Lorsqu'il est mis en contact avec du fer le miracle de la bave pourrie à fission binaire se produit, engendrant deux de ses progénitures. Du fait de l'omniprésence du fer dans les armes des aventuriers, cette créature a proliféré."
@@ -1623,6 +1624,7 @@ EntityName,spotted jelly,gelée tachetée
 EntityName,squealer,hurleur
 EntityName,stalker,harceleur
 EntityName,star vampire,vampire vedette
+EntityName,Starspawn,
 EntityName,static blob,blob statique
 EntityName,steam vortex,vortex de vapeur
 EntityName,stone giant,géant de pierre
@@ -4341,6 +4343,9 @@ RaceName,robot//non-binary,robot
 RaceName,satyr//female,satyre
 RaceName,satyr//male,satyre
 RaceName,satyr//non-binary,satyre
+RaceName,starspawn//female,
+RaceName,starspawn//male,
+RaceName,starspawn//non-binary,
 RaceName,tortle//female,tortue
 RaceName,tortle//male,tortue
 RaceName,tortle//non-binary,tortue

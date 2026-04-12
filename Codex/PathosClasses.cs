@@ -1380,10 +1380,10 @@ namespace Pathos
                 C.AddFeat(20, Properties.deflection);
                 C.Startup.SetSkill(Qualifications.proficient,
                   Skills.bartering, Skills.crafting, Skills.literacy,
-                  Skills.traps, Skills.divination, Skills.enchantment, Skills.evocation, Skills.necromancy, Skills.transmutation,
+                  Skills.traps, Skills.divination, Skills.enchantment, Skills.evocation, Skills.transmutation,
                   Skills.light_armour,
                   Skills.light_blade,
-                  Skills.club, Skills.dart, Skills.sling, Skills.firearms);
+                  Skills.spear, Skills.staff, Skills.firearms);
                 C.Startup.AddGrimoire(Dice.One, Spells.force_bolt);
                 C.Startup.AddGrimoire(Dice.One, Spells.identify);
                 C.Startup.AddGrimoire(Dice.Fixed(1), DesireableSpellArray(C));

@@ -1027,6 +1027,7 @@ EntityDescription,"Ravenous, predatory species of monstrous humanoid with a seve
 EntityDescription,"Shape-shifting deviants, who thrive on their deceptive talents.",Formverändernde Wesen die von ihren trügerischen Talenten leben.
 EntityDescription,"Small folk who prefer simple lives. They are notably gregarious, and their build lends them well to less-than-noble endeavours.",Kleine Leute die ein einfaches Leben bevorzugen. Sie sind besonders gesellig und ihr Körperbau eignet sich gut für weniger edle Unternehmungen.
 EntityDescription,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.","Spirituelle Wesen die Natur und Magie lieben. Sie sind dem Menschen physisch ähnlich, aber oft kleiner und flinker."
+EntityDescription,"starspawn test warning, telepathy, telekinesis",
 EntityDescription,"Stout, short, and hardy folk. They are known for their stubbornness, metalworking, and love of alcohol.","Starke, kleine und robuste Leute. Sie sind bekannt für ihre Sturheit, Metallverarbeitung und Liebe zum Alkohol."
 EntityDescription,"Subterranean peoples of diminutive stature, fond of tinkering and magic. Evolved for subsistence living, their metabolism is suited for long adventures where food is scarce.","Unterirdische Völker von kleiner Statur, die gerne basteln und zaubern. Ihr Stoffwechsel wurde für dieses Dasein entwickelt und eignet sich für lange Abenteuer, in denen Nahrung knapp ist."
 EntityDescription,"The lesser of the two ferrozygotic puddings, the brown pudding is said to taste more akin to rotted milk than a chocolate dessert. The pudding itself feeds upon fabrics and hides of all kind but its most known ability is its unique reproductive method. When brought into contact with iron the miracle of rotten slime binary fission takes place, creating two voracious offspring. Owing to the ubiquity of iron in the arms wielded by adventurers, this creature's population has only been growing with time.","Der braune Pudding, der kleinere der beiden ferrozygotischen Puddings, soll eher nach verfaulter Milch schmecken als ein Schokoladendessert. Der Pudding selbst ernährt sich von Stoffen und Häuten aller Art, aber seine bekannteste Fähigkeit ist seine einzigartige Fortpflanzungsmethode. Wenn es mit Eisen in Kontakt gebracht wird, geschieht das Wunder der binären Spaltung des faulen Schleims, wodurch zwei unersättliche Nachkommen entstehen. Aufgrund der Allgegenwart von Eisen in den Armen, die von Abenteurern getragen werden, ist die Population dieser Kreatur erst mit der Zeit gewachsen."
@@ -1623,6 +1624,7 @@ EntityName,spotted jelly,geflecktes Gelee
 EntityName,squealer,Quietscher
 EntityName,stalker,Stalker
 EntityName,star vampire,Sternenvampir
+EntityName,Starspawn,
 EntityName,static blob,statischer Blob
 EntityName,steam vortex,Dampfwirbel
 EntityName,stone giant,Stein-Riese
@@ -4341,6 +4343,9 @@ RaceName,robot//non-binary,
 RaceName,satyr//female,Satyre
 RaceName,satyr//male,Satyr
 RaceName,satyr//non-binary,Satyr
+RaceName,starspawn//female,
+RaceName,starspawn//male,
+RaceName,starspawn//non-binary,
 RaceName,tortle//female,Tortollanerin
 RaceName,tortle//male,Tortollaner
 RaceName,tortle//non-binary,Tortollaner

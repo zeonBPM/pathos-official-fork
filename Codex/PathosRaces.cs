@@ -49,7 +49,8 @@ namespace Pathos
       tortle = AddRace("tortle");
       troll = AddRace("troll");
       unicorn = AddRace("unicorn");
-    }
+      starspawn = AddRace("starspawn");
+        }
 #endif
 
     public readonly Race angel;
@@ -80,5 +81,6 @@ namespace Pathos
     public readonly Race tortle;
     public readonly Race troll;
     public readonly Race unicorn;
-  }
+    public readonly Race starspawn;
+    }
 }

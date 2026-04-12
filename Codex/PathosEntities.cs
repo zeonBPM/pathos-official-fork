@@ -997,6 +997,47 @@ namespace Pathos
         //});
       });
 
+      human = AddBaseEntity(Kinds.human, Races.starspawn, "starspawn", E =>
+      {
+        E.Description = "starspawn test warning, telepathy, telekinesis. weak to physical resists sleep and force(should be psychic instead but idk what the equivalent is)";
+        E.Glyph = Glyphs.human;
+        E.Level = 0;
+        E.Challenge = 0;
+        E.Difficulty = 0;
+        E.Frequency = 0;
+        E.Defence = new Defence(D: 10, P: +0, S: +0, B: +0);
+        E.SetDiet(Diets.omnivore);
+        E.Speed = Speed.S5_0;
+        E.Size = Size.Medium;
+        E.Strategy = Strategy.Attack;
+        E.Weight = Weight.FromUnits(12000);
+        E.Figure.Set
+        (
+          Material: Materials.animal,
+          Head: true,
+          Mind: true,
+          Voice: true,
+          Eyes: true,
+          Ears: true,
+          Hands: true,
+          Limbs: true,
+          Feet: true,
+          Thermal: true,
+          Blood: true,
+          Mounted: false,
+          Amorphous: false
+        );
+        E.LifeAdvancement.Set(1, 1.d2());
+        E.ManaAdvancement.Set(2, Dice.Fixed(+2));
+        E.DefaultForm.Set(STR: 10, DEX: 10, CON: 8, INT: 14, WIS: 8, CHA: 10);
+        E.LimitForm.Set(STR: 20, DEX: 20, CON: 18, INT: 24, WIS: 18, CHA: 20);
+        E.SetGender(Genders.male, Genders.female);
+        E.Startup.SetTalent(Properties.telekinesis, Properties.warning, Properties.telepathy);
+        E.Chemistry.SetWeakness(Elements.physical );
+        E.Startup.SetResistance(Elements.sleep , Elements.force );
+        E.SetCorpse(Chance.Always);
+      });
+
       troll = AddBaseEntity(Kinds.troll, Races.troll, "troll", E =>
       {
         E.Description = "Ravenous, predatory species of monstrous humanoid with a severe hunch that causes the backs of their hands to drag on the ground. Despite the awkward physical appearance, they are powerfully built and are infamous for their ability to rapidly recover from any wound to their rubbery hide.";
@@ -35398,5 +35439,6 @@ namespace Pathos
     public readonly Entity Van_Helsing;
     public readonly Entity Vecna;
     public readonly Entity Yeenoghu;
-  }
+    public readonly Entity Starspawn;
+    }
 }

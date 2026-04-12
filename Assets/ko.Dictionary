@@ -1027,6 +1027,7 @@ EntityDescription,"Ravenous, predatory species of monstrous humanoid with a seve
 EntityDescription,"Shape-shifting deviants, who thrive on their deceptive talents.",모습을 바꾸는 변이체. 그들은 능력을 이용해 타인을 속이는 것을 즐긴다.
 EntityDescription,"Small folk who prefer simple lives. They are notably gregarious, and their build lends them well to less-than-noble endeavours.","소박한 삶을 추구하는 작은 친구들. 그들은 사교적이고, 그들의 작은 체격은 적은 노력으로도 잘 살 수 있게 해준다."
 EntityDescription,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.","자연과 마법을 좋아하는 영적인 존재들. 인간과 신체적으로는 유사하지만, 조금 더 작고 민첩하다."
+EntityDescription,"starspawn test warning, telepathy, telekinesis",
 EntityDescription,"Stout, short, and hardy folk. They are known for their stubbornness, metalworking, and love of alcohol.","건장하고, 단단하고, 작은 친구들. 고집이 세고, 금속 세공과 술을 좋아하는 것으로 알려져 있다."
 EntityDescription,"Subterranean peoples of diminutive stature, fond of tinkering and magic. Evolved for subsistence living, their metabolism is suited for long adventures where food is scarce.","땜질과 마법을 좋아하는 조그마한 지하인들. 살아남기 위해서, 기나긴 모험에 적합하도록 신진대사가 진화했다."
 EntityDescription,"The lesser of the two ferrozygotic puddings, the brown pudding is said to taste more akin to rotted milk than a chocolate dessert. The pudding itself feeds upon fabrics and hides of all kind but its most known ability is its unique reproductive method. When brought into contact with iron the miracle of rotten slime binary fission takes place, creating two voracious offspring. Owing to the ubiquity of iron in the arms wielded by adventurers, this creature's population has only been growing with time.","초콜릿 디저트보다는 썩은 우유에 가까운 맛이 난다는 갈색 푸딩. 푸딩은 모든 종류의 옷감과 가죽을 먹고 사는데, 이것들의 가장 잘 알려진 능력은 독특한 생식 방법이다. 이 썩은 푸딩이 철에 닿게되면, 기적처럼 분열하면서 두 마리의 탐욕스런 자손을 만들어낸다. 모험가들의 무기는 상당수가 철로 되어있어서, 시간이 지날수록 이것들의 개체수는 계속 증가하기만 한다."
@@ -1623,6 +1624,7 @@ EntityName,spotted jelly,점박이 젤리
 EntityName,squealer,스퀼러
 EntityName,stalker,스토커
 EntityName,star vampire,스타 뱀파이어
+EntityName,Starspawn,
 EntityName,static blob,정전기 방울
 EntityName,steam vortex,증기 소용돌이
 EntityName,stone giant,암석 거인
@@ -4341,6 +4343,9 @@ RaceName,robot//non-binary,로봇
 RaceName,satyr//female,사티로스
 RaceName,satyr//male,사티로스
 RaceName,satyr//non-binary,사티로스
+RaceName,starspawn//female,
+RaceName,starspawn//male,
+RaceName,starspawn//non-binary,
 RaceName,tortle//female,토틀
 RaceName,tortle//male,토틀
 RaceName,tortle//non-binary,토틀

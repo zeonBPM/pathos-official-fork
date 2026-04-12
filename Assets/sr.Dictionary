@@ -1027,6 +1027,7 @@ EntityDescription,"Ravenous, predatory species of monstrous humanoid with a seve
 EntityDescription,"Shape-shifting deviants, who thrive on their deceptive talents.","Devijantima koji menjaju oblik, koji napreduju na svojim prevarantskim talentima."
 EntityDescription,"Small folk who prefer simple lives. They are notably gregarious, and their build lends them well to less-than-noble endeavours.","Mali ljudi koji preferiraju jednostavne živote. Oni su naročito društveni, a njihova građa im dobro daje manje nego plemenite poduhvate."
 EntityDescription,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.","Duhovna bića koja vole prirodu i magiju. Fizički su slična ljudima, ali često manja i spretnija."
+EntityDescription,"starspawn test warning, telepathy, telekinesis",
 EntityDescription,"Stout, short, and hardy folk. They are known for their stubbornness, metalworking, and love of alcohol.","Krepi, niski i izdržljivi ljudi. Poznati su po svojoj tvrdoglavosti, obradi metala i ljubavi prema alkoholu."
 EntityDescription,"Subterranean peoples of diminutive stature, fond of tinkering and magic. Evolved for subsistence living, their metabolism is suited for long adventures where food is scarce.","Podzemni narodi malog rasta, vole petljanje i magiju. Razvijeni za egzistenciju, njihov metabolizam je pogodan za duge avanture u kojima je oskudna hrana."
 EntityDescription,"The lesser of the two ferrozygotic puddings, the brown pudding is said to taste more akin to rotted milk than a chocolate dessert. The pudding itself feeds upon fabrics and hides of all kind but its most known ability is its unique reproductive method. When brought into contact with iron the miracle of rotten slime binary fission takes place, creating two voracious offspring. Owing to the ubiquity of iron in the arms wielded by adventurers, this creature's population has only been growing with time.","Smanji od dva ferozigotna pudinga, braon puding ima ukus više nalik pokvarenom mleku nego čokoladnom desertu. Sam puding se hrani tkaninama i kožama svih vrsta, ali njegova najpoznatija sposobnost je njegova jedinstvena reproduktivna metoda. Kada se dovede u kontakt sa gvožđem, dešava se čudo binarne fisije trule sluzi, stvarajući dva proždrljiva potomka Zbog sveprisutnosti gvožđa u rukama avanturista, populacija ovog stvorenja samo je rasla s vremenom."
@@ -1623,6 +1624,7 @@ EntityName,spotted jelly,pegavi žele
 EntityName,squealer,cikavac
 EntityName,stalker,stalker
 EntityName,star vampire,zvezdani vampir
+EntityName,Starspawn,
 EntityName,static blob,statična kapljica
 EntityName,steam vortex,parni vrtlog
 EntityName,stone giant,kameni džin
@@ -4341,6 +4343,9 @@ RaceName,robot//non-binary,robot
 RaceName,satyr//female,satir
 RaceName,satyr//male,satir
 RaceName,satyr//non-binary,satir
+RaceName,starspawn//female,
+RaceName,starspawn//male,
+RaceName,starspawn//non-binary,
 RaceName,tortle//female,kornjača
 RaceName,tortle//male,kornjača
 RaceName,tortle//non-binary,kornjača
