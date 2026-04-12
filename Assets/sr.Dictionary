@@ -709,6 +709,7 @@ ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","Dobronamerni staratelji, uvek spremni da pruže ruku pomoći slabima. Navikli da se nose sa bolešću, oni su uzori higijene i čistoće, namenjeni za pomoć. Kao takvi, moraju se oslanjati na stalno druženje da bi preživeli."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.","Šampioni zimskih carstava, žestoki i ponosni. Izdržljivi i jaki, hrabro će se suočiti sa svakim izazivačem dok ne dočekaju slavnu smrt."
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.","Šarmantni ministranti koji se probijaju kroz svet sa svojim pesmama i pričama. Oni su majstori za sve zanate; pored svojih trubadurskih talenata, bave se i borilačkim veštinama i čarolijama."
+ClassDescription,class for testing purposes,
 ClassDescription,"Conductors of natural energies, these uniquely attuned spell casters derive their powers from the living world. Peaceful until threatened, they are unafraid to respond with animalistic savagery.","Provodnici prirodnih energija, ovi jedinstveno podešeni čarolije crpe svoje moći iz živog sveta. Mirni dok im se ne preti, oni se ne boje da odgovore životinjskim divljaštvom."
 ClassDescription,"Corrupt and hateful souls, who are motivated by causing carnage and spreading chaos. Subject to uncontrollable bouts of rage, they bring doom and destruction to friend and foe alike.","Ova pokvarena i mrska duša je motivisana samo pokoljem i haosom. Podložni nekontrolisanim napadima besa, oni donose propast i uništenje i prijateljima i neprijateljima."
 ClassDescription,"Daft harlequins, always carrying a trick up their sleeves. Eclectic and eccentric; they are unassuming masters of chaos, adept in many bewildering talents.","Lupi arlekini, koji uvek nose trik u rukavu. Eklektični i ekscentrični; oni su skromni majstori haosa, vešti u mnogim zbunjujućim talentima."
@@ -816,6 +817,9 @@ ClassName,shaman//non-binary,šaman
 ClassName,templar//female,templarka
 ClassName,templar//male,templar
 ClassName,templar//non-binary,templar
+ClassName,test dummy//female,
+ClassName,test dummy//male,
+ClassName,test dummy//non-binary,
 ClassName,tinker//female,tinker
 ClassName,tinker//male,tinker
 ClassName,tinker//non-binary,tinker
@@ -1019,6 +1023,7 @@ EntityDescription,"Beautiful, otherworldly beings characterised by their signatu
 EntityDescription,Beware this clockwork machine of war.,Čuvajte se ove ratne mašinerije.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,Dvonožni mehanički automati sa gotovo neograničenom veštačkom inteligencijom. Pokretani motorom sa rastopljenim jezgrom koji zahteva stalan dotok sirovih metala i osetljiv je na oštećenja izazvana vodom.
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Feja stvorenja povezana moćnim prirodnim duhovima da podstiču njihove ludosti. Oni su zdepasti sa krznenim donjim delovima tela, iscepljenim kozjim kopitima i uvijenim rogovima ovna. Ribasti i pametni, veselo vode hedonističke eskapade opijanja, plesa i tuče."
+EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.","Impozantni i masivne građe, podsećaju na humanoidne zmajeve sa njuškom, krljuštastom kožom i funkcionalnim krilima."
 EntityDescription,"Large, omnivorous reptilians whose bestial ancestors dominated the world long before the birth of civilisation. They are fearsome predators, capable of leaping impressive distances and warding off many attacks with their thick scaly hides.","Veliki, svaštojedni reptili čiji su zverski preci dominirali svetom mnogo pre rođenja civilizacije. Oni su strašni grabežljivci, sposobni da skaču na impresivne udaljenosti i da odvrate mnoge napade svojom debelom ljuskavom kožom."
 EntityDescription,Monstrous creatures with the head and tail of a bull and the body of a man.,Čudovišna bića sa glavom i repom bika i telom čoveka.
@@ -1027,7 +1032,7 @@ EntityDescription,"Ravenous, predatory species of monstrous humanoid with a seve
 EntityDescription,"Shape-shifting deviants, who thrive on their deceptive talents.","Devijantima koji menjaju oblik, koji napreduju na svojim prevarantskim talentima."
 EntityDescription,"Small folk who prefer simple lives. They are notably gregarious, and their build lends them well to less-than-noble endeavours.","Mali ljudi koji preferiraju jednostavne živote. Oni su naročito društveni, a njihova građa im dobro daje manje nego plemenite poduhvate."
 EntityDescription,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.","Duhovna bića koja vole prirodu i magiju. Fizički su slična ljudima, ali često manja i spretnija."
-EntityDescription,"starspawn test warning, telepathy, telekinesis",
+EntityDescription,"starspawn test warning, telepathy, telekinesis. weak to physical resists sleep and force(should be psychic instead but idk what the equivalent is)",
 EntityDescription,"Stout, short, and hardy folk. They are known for their stubbornness, metalworking, and love of alcohol.","Krepi, niski i izdržljivi ljudi. Poznati su po svojoj tvrdoglavosti, obradi metala i ljubavi prema alkoholu."
 EntityDescription,"Subterranean peoples of diminutive stature, fond of tinkering and magic. Evolved for subsistence living, their metabolism is suited for long adventures where food is scarce.","Podzemni narodi malog rasta, vole petljanje i magiju. Razvijeni za egzistenciju, njihov metabolizam je pogodan za duge avanture u kojima je oskudna hrana."
 EntityDescription,"The lesser of the two ferrozygotic puddings, the brown pudding is said to taste more akin to rotted milk than a chocolate dessert. The pudding itself feeds upon fabrics and hides of all kind but its most known ability is its unique reproductive method. When brought into contact with iron the miracle of rotten slime binary fission takes place, creating two voracious offspring. Owing to the ubiquity of iron in the arms wielded by adventurers, this creature's population has only been growing with time.","Smanji od dva ferozigotna pudinga, braon puding ima ukus više nalik pokvarenom mleku nego čokoladnom desertu. Sam puding se hrani tkaninama i kožama svih vrsta, ali njegova najpoznatija sposobnost je njegova jedinstvena reproduktivna metoda. Kada se dovede u kontakt sa gvožđem, dešava se čudo binarne fisije trule sluzi, stvarajući dva proždrljiva potomka Zbog sveprisutnosti gvožđa u rukama avanturista, populacija ovog stvorenja samo je rasla s vremenom."
@@ -1208,6 +1213,7 @@ EntityName,dretch,dretč
 EntityName,drow,drov
 EntityName,dryad,drijada
 EntityName,duergar,duergar
+EntityName,dummy,
 EntityName,dung worm,gnojni crv
 EntityName,dust vortex,vrtlog prašine
 EntityName,dwarf,patuljak
@@ -1624,7 +1630,7 @@ EntityName,spotted jelly,pegavi žele
 EntityName,squealer,cikavac
 EntityName,stalker,stalker
 EntityName,star vampire,zvezdani vampir
-EntityName,Starspawn,
+EntityName,starspawn,
 EntityName,static blob,statična kapljica
 EntityName,steam vortex,parni vrtlog
 EntityName,stone giant,kameni džin
@@ -4263,11 +4269,13 @@ QualificationCode,e,e
 QualificationCode,m,m
 QualificationCode,p,p
 QualificationCode,s,s
+QualificationCode,u,
 QualificationName,champion,šampion
 QualificationName,expert,ekspert
 QualificationName,master,master
 QualificationName,proficient,stručan
 QualificationName,specialist,specijalista
+QualificationName,unskilled,
 RaceName,angel//female,anđeo
 RaceName,angel//male,anđeo
 RaceName,angel//non-binary,anđeo
@@ -4280,6 +4288,9 @@ RaceName,demon//non-binary,demon
 RaceName,dracon//female,drakon
 RaceName,dracon//male,drakon
 RaceName,dracon//non-binary,drakon
+RaceName,dummy//female,
+RaceName,dummy//male,
+RaceName,dummy//non-binary,
 RaceName,dwarf//female,patuljak
 RaceName,dwarf//male,patuljak
 RaceName,dwarf//non-binary,patuljak
@@ -4711,6 +4722,7 @@ SpellName,acid stream,struja kiseline
 SpellName,animate dead,animiranje smrti
 SpellName,animate object,animiranje objekta
 SpellName,bind undead,povezivanje nemrtvih
+SpellName,bless,
 SpellName,blinking,bljeskanje
 SpellName,cancellation,ukinuće
 SpellName,charm,šarm

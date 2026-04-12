@@ -709,6 +709,7 @@ ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","Cuidadores benevolentes, siempre dispuestos a ayudar a los débiles. Acostumbrados a lidiar con la enfermedad, son personas higiénicas y limpias dispuestas a ayudar. Como tales, deben contar con compañía constante para sobrevivir."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.","Campeones de los reinos del invierno, feroces y orgullosos. Resistentes y fuertes, se enfrentarán audazmente a cualquier rival hasta encontrar una muerte gloriosa."
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.","Encantadores juglares, se abren paso por el mundo con sus canciones e historias. Son aprendices de todo; junto con su talento de trovador, tienen algo de experiencia tanto en habilidades marciales como en hechicería."
+ClassDescription,class for testing purposes,
 ClassDescription,"Conductors of natural energies, these uniquely attuned spell casters derive their powers from the living world. Peaceful until threatened, they are unafraid to respond with animalistic savagery.","Místicos de las energías naturales, estos hechiceros únicos obtienen sus poderes del mundo vivo. Pacíficos hasta que se les amenaza, no tienen miedo de responder de manera animal y salvaje."
 ClassDescription,"Corrupt and hateful souls, who are motivated by causing carnage and spreading chaos. Subject to uncontrollable bouts of rage, they bring doom and destruction to friend and foe alike.","Esta alma corrupta y odiosa está motivada solo por la carnicería y el caos. Sujeto a ataques incontrolables de rabia, traen el caos y la destrucción al amigo y enemigo por igual."
 ClassDescription,"Daft harlequins, always carrying a trick up their sleeves. Eclectic and eccentric; they are unassuming masters of chaos, adept in many bewildering talents.","Locos arlequines, siempre tienen un truco bajo la manga. Eclécticos y excéntricos; son amos del caos sin pretensiones, adeptos de muchos talentos desconcertantes."
@@ -816,6 +817,9 @@ ClassName,shaman//non-binary,chamán
 ClassName,templar//female,templaria
 ClassName,templar//male,templario
 ClassName,templar//non-binary,templario
+ClassName,test dummy//female,
+ClassName,test dummy//male,
+ClassName,test dummy//non-binary,
 ClassName,tinker//female,inventora
 ClassName,tinker//male,inventor
 ClassName,tinker//non-binary,inventor
@@ -1019,6 +1023,7 @@ EntityDescription,"Beautiful, otherworldly beings characterised by their signatu
 EntityDescription,Beware this clockwork machine of war.,Cuidado con esta máquina de guerra relojesca.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,"Automatas, mecanicos y bípedos con una casi ilimitada inteligencia artificial. Funcionando bajo el impulso de un núcleo de motor fundido que requiere del constante sustento de metales crudos, mas son vulnerables a recibir daños con el simple tacto del agua."
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Criaturas mágicas vinculadas por poderosos espíritus de la naturaleza para alimentar sus payasadas. Son fornidos con la parte inferior del cuerpo peludo, pezuñas hendidas de cabra y cuernos de carnero enroscados. Atrevidos e inteligentes, lideran alegremente escapadas hedonistas de bebidas, bailes y peleas."
+EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.","Imponentes y fornidos, se asemejan a dragones humanoides con caracteristicas reptilianas incluyendo la piel escamosa, hocico y garras afiladas."
 EntityDescription,"Large, omnivorous reptilians whose bestial ancestors dominated the world long before the birth of civilisation. They are fearsome predators, capable of leaping impressive distances and warding off many attacks with their thick scaly hides.","Grandes reptiles carnívoros cuyos bestiales antepasados dominaron el mundo mucho antes del nacimiento de la civilización. Son depredadores temibles, capaces de saltar distancias impresionantes y evitar muchos ataques con sus gruesas pieles escamosas."
 EntityDescription,Monstrous creatures with the head and tail of a bull and the body of a man.,"Criaturas monstruosas, con la cola y cabeza de un toro, pero con el cuerpo de un hombre. Fueron condenados a vagar por la mazmorra desde que sus ancestros se revelaran contra los dioses, maldecidos con una rabia incontrolable que viene casi siempre en los peores momentos."
@@ -1027,7 +1032,7 @@ EntityDescription,"Ravenous, predatory species of monstrous humanoid with a seve
 EntityDescription,"Shape-shifting deviants, who thrive on their deceptive talents.","Demonios que cambian de forma, que prosperan con sus talentos engañosos."
 EntityDescription,"Small folk who prefer simple lives. They are notably gregarious, and their build lends them well to less-than-noble endeavours.","Gente pequeña que prefiere vidas simples. Son notablemente gregarios, y su constitución los presta bien a esfuerzos menos que nobles."
 EntityDescription,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.","Seres espirituales que gustan de la naturaleza y la magia. Son físicamente similares a los humanos, pero a menudo son más pequeños y ágiles."
-EntityDescription,"starspawn test warning, telepathy, telekinesis",
+EntityDescription,"starspawn test warning, telepathy, telekinesis. weak to physical resists sleep and force(should be psychic instead but idk what the equivalent is)",
 EntityDescription,"Stout, short, and hardy folk. They are known for their stubbornness, metalworking, and love of alcohol.","Gente robusta, baja y resistente. Son conocidos por su obstinación, metalurgia y amor por el alcohol."
 EntityDescription,"Subterranean peoples of diminutive stature, fond of tinkering and magic. Evolved for subsistence living, their metabolism is suited for long adventures where food is scarce.","Gentes subterráneas de estatura diminuta, aficionados al jugueteo y la magia. Evolucionados para una vida de subsistencia, su metabolismo es adecuado para largas aventuras donde la comida escasea."
 EntityDescription,"The lesser of the two ferrozygotic puddings, the brown pudding is said to taste more akin to rotted milk than a chocolate dessert. The pudding itself feeds upon fabrics and hides of all kind but its most known ability is its unique reproductive method. When brought into contact with iron the miracle of rotten slime binary fission takes place, creating two voracious offspring. Owing to the ubiquity of iron in the arms wielded by adventurers, this creature's population has only been growing with time.","Se dice que el pudding marrón, el menor de los puddings ferrocigóticos, tiene un sabor más parecido a la leche podrida que a un postre de chocolate. Se alimenta de telas y pieles de todo tipo pero su habilidad más conocida es su método reproductivo único. Cuando entra en contacto con hierro, el milagro de la fisión binaria de la baba podrida tiene lugar, creando dos descendientes voraces. Debido a la ubicuidad del hierro en las armas empuñadas por los aventureros, la población de esta criatura sólo ha ido creciendo con el tiempo."
@@ -1208,6 +1213,7 @@ EntityName,dretch,dretch
 EntityName,drow,elfo oscuro
 EntityName,dryad,dríada
 EntityName,duergar,enano gris
+EntityName,dummy,
 EntityName,dung worm,gusano de excremento
 EntityName,dust vortex,remolino de polvo
 EntityName,dwarf,enano
@@ -1624,7 +1630,7 @@ EntityName,spotted jelly,gelatina moteada
 EntityName,squealer,chillon
 EntityName,stalker,acosador
 EntityName,star vampire,vampiro estrella
-EntityName,Starspawn,
+EntityName,starspawn,
 EntityName,static blob,masa amorfa estática
 EntityName,steam vortex,remolino de vapor
 EntityName,stone giant,gigante de piedra
@@ -4263,11 +4269,13 @@ QualificationCode,e,ex
 QualificationCode,m,ma
 QualificationCode,p,co
 QualificationCode,s,es
+QualificationCode,u,
 QualificationName,champion,campeón
 QualificationName,expert,experto
 QualificationName,master,maestro
 QualificationName,proficient,competente
 QualificationName,specialist,especialista
+QualificationName,unskilled,
 RaceName,angel//female,ángel
 RaceName,angel//male,ángel
 RaceName,angel//non-binary,ángel
@@ -4280,6 +4288,9 @@ RaceName,demon//non-binary,demonio
 RaceName,dracon//female,dracónida
 RaceName,dracon//male,dracónido
 RaceName,dracon//non-binary,dracónido
+RaceName,dummy//female,
+RaceName,dummy//male,
+RaceName,dummy//non-binary,
 RaceName,dwarf//female,enana
 RaceName,dwarf//male,enano
 RaceName,dwarf//non-binary,enano
@@ -4711,6 +4722,7 @@ SpellName,acid stream,chorro de ácido
 SpellName,animate dead,animar muerto
 SpellName,animate object,animar objeto
 SpellName,bind undead,doblegar muertos vivientes
+SpellName,bless,
 SpellName,blinking,salto de parpadeo
 SpellName,cancellation,cancelación
 SpellName,charm,encanto

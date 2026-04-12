@@ -709,6 +709,7 @@ ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","언제나 기꺼이 약자들을 돕는 자애로운 간병인. 질병을 능숙하게 다루고 위생과 청결을 잘 지키며, 남을 돕기 위해 살아간다. 이 때문에, 그들은 살아남기 위해 끊임없이 동료들에게 의존해야 한다."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.",사납고 긍지 높은 겨울 세계의 투사. 강하고 굳건한 그들은 영광스러운 죽음을 맞이할 때까지 어떤 도전에도 용감하게 맞설 것이다.
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.",노래와 이야기로 세상을 헤쳐나가는 매력적인 음악가. 예술적 감각 뿐만 아니라 무술과 마법을 적당히 다룰 줄 아는 팔방미인.
+ClassDescription,class for testing purposes,
 ClassDescription,"Conductors of natural energies, these uniquely attuned spell casters derive their powers from the living world. Peaceful until threatened, they are unafraid to respond with animalistic savagery.","자연 에너지의 지휘자이자 독특하게 조율된 이 주문시전자들은 살아 있는 세계에서 힘을 끌어낸다. 평화주의적이나, 위협받을 경우 짐승과도 같은 야만성에 맞서는 것을 두려워하지 않는다."
 ClassDescription,"Corrupt and hateful souls, who are motivated by causing carnage and spreading chaos. Subject to uncontrollable bouts of rage, they bring doom and destruction to friend and foe alike.",이 사악하고 혐오스러운 영혼은 오직 살육과 혼돈만을 찾아 움직인다. 주체할 수 없는 분노에 이끌려 친구와 적 모두에게 파괴와 종말을 불러온다.
 ClassDescription,"Daft harlequins, always carrying a trick up their sleeves. Eclectic and eccentric; they are unassuming masters of chaos, adept in many bewildering talents.","항상 소맷자락에 속임수를 숨기고 다니는 미치광이 어릿광대. 유쾌하고, 괴팍하고, 혼란의 달인이며 온갖 골탕먹이기에 능하다."
@@ -816,6 +817,9 @@ ClassName,shaman//non-binary,주술사
 ClassName,templar//female,성전사
 ClassName,templar//male,성전사
 ClassName,templar//non-binary,성전사
+ClassName,test dummy//female,
+ClassName,test dummy//male,
+ClassName,test dummy//non-binary,
 ClassName,tinker//female,땜장이
 ClassName,tinker//male,땜장이
 ClassName,tinker//non-binary,땜장이
@@ -1019,6 +1023,7 @@ EntityDescription,"Beautiful, otherworldly beings characterised by their signatu
 EntityDescription,Beware this clockwork machine of war.,이 시계테엽으로 만들어진 전쟁기계를 조심하라.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,"거의 제한이 없는 인공지능을 탑재한 이족 보행 기계 자동인형. 지속적인 금속 공급이 필요한 융해 코어 엔진으로 구동되며, 침수 피해에 취약하다."
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","자연의 강력한 정령과 이어져 있는 익살스러운 장난꾼. 다부진 하반신은 털로 덮여 있고, 염소의 발굽과 양의 뿔을 가졌다. 상스럽고 영리한 이들은 마시고, 춤추고, 싸우며 경쾌하게 향락을 즐긴다."
+EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.","위압적이고 다부진 체격의 이들은 주둥이와 비늘 가죽, 그리고 실제로 비행이 가능한 날개를 가진 인간형 용을 닮았다."
 EntityDescription,"Large, omnivorous reptilians whose bestial ancestors dominated the world long before the birth of civilisation. They are fearsome predators, capable of leaping impressive distances and warding off many attacks with their thick scaly hides.","거대한 육식 도마뱀. 그들의 흉포한 조상은 문명이 탄생하기 훨씬 전에 세상을 지배했었다. 무시무시한 포식자인 그들은, 상당한 거리를 도약할 수 있고 두꺼운 비늘로 수많은 공격을 막을 수 있다."
 EntityDescription,Monstrous creatures with the head and tail of a bull and the body of a man.,"황소의 머리와 꼬리, 그리고 인간의 몸을 가진 괴물 같은 생명체."
@@ -1027,7 +1032,7 @@ EntityDescription,"Ravenous, predatory species of monstrous humanoid with a seve
 EntityDescription,"Shape-shifting deviants, who thrive on their deceptive talents.",모습을 바꾸는 변이체. 그들은 능력을 이용해 타인을 속이는 것을 즐긴다.
 EntityDescription,"Small folk who prefer simple lives. They are notably gregarious, and their build lends them well to less-than-noble endeavours.","소박한 삶을 추구하는 작은 친구들. 그들은 사교적이고, 그들의 작은 체격은 적은 노력으로도 잘 살 수 있게 해준다."
 EntityDescription,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.","자연과 마법을 좋아하는 영적인 존재들. 인간과 신체적으로는 유사하지만, 조금 더 작고 민첩하다."
-EntityDescription,"starspawn test warning, telepathy, telekinesis",
+EntityDescription,"starspawn test warning, telepathy, telekinesis. weak to physical resists sleep and force(should be psychic instead but idk what the equivalent is)",
 EntityDescription,"Stout, short, and hardy folk. They are known for their stubbornness, metalworking, and love of alcohol.","건장하고, 단단하고, 작은 친구들. 고집이 세고, 금속 세공과 술을 좋아하는 것으로 알려져 있다."
 EntityDescription,"Subterranean peoples of diminutive stature, fond of tinkering and magic. Evolved for subsistence living, their metabolism is suited for long adventures where food is scarce.","땜질과 마법을 좋아하는 조그마한 지하인들. 살아남기 위해서, 기나긴 모험에 적합하도록 신진대사가 진화했다."
 EntityDescription,"The lesser of the two ferrozygotic puddings, the brown pudding is said to taste more akin to rotted milk than a chocolate dessert. The pudding itself feeds upon fabrics and hides of all kind but its most known ability is its unique reproductive method. When brought into contact with iron the miracle of rotten slime binary fission takes place, creating two voracious offspring. Owing to the ubiquity of iron in the arms wielded by adventurers, this creature's population has only been growing with time.","초콜릿 디저트보다는 썩은 우유에 가까운 맛이 난다는 갈색 푸딩. 푸딩은 모든 종류의 옷감과 가죽을 먹고 사는데, 이것들의 가장 잘 알려진 능력은 독특한 생식 방법이다. 이 썩은 푸딩이 철에 닿게되면, 기적처럼 분열하면서 두 마리의 탐욕스런 자손을 만들어낸다. 모험가들의 무기는 상당수가 철로 되어있어서, 시간이 지날수록 이것들의 개체수는 계속 증가하기만 한다."
@@ -1208,6 +1213,7 @@ EntityName,dretch,드레치
 EntityName,drow,드로우
 EntityName,dryad,드라이어드
 EntityName,duergar,듀에르가
+EntityName,dummy,
 EntityName,dung worm,줄지렁이
 EntityName,dust vortex,먼지 소용돌이
 EntityName,dwarf,드워프
@@ -1624,7 +1630,7 @@ EntityName,spotted jelly,점박이 젤리
 EntityName,squealer,스퀼러
 EntityName,stalker,스토커
 EntityName,star vampire,스타 뱀파이어
-EntityName,Starspawn,
+EntityName,starspawn,
 EntityName,static blob,정전기 방울
 EntityName,steam vortex,증기 소용돌이
 EntityName,stone giant,암석 거인
@@ -4263,11 +4269,13 @@ QualificationCode,e,전문
 QualificationCode,m,달인
 QualificationCode,p,초보
 QualificationCode,s,숙련
+QualificationCode,u,
 QualificationName,champion,챔피언
 QualificationName,expert,전문가
 QualificationName,master,달인
 QualificationName,proficient,초보자
 QualificationName,specialist,숙련자
+QualificationName,unskilled,
 RaceName,angel//female,천사
 RaceName,angel//male,천사
 RaceName,angel//non-binary,천사
@@ -4280,6 +4288,9 @@ RaceName,demon//non-binary,악마
 RaceName,dracon//female,용인
 RaceName,dracon//male,용인
 RaceName,dracon//non-binary,용인
+RaceName,dummy//female,
+RaceName,dummy//male,
+RaceName,dummy//non-binary,
 RaceName,dwarf//female,드워프
 RaceName,dwarf//male,드워프
 RaceName,dwarf//non-binary,드워프
@@ -4711,6 +4722,7 @@ SpellName,acid stream,산성 줄기
 SpellName,animate dead,사자소생
 SpellName,animate object,사물 생동화
 SpellName,bind undead,언데드 구속
+SpellName,bless,
 SpellName,blinking,점멸
 SpellName,cancellation,무효화
 SpellName,charm,매혹

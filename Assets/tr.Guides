@@ -92,9 +92,9 @@
 ` {Mod} defence when stuck;{Mod} yakalandığında
 ` {Mod} defence when attacked from concealment;{Mod} gizlilikten çıkan saldırılarda
 /
+. Light armour has no speed penalty if you are unskilled.; Hafif zırh becerin olsa da olmasa da yavaşlamazsın.
 . Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Eğer becerin yoksa ağır zırh seni {UnskilledPenalty} puan yavaşlatır eğer varsa {SkilledPenalty} puan yavaşlatır.
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; Eğer becerin yoksa orta ağırlıklı zırh seni {UnskilledPenalty} puan yavaşlatır eğer varsa yavaşlatmaz.
-. Light armour has no speed penalty if you are unskilled.; Hafif zırh becerin olsa da olmasa da yavaşlamazsın.
 . Unskilled use of armour also attracts a one point defence penalty.; Becerin olmadan zırh kullanman savunmandan bir puan azaltır
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; Çeviklik düzenleyicisi her zırhta becerin olduğunda savunmana uygulanır.

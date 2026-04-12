@@ -76,6 +76,19 @@ namespace Pathos
       });
 
       // defensive.
+      light_armour = AddSkill(SkillCategory.Defensive, "light armour", S =>
+            {
+                S.Description = null;
+            });
+
+      medium_armour = AddSkill(SkillCategory.Defensive, "medium armour", S =>
+        {
+        S.Description = null;
+        S.ArmourCapDexterityModifier = 4;
+        S.ArmourUnskilledSpeedPenalty = 0.25F;
+        });
+
+
       heavy_armour = AddSkill(SkillCategory.Defensive, "heavy armour", S =>
       {
         S.Description = null;
@@ -84,26 +97,14 @@ namespace Pathos
         S.ArmourUnskilledSpeedPenalty = 0.50F;
       });
 
-      medium_armour = AddSkill(SkillCategory.Defensive, "medium armour", S =>
-      {
-        S.Description = null;
-        S.ArmourCapDexterityModifier = 4;
-        S.ArmourUnskilledSpeedPenalty = 0.25F;
-      });
 
-      light_armour = AddSkill(SkillCategory.Defensive, "light armour", S =>
-      {
-        S.Description = null;
-      });
+     
 
       // offensive.
-      axe = AddSkill(SkillCategory.Offensive, "axe", S =>
-      {
-        S.Description = null;
-        S.WeaponRotation = true;
-      });
 
-      disc = AddSkill(SkillCategory.Offensive, "disc", S =>
+       dart = AddSkill(SkillCategory.Offensive, "dart", S => { });
+
+       disc = AddSkill(SkillCategory.Offensive, "disc", S =>
       {
         S.Description = null;
         S.WeaponRotation = true;
@@ -111,11 +112,10 @@ namespace Pathos
 
       bow = AddSkill(SkillCategory.Offensive, "bow", S => { });
 
-      club = AddSkill(SkillCategory.Offensive, "club", S => { });
 
       crossbow = AddSkill(SkillCategory.Offensive, "crossbow", S => { });
 
-      dart = AddSkill(SkillCategory.Offensive, "dart", S => { });
+
 
       firearms = AddSkill(SkillCategory.Offensive, "firearms", S =>
       {
@@ -123,34 +123,49 @@ namespace Pathos
         S.AbolitionCandidate = true;
       });
 
+
+      light_blade = AddSkill(SkillCategory.Offensive, "light blade", S => { });
+
+      medium_blade = AddSkill(SkillCategory.Offensive, "medium blade", S => { });
+            
+      heavy_blade = AddSkill(SkillCategory.Offensive, "heavy blade", S => { });
+
+      axe = AddSkill(SkillCategory.Offensive, "axe", S =>
+            {
+                S.Description = null;
+                S.WeaponRotation = true;
+            });
+
+            ;
+
+      club = AddSkill(SkillCategory.Offensive, "club", S => { });
+
+
+      mace = AddSkill(SkillCategory.Offensive, "mace", S => { });
+
+
       flail = AddSkill(SkillCategory.Offensive, "flail", S => { });
 
       hammer = AddSkill(SkillCategory.Offensive, "hammer", S => { });
 
-      heavy_blade = AddSkill(SkillCategory.Offensive, "heavy blade", S => { });
-
-      lance = AddSkill(SkillCategory.Offensive, "lance", S => { });
-
-      light_blade = AddSkill(SkillCategory.Offensive, "light blade", S => { });
-
-      mace = AddSkill(SkillCategory.Offensive, "mace", S => { });
-
-      medium_blade = AddSkill(SkillCategory.Offensive, "medium blade", S => { });
-
       pick = AddSkill(SkillCategory.Offensive, "pick", S => { });
-
-      polearm = AddSkill(SkillCategory.Offensive, "polearm", S => { });
-
-      sling = AddSkill(SkillCategory.Offensive, "sling", S => { });
 
       spear = AddSkill(SkillCategory.Offensive, "spear", S => { });
 
-      staff = AddSkill(SkillCategory.Offensive, "staff", S => { });
+      polearm = AddSkill(SkillCategory.Offensive, "polearm", S => { });
 
-      unarmed_combat = AddSkill(SkillCategory.Offensive, "unarmed combat", S => { });
+      lance = AddSkill(SkillCategory.Offensive, "lance", S => { });
+
+      sling = AddSkill(SkillCategory.Offensive, "sling", S => { });
+
+
+      staff = AddSkill(SkillCategory.Offensive, "staff", S => { });
 
       whip = AddSkill(SkillCategory.Offensive, "whip", S => { });
 
+      unarmed_combat = AddSkill(SkillCategory.Offensive, "unarmed combat", S => { });
+
+      
       // mysical.
       abjuration = AddSkill(SkillCategory.Mystical, "abjuration", S => { });
 

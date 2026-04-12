@@ -92,9 +92,9 @@
 ` {Mod} defence when stuck;{Mod} obrona po utknięciu
 ` {Mod} defence when attacked from concealment;{Mod} obrona po ataku z ukrycia
 /
+. Light armour has no speed penalty if you are unskilled.; Lekka zbroja nie ma kary szybkości, jeśli nie jesteś wykwalifikowany .
 . Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Ciężka zbroja spowolni cię {UnskilledPenalty} punktów, jeśli jesteś niewykwalifikowany, a {SkilledPenalty} będzie wolniejszy, jeśli masz umiejętności .
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; Średni pancerz to {UnskilledPenalty} punkt wolniejszy, jeśli nie masz kwalifikacji, inaczej nie ma regulacji prędkości .
-. Light armour has no speed penalty if you are unskilled.; Lekka zbroja nie ma kary szybkości, jeśli nie jesteś wykwalifikowany .
 . Unskilled use of armour also attracts a one point defence penalty.; Niewykwalifikowane użycie zbroi także przyciąga karę obronną w jednym punkcie .
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; Modyfikator zręczności stosuje się do twojej obrony, gdy jesteś biegły we wszystkich częściach zbroi .

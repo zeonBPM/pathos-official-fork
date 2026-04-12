@@ -709,6 +709,7 @@ ClassDescription,arcanist test,
 ClassDescription,"Benevolent caretakers, always willing to lend a helping hand to the weak. Accustomed to dealing with illness, they are paragons of hygiene and cleanliness, purposed for aid. As such, they must rely on constant companionship to survive.","מרפאים שוחרי טוב, תמיד מוכנים להושיט יד עוזרת לחלשים. הם רגילים להתמודד עם מחלות והם דוגמה ומופת להיגיינה וניקיון, מוכנים לסיוע. לכן עליהם להסתמך על ליווי מתמיד אם הם רוצים לשרוד."
 ClassDescription,"Champions of the winter realms, fierce and proud. Hardy and strong, they will boldly face any challenger until they meet a glorious death.","אלופי ממלכות החורף, פראים וגאים. קשוחים וחזקים. הם יעמדו באומץ אל מול כל תוקף עד למותם רב התהילה."
 ClassDescription,"Charming minstrels, making their way through the world with their songs and stories. They are jacks-of-all-trades; alongside their troubadour talents, they dabble in both martial skills and spellcraft.","זמרים נודדים מקסימים, עושים את דרכם בעולם באמצעות שירים וסיפורים. הם רבי כישרונות; לצד כישוריהם כטרובדורים, הם עוסקים גם באומנויות לחימה ובכישופים."
+ClassDescription,class for testing purposes,
 ClassDescription,"Conductors of natural energies, these uniquely attuned spell casters derive their powers from the living world. Peaceful until threatened, they are unafraid to respond with animalistic savagery.","מוליכים של אנרגיות הטבע. אלה כשפים ייחודיים ששואבים את כוחותיהם מעולם החיים. הם שוחרי שלום אם לא מאיימים עליהם, אבל הם לא חוששים להגיב בפראות חייתית."
 ClassDescription,"Corrupt and hateful souls, who are motivated by causing carnage and spreading chaos. Subject to uncontrollable bouts of rage, they bring doom and destruction to friend and foe alike.","נשמות מושחתות ומלאות שנאה, מונעות רק על ידי שפיכות דמים וכאוס. הם נתונים להתקפי זעם בלתי נשלטים, ומביאים אבדון והרס על חבריהם ואוייביהם כאחד."
 ClassDescription,"Daft harlequins, always carrying a trick up their sleeves. Eclectic and eccentric; they are unassuming masters of chaos, adept in many bewildering talents.","ליצנים שוטים, תמיד יש להם איזה טריק בשרוול. הם מגוונים ויוצאי דופן; הם שליטי כאוס חסרי יומרות ויש להם הרבה כישרונות מפתיעים."
@@ -816,6 +817,9 @@ ClassName,shaman//non-binary,שאמנ.ית
 ClassName,templar//female,טמפלרית
 ClassName,templar//male,טמפלר
 ClassName,templar//non-binary,טמפלר.ית
+ClassName,test dummy//female,
+ClassName,test dummy//male,
+ClassName,test dummy//non-binary,
 ClassName,tinker//female,פחחית
 ClassName,tinker//male,פחח
 ClassName,tinker//non-binary,פחח.ית
@@ -1019,6 +1023,7 @@ EntityDescription,"Beautiful, otherworldly beings characterised by their signatu
 EntityDescription,Beware this clockwork machine of war.,מכונת מלחמה מכנית ומסוכנת.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,אוטומטונים רבי עוצמה בעלי שתי רגליים ובינה מלאכותית כמעט בלתי מוגבלת. מנוע ההיתוך שמספק להם את כוחם דורש אספקה מתמדת של חומרי גלם והוא פגיע לנזקי מים.
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","יצורים ממין הפיות, מקושרים לרוחות הטבע שמסייעות להם בתעלוליהם. הם חסונים, בעלי גוף תחתון שעיר, פרסות עז שסועות וקרני כבש מסולסלות. הם גסים ופקחיים, ומנהלים חיי הנאה של שתייה, ריקוד וקרבות."
+EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.","יצורים מרשימים וכבדים, דומים לדרקונים אנושיים בעלי חוטם ארוך, עור קשקשי וכנפיים שימושיות."
 EntityDescription,"Large, omnivorous reptilians whose bestial ancestors dominated the world long before the birth of civilisation. They are fearsome predators, capable of leaping impressive distances and warding off many attacks with their thick scaly hides.","זוחלים גדולים, אוכלי כל, שאבות אבותיהם החייתיים שלטו בעולם הרבה לפני ערש התרבות. הם טורפים מעוררי אימה, מסוגלים לזנק מרחקים ארוכים ולהדוף מתקפות רבות בעזרת העורות העבים והקשקשיים שלהם."
 EntityDescription,Monstrous creatures with the head and tail of a bull and the body of a man.,יצורים מפלצתיים עם ראש וזנב של שור ועם גוף אדם.
@@ -1027,7 +1032,7 @@ EntityDescription,"Ravenous, predatory species of monstrous humanoid with a seve
 EntityDescription,"Shape-shifting deviants, who thrive on their deceptive talents.","סוטים חברתיים משני-צורה, שמשגשגים בזכות כישורי ההונאה שלהם."
 EntityDescription,"Small folk who prefer simple lives. They are notably gregarious, and their build lends them well to less-than-noble endeavours.","יצורים קטנים שמעדיפים חיים פשוטים. הם חברותיים במיוחד, ומבנה הגוף שלהם מוליך אותם להרפתקאות שאינן-בדיוק-אביריות."
 EntityDescription,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.","יצורים רוחניים שאוהבים את הטבע ואת הקסם. הם דומים לבני אדם, אבל לרוב קטנים וזריזים יותר."
-EntityDescription,"starspawn test warning, telepathy, telekinesis",
+EntityDescription,"starspawn test warning, telepathy, telekinesis. weak to physical resists sleep and force(should be psychic instead but idk what the equivalent is)",
 EntityDescription,"Stout, short, and hardy folk. They are known for their stubbornness, metalworking, and love of alcohol.","יצורים גוצים, נמוכים וקשוחים. הם ידועים בעקשנות שלהם, בעבודות המתכת שהם יוצרים ובחיבתם לאלכוהול."
 EntityDescription,"Subterranean peoples of diminutive stature, fond of tinkering and magic. Evolved for subsistence living, their metabolism is suited for long adventures where food is scarce.","עם שחי מתחת לפני הקרקע, חובבי פחחות וקסם. הם התפתחו כדי להתאים לחיים בצמצום והמטבוליזם שלהם מתאים להרפתקאות ארוכות במקומות שבהם המזון נדיר."
 EntityDescription,"The lesser of the two ferrozygotic puddings, the brown pudding is said to taste more akin to rotted milk than a chocolate dessert. The pudding itself feeds upon fabrics and hides of all kind but its most known ability is its unique reproductive method. When brought into contact with iron the miracle of rotten slime binary fission takes place, creating two voracious offspring. Owing to the ubiquity of iron in the arms wielded by adventurers, this creature's population has only been growing with time.","הפודינג החום הוא הפחות-מוצלח מבין שני מיני הפודינג הפרוזיגוטי. נאמר שטעמו דומה יותר לחלב חמוץ מאשר לקינוח שוקולדי. הפודינג עצמו ניזון מבדים ועורות מכל הסוגים, אבל היכולת המפורסמת ביותר שלהם היא שיטת הרבייה הייחודית שלהם. כשהם באים במגע עם ברזל, מתרחש נס והרפש הרקוב מתפצל ויוצר שני צאצאים רעבים. מאחר שהברזל שכיח ביותר בכלי הנשק של ההרפתקנים, אוכלוסיית הייצורים האלה גדלה עם הזמן."
@@ -1208,6 +1213,7 @@ EntityName,dretch,דרץ'
 EntityName,drow,אלף אפל
 EntityName,dryad,דריאדה
 EntityName,duergar,דוארגר
+EntityName,dummy,
 EntityName,dung worm,תולעת זבל
 EntityName,dust vortex,מערבולת אבק
 EntityName,dwarf,גמד
@@ -1624,7 +1630,7 @@ EntityName,spotted jelly,ג’לי מנוקד
 EntityName,squealer,צרחן
 EntityName,stalker,אורב
 EntityName,star vampire,ערפד כוכבים
-EntityName,Starspawn,
+EntityName,starspawn,
 EntityName,static blob,גוש סטטי
 EntityName,steam vortex,מערבולת קיטור
 EntityName,stone giant,ענק אבן
@@ -4263,11 +4269,13 @@ QualificationCode,e,מ
 QualificationCode,m,ש
 QualificationCode,p,י
 QualificationCode,s,ה
+QualificationCode,u,
 QualificationName,champion,אליפות
 QualificationName,expert,מומחיות
 QualificationName,master,שליטה
 QualificationName,proficient,יכולת
 QualificationName,specialist,התמחות
+QualificationName,unskilled,
 RaceName,angel//female,מלאכית
 RaceName,angel//male,מלאך
 RaceName,angel//non-binary,מלאכ.ית
@@ -4280,6 +4288,9 @@ RaceName,demon//non-binary,שד.ה
 RaceName,dracon//female,דראקונית
 RaceName,dracon//male,דראקון
 RaceName,dracon//non-binary,דראקונ.ית
+RaceName,dummy//female,
+RaceName,dummy//male,
+RaceName,dummy//non-binary,
 RaceName,dwarf//female,גמדה
 RaceName,dwarf//male,גמד
 RaceName,dwarf//non-binary,גמד.ה
@@ -4711,6 +4722,7 @@ SpellName,acid stream,זרם חומצה
 SpellName,animate dead,הנפשת מתים
 SpellName,animate object,הנפשת חפץ
 SpellName,bind undead,כבילת אל-מתים
+SpellName,bless,
 SpellName,blinking,בזיקה
 SpellName,cancellation,ביטול
 SpellName,charm,הקסמה

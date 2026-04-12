@@ -1361,7 +1361,7 @@ namespace Pathos
         C.Startup.Loot.AddKit(Chance.OneIn5, Items.blindfold);
       });
 
-            wizard = AddClass(C =>
+            arcanist = AddClass(C =>
             {
                 C.Name = "arcanist";
                 C.Description = "arcanist test";
@@ -1398,6 +1398,43 @@ namespace Pathos
                 C.Startup.Loot.AddKit(Chance.Always, 1.d100() + 100, Modifier.Plus0, Items.bullet);
             });
 
+          dummy = AddClass(C =>
+            {
+                C.Name = "test dummy";
+                C.Description = "class for testing purposes";
+                C.Backpack = Items.Backpack;
+                C.LifeAdvancement.Set(20, 1.d6());
+                C.ManaAdvancement.Set(30, 1.d2());
+                C.SetDistribution(Attributes.intelligence, Attributes.dexterity, Attributes.charisma, Attributes.wisdom, Attributes.constitution, Attributes.strength);
+                C.AddAvatar(Genders.male, Glyphs.Van_Helsing);
+                C.AddAvatar(Genders.female, Glyphs.Van_Helsing);
+                C.AddAvatar(Genders.nonbinary, Glyphs.Van_Helsing);
+
+                C.AddFeat(1, Properties.appraisal);
+                C.AddFeat(5, Properties.mana_regeneration);
+                C.AddFeat(10, Properties.beatitude);
+                C.AddFeat(15, Properties.quickness);
+                C.AddFeat(20, Properties.deflection);
+                C.Startup.SetSkill(Qualifications.proficient,
+                  Skills.bartering, Skills.crafting, Skills.literacy,
+                  Skills.traps, Skills.clerical, 
+                  Skills.light_armour,
+                  Skills.light_blade,
+                  Skills.spear, Skills.staff, Skills.firearms);
+                C.Startup.AddGrimoire(Dice.One, Spells.bless);
+                C.Startup.AddGrimoire(Dice.One, Spells.identify);
+                C.Startup.AddGrimoire(Dice.Fixed(1), DesireableSpellArray(C));
+                C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, Items.knife);
+                C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.cloak_of_magic_resistance);
+                C.Startup.Loot.AddKit(Dice.Fixed(1), Chance.Always, DesirableItemArray(C, Stocks.ring));
+                C.Startup.Loot.AddKit(Dice.Fixed(1), Chance.Always, DesirableItemArray(C, Stocks.amulet));
+                C.Startup.Loot.AddKit(Dice.Fixed(2), Chance.Always, DesirableItemArray(C, Stocks.wand));
+                C.Startup.Loot.AddKit(Chance.OneIn5, Items.magic_marker);
+                C.Startup.Loot.AddKit(Chance.OneIn5, Items.bag_of_holding);
+                C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, Items.pistol);
+                C.Startup.Loot.AddKit(Chance.Always, 1.d100() + 100, Modifier.Plus0, Items.bullet);
+            });
+  
             necromancer = AddClass(C =>
       {
         C.Name = "necromancer";
@@ -1474,5 +1511,6 @@ namespace Pathos
     public readonly Class valkyrie;
     public readonly Class wizard;
     public readonly Class arcanist;
+ public readonly Class dummy;
     }
 }

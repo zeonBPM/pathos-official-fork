@@ -25,6 +25,7 @@ rogue       : abjuration, divination, transmutation
 samurai     : clerical, evocation
 shaman      : abjuration, divination, enchantment, evocation, necromancy
 templar     : clerical
+test dummy  : clerical
 tinker      : abjuration, divination, enchantment, evocation, transmutation
 tourist     : abjuration
 valkyrie    : 

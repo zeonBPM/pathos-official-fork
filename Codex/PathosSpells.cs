@@ -2745,6 +2745,37 @@ namespace Pathos
         );
       });
 
+      bless = AddSpell(Schools.clerical, "bless", 5, new Precept(Purpose.Identify), Glyphs.identify_spell, Z =>
+          {
+                Z.Description = null;
+                SetAdept
+              (
+                  Z,
+                 null,
+                  P =>
+                  {
+                      P.SetCast().FilterSanctity(Sanctities.Cursed).Plain(Dice.Zero) // uncurse a random cursed item.
+               .SetTerminates();
+                      P.Apply.Sanctify(Item: null, Sanctities.Uncursed);
+                  },
+                  S =>
+                  {
+                      S.SetCast().FilterSanctity(Sanctities.Cursed) // uncurse a chosen item.
+               .SetTerminates();
+                      S.Apply.Sanctify(Item: null, Sanctities.Uncursed);
+                  },
+                  null,
+                  M =>
+                  {
+                      M.SetCast().FilterSanctity(Sanctities.Cursed, Sanctities.Uncursed) // bless a chosen item.
+               .SetTerminates();
+                      M.Apply.Sanctify(Item: null, Sanctities.Blessed);
+                  },
+                  null
+
+              );
+            });
+
       wizard_lock = AddSpell(Schools.transmutation, "wizard lock", 2, null, Glyphs.wizard_lock_spell, Z =>
       {
         Z.Description = null;
@@ -2832,18 +2863,21 @@ namespace Pathos
     public readonly Spell full_healing; // 5
     public readonly Spell remove_curse;
     public readonly Spell turn_undead;
+    public readonly Spell bless;
+
     // public readonly Spell mass_heal; // area of effect healing for allies (everyone nearby when unskilled).
     // public readonly Spell aid; // temporary above life maximum boost?
-    // public readonly Spell sustenance; // nutrition up to zero only.
+        // public readonly Spell sustenance; // nutrition up to zero only.
 
-    // divination = 7.
-    public readonly Spell clairvoyance;
+        // divination = 7.
+        public readonly Spell clairvoyance;
     public readonly Spell detect_food;
     public readonly Spell detect_monsters;
     public readonly Spell detect_treasure;
     public readonly Spell detect_unseen;
     public readonly Spell identify;
     public readonly Spell magic_mapping;
+
 
     // evocation = 8.
     public readonly Spell acid_stream;

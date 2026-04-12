@@ -92,9 +92,9 @@
 ` {Mod} defence when stuck; {Mod} phòng thủ khi bị mắc kẹt
 ` {Mod} defence when attacked from concealment; {Mod} phòng thủ khi bị tấn công từ chỗ ẩn nấp
 /
+. Light armour has no speed penalty if you are unskilled.; Áo giáp nhẹ thì không có hình phạt tốc độ nếu bạn không có kỹ năng.
 . Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Áo giáp nặng sẽ làm bạn chậm hơn {Hình phạt khi không có kỹ năng} nếu bạn không có điểm kỹ năng và điểm {Hình phạt khi có kĩ năng} sẽ làm bạn chậm hơn nếu bạn có kỹ năng.
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; Giáp trung bình sẽ chậm hơn {Hình phạt không có kỹ năng} nếu bạn không có điểm kỹ năng, còn không thì không điều chỉnh tốc độ.
-. Light armour has no speed penalty if you are unskilled.; Áo giáp nhẹ thì không có hình phạt tốc độ nếu bạn không có kỹ năng.
 . Unskilled use of armour also attracts a one point defence penalty.; Sử dụng áo giáp không có kỹ năng cũng bị phạt trừ một điểm phòng thủ.
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; Chỉ số modifier của độ khéo léo sẽ được áp dụng cho việc phòng thủ của bạn khi bạn đã thành thạo tất cả các loại áo giáp.

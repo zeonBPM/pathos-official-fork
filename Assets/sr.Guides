@@ -92,9 +92,9 @@
 ` {Mod} defence when stuck; odbrana kada je zaglavjen
 ` {Mod} defence when attacked from concealment; odbrana kada je napadnut iz prikrivanja
 /
+. Light armour has no speed penalty if you are unskilled.; Laki oklop nema kaznu za brzinu ako niste vešti.
 . Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Teški oklop će vas učiniti {UskilledPenalty} poena sporijim ako ste nevešti i {SkilledPenalty} poena sporijim ako ste vešti.
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; Srednji oklop je {UskilledPenalty} poena sporiji ako niste vešti, inače nema podešavanja brzine.
-. Light armour has no speed penalty if you are unskilled.; Laki oklop nema kaznu za brzinu ako niste vešti.
 . Unskilled use of armour also attracts a one point defence penalty.; Nevešto korišćenje oklopa takođe dovodi do kazne odbrambenom odbranom od jednog poena.
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; Modifikator spretnosti se primenjuje na vašu odbranu kada ste vešti u svim delovima oklopa.

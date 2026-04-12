@@ -37,8 +37,8 @@ namespace Pathos
         G.Name = "artifact";
         G.Unique = true;
         G.Indestructible = true;
-        G.MinimumEnchantment = Modifier.Minus10;
-        G.MaximumEnchantment = Modifier.Plus10;
+        G.MinimumEnchantment = Modifier.Minus1;
+        G.MaximumEnchantment = Modifier.Plus9;
       });
     }
 #endif

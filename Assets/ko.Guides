@@ -92,9 +92,9 @@
 ` {Mod} defence when stuck; {Mod} 방어 - 갇힘 상태일 때
 ` {Mod} defence when attacked from concealment; {Mod} 방어 - 은폐한 적으로부터 공격받을 때
 /
+. Light armour has no speed penalty if you are unskilled.; 경갑은 숙련되지 않아도 속도에 아무런 문제를 주지 않습니다.
 . Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; 중갑을 입으면 숙련되지 않았을 때 {UnskilledPenalty}포인트 만큼, 이외의 경우 {SkilledPenalty}포인트 만큼 느려집니다.
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; 평갑을 입으면, 숙력되지 않았을 때 {UnskilledPenalty}포인트 만큼 느려지고, 이외의 경우 속도에 영향을 주지 않습니다.
-. Light armour has no speed penalty if you are unskilled.; 경갑은 숙련되지 않아도 속도에 아무런 문제를 주지 않습니다.
 . Unskilled use of armour also attracts a one point defence penalty.; 미숙한 방어구의 착용은 1포인트 만큼 방어력 페널티가 있습니다.
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; 민첩 보정치는 입고 있는 모든 방어구에 숙련되었을 때 방어 수치에 적용됩니다.

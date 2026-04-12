@@ -92,9 +92,9 @@
 ` {Mod} defence when stuck; {Mod} defensa cuando estás atrapado
 ` {Mod} defence when attacked from concealment; {Mod} defensa cuando atacas escondido
 /
+. Light armour has no speed penalty if you are unskilled.; Una armadura ligera no tiene penalización de velocidad si tienes nivel inepto.
 . Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Una armadura pesada te hará {UnskilledPenalty} puntos más lento si tienes nivel inepto y {SkilledPenalty} puntos más lentos si tienes más habilidad.
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; Una armadura mediana es {UnskilledPenalty} puntos más lenta si tienes nivel inepto, de lo contrario no hay ajuste en la velocidad.
-. Light armour has no speed penalty if you are unskilled.; Una armadura ligera no tiene penalización de velocidad si tienes nivel inepto.
 . Unskilled use of armour also attracts a one point defence penalty.; Si eres de nivel inepto en uso de armaduras, también conlleva una penalización de defensa de un punto.
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; El modificador de destreza se aplica a tu defensa cuando tienes habilidades en todas las piezas de tu armadura.
