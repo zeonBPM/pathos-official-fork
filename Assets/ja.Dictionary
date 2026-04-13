@@ -1019,6 +1019,7 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.",ほぼ透明かつ不定形の存在。しばしば人型の形状をとることで、どう見てもべちゃっとした血しょうのような物体でしかないその体に衣服をまとったり道具を使用したりすることを可能にしている。
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.",世に交わることを極端に嫌う、はるか昔から存在する種族。彼らの恐るべき体格と筋力は、大量の肉と鉱物の食事で支えられている。
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.",死してなお不屈たる冒険者の魂の依り代となる霊界の存在。自らの目的や欲といったようなものを持たず、依り代となることを厭わない彼らとの出会いは、無念の死を遂げた冒険者にとって魂の安らぎを得る二度目のチャンスとなる。霊界の物質の産物である彼らの姿形はおぼろげで向こうが透けて見え、物理的な障害を自由に通り抜けることができる。
+EntityDescription,Bald,
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.",光輪と羽毛に覆われた翼が特徴的な、別世界の美しい住人達。善と悪の闘争との関係は深く、触れるもの全てに神の威光を見出す。
 EntityDescription,Beware this clockwork machine of war.,この殺戮マシーンには気をつけろ。
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,とどまることをしらない人工知能を持つ、二足歩行の自律メカ。定期的に金属の供給が必要で、水によって損傷を受けやすい融解炉心式エンジンが動力源。
@@ -1110,6 +1111,7 @@ EntityName,baby silver dragon,シルバードラゴンの幼体
 EntityName,baby white dragon,ホワイトドラゴンの幼体
 EntityName,baby yellow dragon,イエロードラゴンの幼体
 EntityName,bad egg,悪い卵
+EntityName,baldorian,
 EntityName,balrog,バルログ
 EntityName,baluchitherium,バルキテリウム
 EntityName,banshee,バンシー
@@ -4277,6 +4279,9 @@ QualificationName,specialist,専門家
 RaceName,angel//female,天使
 RaceName,angel//male,天使
 RaceName,angel//non-binary,天使
+RaceName,baldorian//female,
+RaceName,baldorian//male,
+RaceName,baldorian//non-binary,
 RaceName,changeling//female,チェンジリング
 RaceName,changeling//male,チェンジリング
 RaceName,changeling//non-binary,チェンジリング

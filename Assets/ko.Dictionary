@@ -1019,6 +1019,7 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.",무정형 생물체들은 딱히 정해진 모양은 없지만 대게 투명한 인간의 모습을 하고있다. 물론 이것은 여전히 플라스마 비슷한 액체처럼 보이지만 이런 모습은 옷을 입는것과 장비를 쓰는것을 가능하게한다.
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.",은둔한 고대의 거대 종족. 고기와 광물을 게걸스럽게 먹어치우며 엄청난 힘의 원천인 압도적인 덩치를 유지한다.
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.","스러진 모험가의 불굴의 영혼을 담는 영적인 그릇. 스스로는 움직이지 않으며, 모험가의 영혼에게 기꺼이 몸을 내어 복수 또는 속죄를 위한 두 번째 기회를 준다. 영적 물질로 만들어진 자그마한 몸은 투명하며 물리적 장애물을 통과할 수 있다."
+EntityDescription,Bald,
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.",빛나는 후광과 깃털난 날개가 특징인 아름다운 초월적 존재. 선과 악의 대결에 단련된 그들은 손에 쥐는 모든 것들에서 성스러움을 느낀다.
 EntityDescription,Beware this clockwork machine of war.,이 시계테엽으로 만들어진 전쟁기계를 조심하라.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,"거의 제한이 없는 인공지능을 탑재한 이족 보행 기계 자동인형. 지속적인 금속 공급이 필요한 융해 코어 엔진으로 구동되며, 침수 피해에 취약하다."
@@ -1110,6 +1111,7 @@ EntityName,baby silver dragon,새끼 실버 드래곤
 EntityName,baby white dragon,새끼 화이트 드래곤
 EntityName,baby yellow dragon,새끼 옐로 드래곤
 EntityName,bad egg,상한 달걀
+EntityName,baldorian,
 EntityName,balrog,발록
 EntityName,baluchitherium,발루키테리움
 EntityName,banshee,벤시
@@ -4277,6 +4279,9 @@ QualificationName,specialist,숙련자
 RaceName,angel//female,천사
 RaceName,angel//male,천사
 RaceName,angel//non-binary,천사
+RaceName,baldorian//female,
+RaceName,baldorian//male,
+RaceName,baldorian//non-binary,
 RaceName,changeling//female,체인질링
 RaceName,changeling//male,체인질링
 RaceName,changeling//non-binary,체인질링

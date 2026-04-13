@@ -1019,6 +1019,7 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.","Аморфные существа, которые не имеют характерной формы, но часто принимают полупрозрачную гуманоидную форму. Несмотря на то, что его нельзя спутать ни с чем, кроме плазмоподобной жижи, эта форма позволяет использовать одежду и инструменты."
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.",Древняя раса исполинских отшельников. Их ужасающий размер даёт им огромную силу и дополняет ненасытной диетой из мяса и минералов.
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.","Астральные существа, которые являются сосудом для неукротимого духа побеждённого приключенца. Не имея собственных мотивов, они рады разрешить овладеть собой. Для умершего приключенца это второй шанс отомстить или искупить свою вину. Рождённые из астральной материи, они слабо сложены, полупрозрачны и могут свободно перемещаться через физические препятствия."
+EntityDescription,Bald,
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Прекрасные, потусторонние существа, отличающиеся своим характерным ореолом и оперёнными крыльями. Будучи твёрдо приверженными борьбе между добром и злом, они чувствуют божественность внутри всего, что они держат."
 EntityDescription,Beware this clockwork machine of war.,Бойтесь этой заводной машины войны.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,"Прямоходящие механические автоматоны с с практически неограниченным исскуственным интеллектом. Питаются от двигателя с расплавленным сердечником, который требует постоянного притока металла для функционирования и уязвим к воде."
@@ -1110,6 +1111,7 @@ EntityName,baby silver dragon,серебряный дракончик
 EntityName,baby white dragon,белый дракончик
 EntityName,baby yellow dragon,жёлтый дракончик
 EntityName,bad egg,плохое яйцо
+EntityName,baldorian,
 EntityName,balrog,балрог
 EntityName,baluchitherium,белуджитерий
 EntityName,banshee,баньши
@@ -4277,6 +4279,9 @@ QualificationName,specialist,специалист
 RaceName,angel//female,ангел
 RaceName,angel//male,ангел
 RaceName,angel//non-binary,ангел
+RaceName,baldorian//female,
+RaceName,baldorian//male,
+RaceName,baldorian//non-binary,
 RaceName,changeling//female,перевёртыш
 RaceName,changeling//male,перевёртыш
 RaceName,changeling//non-binary,перевёртыш

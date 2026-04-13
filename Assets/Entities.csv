@@ -312,6 +312,7 @@ human,human,Archpriest Avvakrum,,25,0,30,1276,medium,animal,15000,4.5,29,attack,
 human,human,artisan,,14,0,18,314,medium,animal,13000,5.0,20,attack,,18,16,17,14,15,13
 human,human,Ashikaga Takauji,,30,0,32,993,medium,animal,15000,5.0,26,attack,UNIQUE,16,18,16,16,14,14
 human,human,Assassin Mortimer,,30,0,40,2443,medium,animal,13000,5.3,32,attack,GUARDIAN|UNIQUE,15,26,15,18,17,20
+human,baldorian,baldorian,Bald,0,0,0,0,medium,animal,12000,5.0,10,attack,BASE,12,8,10,10,10,10
 human,human,Charon,,45,0,38,4938,medium,animal,14500,5.0,28,attack,UNIQUE,16,24,28,18,20,22
 human,human,Colonel Blood,,15,0,20,541,medium,animal,18000,4.5,20,attack,UNIQUE,17,14,18,15,16,18
 human,human,Croesus,,30,0,35,2626,medium,animal,18000,5.0,25,attack,UNIQUE,22,17,18,16,16,26

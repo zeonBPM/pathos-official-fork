@@ -1019,6 +1019,7 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.","Seres amorfos que não possuem um formato típico, mas que de vez em quando assumem uma forma humanoide translúcida. Ainda que inconfundíveis com qualquer outra coisa a não ser uma gosma plasmática, essa forma possibilita o uso de roupas e ferramentas."
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.","Uma antiga raça de reclusos imponentes. Seu tamanho aterrorizante lhes dá imensa força, complementada por uma dieta voraz de carnes e minerais."
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.","Seres astrais que são recipientes para o espírito indomável de aventureiros que sucumbiram . Não tendo motivações próprias, eles estão felizes em permitir a possessão; para o aventureiro falecido, é uma segunda chance para vingança ou redenção . Nascidos da matéria astral, eles são ligeiramente fracos, translúcidos e conseguem se mover livremente através de obstáculos físicos."
+EntityDescription,Bald,
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Seres belos e celestiais, dotados de características areólas e asas emplumadas. Fortemente ligados à disputa entre o bem e o mal, podem sentir a natureza divina de tudo que tocam."
 EntityDescription,Beware this clockwork machine of war.,Cuidado com essa engenhosa máquina de guerra.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,Autômatos mecânicos bípedes com inteligência artificial praticamente ilimitada. Eles são alimentados por um motor de núcleo derretido que requer suprimento constante de metais brutos e é suscetível a danos por água.
@@ -1110,6 +1111,7 @@ EntityName,baby silver dragon,dragão prateado bebê
 EntityName,baby white dragon,dragão branco bebê
 EntityName,baby yellow dragon,dragão amarelo bebê
 EntityName,bad egg,ovo estragado
+EntityName,baldorian,
 EntityName,balrog,balrog
 EntityName,baluchitherium,baluchitherium
 EntityName,banshee,banshee
@@ -4277,6 +4279,9 @@ QualificationName,specialist,especialista
 RaceName,angel//female,anjo
 RaceName,angel//male,anjo
 RaceName,angel//non-binary,anjo
+RaceName,baldorian//female,
+RaceName,baldorian//male,
+RaceName,baldorian//non-binary,
 RaceName,changeling//female,multimorfa
 RaceName,changeling//male,multimorfo
 RaceName,changeling//non-binary,multimorfe

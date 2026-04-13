@@ -656,9 +656,52 @@ namespace Pathos
                 E.Startup.SetTalent();
                 E.SetCorpse(Chance.Always);
             });
-     
 
-       kobold = AddBaseEntity(Kinds.kobold, Races.kobold, "kobold", E =>
+        baldorian = AddBaseEntity(Kinds.human, Races.baldorian, "baldorian", E =>
+        {
+        E.Description = "Bald by nature, their shiny heads reflect magical attacks but the lack of hair leaves them weak to the cold. They are surprisingly competent with language skills";
+        E.Glyph = Glyphs.human;
+        E.Level = 0;
+        E.Challenge = 0;
+        E.Difficulty = 0;
+        E.Frequency = 0;
+        E.Defence = new Defence(D: 10, P: +0, S: +0, B: +0);
+        E.SetDiet(Diets.omnivore);
+        E.Speed = Speed.S5_0;
+        E.Size = Size.Medium;
+        E.Strategy = Strategy.Attack;
+        E.Weight = Weight.FromUnits(12000);
+        E.Figure.Set
+        (
+          Material: Materials.animal,
+          Head: true,
+          Mind: true,
+          Voice: true,
+          Eyes: true,
+          Ears: true,
+          Hands: true,
+          Limbs: true,
+          Feet: true,
+          Thermal: true,
+          Blood: true,
+          Mounted: false,
+          Amorphous: false
+        );
+        E.LifeAdvancement.Set(2, 1.d2());
+        E.ManaAdvancement.Set(0, Dice.Fixed(-1));
+        E.DefaultForm.Set(STR: 12, DEX: 8, CON: 10, INT: 10, WIS: 10, CHA: 10);
+        E.LimitForm.Set(STR: 22, DEX: 18, CON: 20, INT: 20, WIS: 20, CHA: 20);
+        E.SetGender(Genders.male, Genders.female);
+        E.Startup.SetTalent(Properties.reflection);
+        E.Chemistry.SetWeakness(Elements.cold);
+        E.Startup.SetSkill(Qualifications.proficient,
+          Skills.literacy);
+        E.Startup.Loot.AddKit(Chance.Always, Items.leather_cloak);
+        E.SetCorpse(Chance.Always);
+        });
+
+
+        kobold = AddBaseEntity(Kinds.kobold, Races.kobold, "kobold", E =>
       {
         E.Description = "Unfairly characterised as cowardly and weak, these diminutive reptilian creatures overcome their physical limitations by employing vicious and cunning strategies.";
         E.Glyph = Glyphs.kobold;
@@ -35482,6 +35525,7 @@ namespace Pathos
     public readonly Entity Vecna;
     public readonly Entity Yeenoghu;
     public readonly Entity Starspawn;
-  public readonly Entity dummy;
+    public readonly Entity dummy;
+    public readonly Entity baldorian;
     }
 }

@@ -50,7 +50,8 @@ namespace Pathos
       troll = AddRace("troll");
       unicorn = AddRace("unicorn");
       starspawn = AddRace("starspawn");
-          dummy = AddRace("dummy");
+      dummy = AddRace("dummy");
+      baldorian = AddRace("baldorian");
         }
 #endif
 
@@ -84,5 +85,6 @@ namespace Pathos
     public readonly Race unicorn;
     public readonly Race starspawn;
     public readonly Race dummy;
+    public readonly Race baldorian;
     }
 }
