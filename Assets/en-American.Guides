@@ -93,8 +93,8 @@
 ` {Mod} defence when attacked from concealment;{Mod} defense when attacked from concealment
 /
 . Light armour has no speed penalty if you are unskilled.;Light armor has no speed penalty if you are unskilled.
-. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.;Heavy armor will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.;Medium armor is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.
+. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.;Heavy armor will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.
 . Unskilled use of armour also attracts a one point defence penalty.;Unskilled use of armor also attracts a one point defense penalty.
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.;The dexterity modifier is applied to your defense when you are skilled in all pieces of armor.

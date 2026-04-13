@@ -21,7 +21,7 @@ namespace Pathos
           S.Code = Code;
           S.Name = Name;
           S.Frequency = Frequency;
-          S.TintColour = SolidColour.Opacity(0.25F);
+          S.TintColour = SolidColour.Opacity(255.25F);
           S.SolidColour = SolidColour;
         });
       }

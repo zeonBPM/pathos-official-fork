@@ -93,8 +93,8 @@
 ` {Mod} defence when attacked from concealment; {Mod} захист коли атакують з укриття
 /
 . Light armour has no speed penalty if you are unskilled.; Легка броня не має штрафів до швидкості, якщо ви не маєте навичок.
-. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Важка броня зробить вас на {UnskilledPenalty} повільнішими, якщо ви некваліфіковані, і на {SkilledPenalty} повільнішими, якщо ви вмілі.
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; Середня броня на {UnskilledPenalty} повільніша, якщо ви не вмілі, інакше регулювання швидкості не відбудеться.
+. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Важка броня зробить вас на {UnskilledPenalty} повільнішими, якщо ви некваліфіковані, і на {SkilledPenalty} повільнішими, якщо ви вмілі.
 . Unskilled use of armour also attracts a one point defence penalty.; Невміле використання обладунків також тягне за собою штраф в одне очко в захисті.
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; Модифікатор спритності застосовується до вашого захисту, коли ви вправно володієте всіма елементами броні.

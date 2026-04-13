@@ -1075,6 +1075,7 @@ namespace Pathos
         E.SetGender(Genders.male, Genders.female);
         E.Startup.SetTalent(Properties.telekinesis, Properties.warning, Properties.telepathy);
         E.Chemistry.SetWeakness(Elements.physical );
+       // E.Chemistry.SetVulnerability(Materials.silver);
         E.Startup.SetResistance(Elements.sleep , Elements.force );
         E.SetCorpse(Chance.Always);
       });

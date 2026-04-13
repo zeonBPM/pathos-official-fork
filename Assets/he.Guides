@@ -93,8 +93,8 @@
 ` {Mod} defence when attacked from concealment; {Mod} הגנה בעת שמתקיפים דמות חבויה
 /
 . Light armour has no speed penalty if you are unskilled.; שריון קל לא פוגע במהירות שלך גם אם אין לך כישורים מתאימים
-. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; שריון כבד יאט אותך ב-{UnskilledPenalty} נקודות אם אין לך כישורים מתאימים וב-{SkilledPenalty} נקודות אם יש לך כישורים
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; שריון בינוני יאט אותך ב-{UnskilledPenalty} נקודות אם אין לך כישורים מתאימים, אבל אם יש לך כישורים, הוא לא ישפיע על המהירות שלך
+. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; שריון כבד יאט אותך ב-{UnskilledPenalty} נקודות אם אין לך כישורים מתאימים וב-{SkilledPenalty} נקודות אם יש לך כישורים
 . Unskilled use of armour also attracts a one point defence penalty.; שימוש בשריון ללא כישורים מתאימים מתבטא בהורדה של נקודת הגנה אחת
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; תיקון זריזות מתווסף להגנה שלך רק אם יש לך כישורים מתאימים לכל חלקי השריון שלך

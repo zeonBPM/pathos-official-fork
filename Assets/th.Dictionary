@@ -4269,13 +4269,11 @@ QualificationCode,e,ผู้เชี่ยวชาญ
 QualificationCode,m,ปรมาจารย์
 QualificationCode,p,ชำนาญ
 QualificationCode,s,ผู้ชำนาญพิเศษ
-QualificationCode,u,
 QualificationName,champion,แชมป์เปี้
 QualificationName,expert,ผู้เชี่ยวชาญ
 QualificationName,master,ปรมาจารย์
 QualificationName,proficient,ชำนาญ
 QualificationName,specialist,ผู้ชำนาญพิเศษ
-QualificationName,unskilled,
 RaceName,angel//female,ทูตสวรรค์
 RaceName,angel//male,ทูตสวรรค์
 RaceName,angel//non-binary,ทูตสวรรค์

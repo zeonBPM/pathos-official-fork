@@ -93,8 +93,8 @@
 ` {Mod} defence when attacked from concealment; 隠れた敵から攻撃された場合: 防御値に {Mod}
 /
 . Light armour has no speed penalty if you are unskilled.; 軽装防具を初心者の場合に装備しても、速度は遅くなりません。
-. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; 重装防具を装備すると、スキルを持たない初心者の場合は速度が{UnskilledPenalty}ポイント遅くなり、熟練者以上の場合は{SkilledPenalty}ポイントだけ遅くなります。
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; 中装防具を装備すると、初心者の場合は速度が{UnskilledPenalty}ポイント遅くなり、熟練者以上の場合は速度は遅くなりません。
+. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; 重装防具を装備すると、スキルを持たない初心者の場合は速度が{UnskilledPenalty}ポイント遅くなり、熟練者以上の場合は{SkilledPenalty}ポイントだけ遅くなります。
 . Unskilled use of armour also attracts a one point defence penalty.; 装備している防具のスキルが初心者だった場合、防御に1ポイントのペナルティが付きます。
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; 装備している防具全てのスキルが技能者以上の場合、技巧によるボーナスが防御値に追加されます。

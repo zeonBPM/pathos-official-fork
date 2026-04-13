@@ -4269,13 +4269,11 @@ QualificationCode,e,r
 QualificationCode,m,m
 QualificationCode,p,p
 QualificationCode,s,e
-QualificationCode,u,
 QualificationName,champion,campeão
 QualificationName,expert,perito
 QualificationName,master,mestre
 QualificationName,proficient,proficiente
 QualificationName,specialist,especialista
-QualificationName,unskilled,
 RaceName,angel//female,anjo
 RaceName,angel//male,anjo
 RaceName,angel//non-binary,anjo

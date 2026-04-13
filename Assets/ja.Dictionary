@@ -4269,13 +4269,11 @@ QualificationCode,e,熟
 QualificationCode,m,達
 QualificationCode,p,技
 QualificationCode,s,専
-QualificationCode,u,
 QualificationName,champion,天下第一
 QualificationName,expert,熟練者
 QualificationName,master,達人
 QualificationName,proficient,技能者
 QualificationName,specialist,専門家
-QualificationName,unskilled,
 RaceName,angel//female,天使
 RaceName,angel//male,天使
 RaceName,angel//non-binary,天使

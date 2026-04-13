@@ -93,8 +93,8 @@
 ` {Mod} defence when attacked from concealment; 當被偷襲時{Mod} 防禦
 /
 . Light armour has no speed penalty if you are unskilled.; 輕甲無論何時都不會降低你的速度。
-. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; 如果你的重甲技能是生疏的，重甲會讓你的速度-{UnskilledPenalty}，如果是熟練以上則改為-{SkilledPenalty}。
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; 如果你的中甲技能是生疏的，中甲會讓你的速度-{UnskilledPenalty}，如果是熟練以上則改為不受影響。
+. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; 如果你的重甲技能是生疏的，重甲會讓你的速度-{UnskilledPenalty}，如果是熟練以上則改為-{SkilledPenalty}。
 . Unskilled use of armour also attracts a one point defence penalty.; 不擅長的盔甲（技能是生疏的）會讓你的防禦-1。
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; 當你穿著所有的防具都是擅長的（技能熟練以上）時，你會獲得敏捷帶來的防禦修正。

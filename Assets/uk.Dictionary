@@ -4269,13 +4269,11 @@ QualificationCode,e,е
 QualificationCode,m,м
 QualificationCode,p,у
 QualificationCode,s,з
-QualificationCode,u,
 QualificationName,champion,чемпіони
 QualificationName,expert,експерт
 QualificationName,master,майстер
 QualificationName,proficient,умілий
 QualificationName,specialist,фахівець
-QualificationName,unskilled,
 RaceName,angel//female,янголиця
 RaceName,angel//male,янгол
 RaceName,angel//non-binary,янгол

@@ -93,8 +93,8 @@
 ` {Mod} defence when attacked from concealment; {Mod} défense quand attaqué par surprise
 /
 . Light armour has no speed penalty if you are unskilled.; Une armure légère n'entraine aucune pénalité de mouvement, même si vous n'en avez pas la compétence.
-. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Une armure lourde vous ralentira de {UnskilledPenalty} point si vous n'êtes pas compétent et de {SkilledPenalty} point si vous êtes compétent.
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; Une armure moyenne vous ralentira de {UnskilledPenalty} point si vous n'êtes pas compétent, aucun malus ne s'applique si vous êtes compétent.
+. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Une armure lourde vous ralentira de {UnskilledPenalty} point si vous n'êtes pas compétent et de {SkilledPenalty} point si vous êtes compétent.
 . Unskilled use of armour also attracts a one point defence penalty.; L'utilisation d'un type d'armure sans avoir de la compétence associée diminue la défense de 1 point.
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; Le bonus de dextérité est appliqué à votre défense lorsque vous êtes compétent dans toutes vos pièces d'armure portées.

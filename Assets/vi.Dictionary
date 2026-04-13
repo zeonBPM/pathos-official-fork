@@ -4269,13 +4269,11 @@ QualificationCode,e,e
 QualificationCode,m,m
 QualificationCode,p,p
 QualificationCode,s,s
-QualificationCode,u,
 QualificationName,champion,vô địch
 QualificationName,expert,bậc thầy
 QualificationName,master,lão luyện
 QualificationName,proficient,thành thạo
 QualificationName,specialist,chuyên gia
-QualificationName,unskilled,
 RaceName,angel//female,thiên thần nữ
 RaceName,angel//male,thiên thần nam
 RaceName,angel//non-binary,thiên thần lưỡng tính

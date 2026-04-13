@@ -4269,13 +4269,11 @@ QualificationCode,e,전문
 QualificationCode,m,달인
 QualificationCode,p,초보
 QualificationCode,s,숙련
-QualificationCode,u,
 QualificationName,champion,챔피언
 QualificationName,expert,전문가
 QualificationName,master,달인
 QualificationName,proficient,초보자
 QualificationName,specialist,숙련자
-QualificationName,unskilled,
 RaceName,angel//female,천사
 RaceName,angel//male,천사
 RaceName,angel//non-binary,천사

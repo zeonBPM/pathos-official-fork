@@ -93,8 +93,8 @@
 ` {Mod} defence when attacked from concealment; {Mod} защиты когда атакован из укрытия
 /
 . Light armour has no speed penalty if you are unskilled.; Лёгкие доспехи не налагают штрафа на скорость, даже при отсутствии навыка.
-. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Каждый элемент тяжёлых доспехов делает вас на {UnskilledPenalty} пункт медленнее, когда вы не имеете этого навыка, и на {SkilledPenalty} пункт медленнее, когда он у вас есть.
 . Medium armour is {UnskilledPenalty} point slower if you are unskilled, otherwise no speed adjustment.; Каждый элемент средних доспехов делает вас на {UnskilledPenalty} пункт медленнее, когда вы не имеете этого навыка, когда же навык есть, штрафа по скорости нет.
+. Heavy armour will make you {UnskilledPenalty} points slower if you are unskilled and {SkilledPenalty} points slower if you are skilled.; Каждый элемент тяжёлых доспехов делает вас на {UnskilledPenalty} пункт медленнее, когда вы не имеете этого навыка, и на {SkilledPenalty} пункт медленнее, когда он у вас есть.
 . Unskilled use of armour also attracts a one point defence penalty.; Использование элемента доспехов без наличия навыка также налагает -1 штраф к защите.
 /
 . The dexterity modifier is applied to your defence when you are skilled in all pieces of armour.; Модификатор ловкости прибавляется к вашей защите когда у вас есть навык в каждом элементе доспехов.

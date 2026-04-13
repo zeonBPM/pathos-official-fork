@@ -4269,13 +4269,11 @@ QualificationCode,e,sz
 QualificationCode,m,m
 QualificationCode,p,gy
 QualificationCode,s,s
-QualificationCode,u,
 QualificationName,champion,bajnok
 QualificationName,expert,szakértő
 QualificationName,master,mester
 QualificationName,proficient,jártas
 QualificationName,specialist,specialista
-QualificationName,unskilled,
 RaceName,angel//female,angyal
 RaceName,angel//male,angyal
 RaceName,angel//non-binary,angyal

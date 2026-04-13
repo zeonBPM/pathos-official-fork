@@ -4269,13 +4269,11 @@ QualificationCode,e,u
 QualificationCode,m,ü
 QualificationCode,p,e
 QualificationCode,s,ö
-QualificationCode,u,
 QualificationName,champion,şampiyon
 QualificationName,expert,usta
 QualificationName,master,üstat
 QualificationName,proficient,etkili
 QualificationName,specialist,öğrenci
-QualificationName,unskilled,
 RaceName,angel//female,
 RaceName,angel//male,
 RaceName,angel//non-binary,
