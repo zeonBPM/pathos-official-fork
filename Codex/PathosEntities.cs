@@ -660,7 +660,7 @@ namespace Pathos
         baldorian = AddBaseEntity(Kinds.human, Races.baldorian, "baldorian", E =>
         {
         E.Description = "Bald by nature, their shiny heads reflect magical attacks but the lack of hair leaves them weak to the cold. They are surprisingly competent with language skills";
-        E.Glyph = Glyphs.human;
+        E.Glyph = Glyphs.abbot;
         E.Level = 0;
         E.Challenge = 0;
         E.Difficulty = 0;
