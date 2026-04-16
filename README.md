@@ -68,6 +68,10 @@ have BUC colors show in inventory, and have implicit uncursed
 
 split offense skill categories into melee/ranged
 
+
+add shield skill
+
+
 fuse some weapon skills, like spear/polearm and mace/hammer
 
 give partial resistance/weakness at start
@@ -170,6 +174,9 @@ Lunatic Mist
 
 Hissing Dragon
 	artifact brawling belt
+
+
+
 
 
 
