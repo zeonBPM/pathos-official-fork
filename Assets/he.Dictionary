@@ -1020,7 +1020,6 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.","יצורים חסרי צורה מוגדרת אבל לרוב מופיעים בדמות אנושית שקופה. אי אפשר לטעות בזהותם ולא לשים לב שהם נוזל פלזמתי, אבל הצורה הזאת מאפשרת להם להשתמש בבגדים ובכלים."
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.","גזע עתיק של מתבודדים עצומים בגודלם. גודלם המבעית מעניק להם כוח עצום, ומוסיפה לכך זלילה של בשרים ומינרלים."
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.","יצורים שמיימיים שמשמשים כלי קיבול לרוח עשויה לבלי חת של הרפתקן או הרפתקנית שמתו. אין להם שאיפות משלהם, והם שמחים להרשות את הדיבוק; עבור ההרפתקנים המתים, זאת הזדמנות שנייה לנקמה או גאולה. הם נולדו מחומר שמיימי ולכן הם דקים, שקופים, ויכולים לעבור בחופשיות דרך מכשולים פיזיים."
-EntityDescription,"Bald by nature, their shiny heads reflect magical attacks but the lack of hair leaves them weak to the cold. They are surprisingly competent with language skills",
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","יצורים יפיפיים שלא מן העולם הזה, בעלי הילה אופיינית וכנפיים עם נוצות. הם קשובים מאוד לקרב בין הטוב לרע, והם חשים את מידת הקדושה בכל דבר שהם אוחזים בו."
 EntityDescription,Beware this clockwork machine of war.,מכונת מלחמה מכנית ומסוכנת.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,אוטומטונים רבי עוצמה בעלי שתי רגליים ובינה מלאכותית כמעט בלתי מוגבלת. מנוע ההיתוך שמספק להם את כוחם דורש אספקה מתמדת של חומרי גלם והוא פגיע לנזקי מים.
@@ -1112,7 +1111,6 @@ EntityName,baby silver dragon,דרקונית כסופה גורה
 EntityName,baby white dragon,דרקון לבן גור
 EntityName,baby yellow dragon,דרקונית צהובה גורה
 EntityName,bad egg,ביצה סרוחה
-EntityName,baldorian,
 EntityName,balrog,בלרוג
 EntityName,baluchitherium,באלוקיתריום
 EntityName,banshee,באנשי
@@ -4281,9 +4279,6 @@ QualificationName,specialist,התמחות
 RaceName,angel//female,מלאכית
 RaceName,angel//male,מלאך
 RaceName,angel//non-binary,מלאכ.ית
-RaceName,baldorian//female,
-RaceName,baldorian//male,
-RaceName,baldorian//non-binary,
 RaceName,changeling//female,בת חליפין
 RaceName,changeling//male,בן חליפין
 RaceName,changeling//non-binary,חליפין
@@ -4293,6 +4288,9 @@ RaceName,demon//non-binary,שד.ה
 RaceName,dracon//female,דראקונית
 RaceName,dracon//male,דראקון
 RaceName,dracon//non-binary,דראקונ.ית
+RaceName,drowr//female,
+RaceName,drowr//male,
+RaceName,drowr//non-binary,
 RaceName,dummy//female,
 RaceName,dummy//male,
 RaceName,dummy//non-binary,
@@ -4703,7 +4701,9 @@ SpecialDescription,"Positionally uncertain, these individuals are accustomed to 
 SpecialDescription,Sculptured from living glass that reflects energy and makes a perfect but delicate emulation of their natural counterpart.,"פסל מזכוכית חיה, שמשקף אנרגיה ושובר את האור. חיקוי מושלם אבל עדין של הגיבורים הטבעיים."
 SpecialDescription,"Somehow still alive, albeit without the flesh required to be truly living, this peculiar existence has some advantages.","איכשהו עדיין בחיים, אבל בלי הבשר שנדרש כדי לחיות באמת. לקיום המוזר הזה יש יתרונות מסויימים."
 SpecialDescription,The habitually drunk make for brazen yet slightly unsteady adventurers; just don't ask them to recite the alphabet backwards.,השכרות התמידית מייצרת הרפתקאות נועזות אבל גם חוסר יציבות; אל תבקשו מהם לדקלם את את האלפבית מהסוף להתחלה.
+SpecialDescription,They fight evil armed with but a shiny scalp and a trusty poncho.,
 SpecialDescription,"Whether innocent or guilty of their accused crimes, these individuals are desperate to escape custody.","לא ברור אם הדמות הזאת אכן אשמה בפשעים שמיוחסים לה, אבל היא נואשת לחמוק מהמעקב."
+SpecialName,bald,
 SpecialName,colossus,קולוסוס
 SpecialName,drunkard,בשכרות
 SpecialName,earth,אדמה

@@ -246,6 +246,28 @@ namespace Pathos
       this.earth = AddElemental("earth", Glyphs.earth_special, Elements.petrify, Elements.disintegrate, Spells.crushing_sphere);
       this.water = AddElemental("water", Glyphs.water_special, Elements.acid, Elements.shock, Spells.soaking_sphere);
 
+
+      
+      this.bald = AddSpecial("bald", S =>
+      {
+        S.Description = "They fight evil armed with but a shiny scalp and a trusty poncho.";
+        S.Glyph = Glyphs.abbot;
+
+
+        S.ManaAdvancement.Set(Dice.Zero - 1); // -1 per level.
+
+        S.Startup.Loot.AddKit(Chance.Always, Items.elven_cloak);
+
+        S.Startup.SetTalent(Properties.reflection);
+
+        S.SpeedRateDelta = -0.1F;
+        S.WeightMultiplier = 1.10F;
+
+      });
+
+
+
+
       // lycanthrope: wolf, jackal, rat, panther, snaker, spider, tiger, wolf.
       //this.werejackal = AddLycanthrope(Entities.jackal, Entities.jackalwere, Entities.werejackal);
       //this.wererat = AddLycanthrope(Entities.giant_rat, Entities.ratwere, Entities.wererat);
@@ -291,5 +313,6 @@ namespace Pathos
     //public readonly Special weretiger;
     public readonly Special werewolf;
     //public readonly Special zealot;
+    public readonly Special bald;
   }
 }

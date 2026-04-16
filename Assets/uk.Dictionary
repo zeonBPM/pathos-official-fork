@@ -1020,7 +1020,6 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.","Безформні створіння, які не мають сталої форми, але зазвичай набувають напівпрозорого людиноподібного вигляду. Незважаючи на те, що вони виглядають як плазмова маса, ця форма дозволяє їм носити одяг та користуватися знаряддями."
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.","Давня раса жорстоких затворників. Їх страхітливий розмір надає їм величезної сили, доповненої рясною дієтою м'яса та мінеральних речовин."
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.","Астральні створіння, що слугують посудиною для незламного духу поваленого шукача пригод. Позбавлені власних прагнень, вони охоче приймають одержимість; для загиблого авантюриста це можливість знову прагнути помсти чи спокути. Сформовані з астральної субстанції, вони тендітні, прозорі та здатні безперешкодно проникати крізь матеріальні об'єкти."
-EntityDescription,"Bald by nature, their shiny heads reflect magical attacks but the lack of hair leaves them weak to the cold. They are surprisingly competent with language skills",
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Прекрасні, потойбічні істоти характеризуються ореолом підпису та пернатих крил. Сильно налаштовані на боротьбі між добром і злом, вони відчувають божественність у всьому, що їм належить."
 EntityDescription,Beware this clockwork machine of war.,Бережіться цього механічного знаряддя війни.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,
@@ -1112,7 +1111,6 @@ EntityName,baby silver dragon,срібний дракончик
 EntityName,baby white dragon,білий дракончик
 EntityName,baby yellow dragon,жовтий дракончик
 EntityName,bad egg,погане яйце
-EntityName,baldorian,
 EntityName,balrog,Балрог
 EntityName,baluchitherium,белуджітерій
 EntityName,banshee,баньши
@@ -4281,9 +4279,6 @@ QualificationName,specialist,фахівець
 RaceName,angel//female,янголиця
 RaceName,angel//male,янгол
 RaceName,angel//non-binary,янгол
-RaceName,baldorian//female,
-RaceName,baldorian//male,
-RaceName,baldorian//non-binary,
 RaceName,changeling//female,змінець
 RaceName,changeling//male,змінець
 RaceName,changeling//non-binary,змінець
@@ -4293,6 +4288,9 @@ RaceName,demon//non-binary,демон
 RaceName,dracon//female,
 RaceName,dracon//male,
 RaceName,dracon//non-binary,
+RaceName,drowr//female,
+RaceName,drowr//male,
+RaceName,drowr//non-binary,
 RaceName,dummy//female,
 RaceName,dummy//male,
 RaceName,dummy//non-binary,
@@ -4703,7 +4701,9 @@ SpecialDescription,"Positionally uncertain, these individuals are accustomed to 
 SpecialDescription,Sculptured from living glass that reflects energy and makes a perfect but delicate emulation of their natural counterpart.,"Виліплені з живого скла, яке відбиває енергію і створює ідеальну, але тендітну імітацію їхнього природного аналога."
 SpecialDescription,"Somehow still alive, albeit without the flesh required to be truly living, this peculiar existence has some advantages.","Якимось чином все ще живі, хоча й без плоті, необхідної для справжнього життя, це дивне існування має деякі переваги."
 SpecialDescription,The habitually drunk make for brazen yet slightly unsteady adventurers; just don't ask them to recite the alphabet backwards.,"Хронічно п'яні стають відчайдушними, але трохи нестійкими авантюристами; тільки не просіть їх прочитати алфавіт навпаки."
+SpecialDescription,They fight evil armed with but a shiny scalp and a trusty poncho.,
 SpecialDescription,"Whether innocent or guilty of their accused crimes, these individuals are desperate to escape custody.","Незалежно від того, винні вони чи ні у звинувачених злочинах, ці особи відчайдушно намагаються втекти з-під варти."
+SpecialName,bald,
 SpecialName,colossus,колос
 SpecialName,drunkard,алкаш
 SpecialName,earth,земля

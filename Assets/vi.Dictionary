@@ -1020,7 +1020,6 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.","Những sinh vật vô định hình không có hình dạng điển hình nhưng thường có dạng hình người nhìn mờ nhạt. Mặc dù không thể nhầm lẫn với bất kỳ thứ gì khác ngoài các chất lỏng plasma giống như huyết tương, nhưng dạng này cho phép sử dụng quần áo và dụng cụ."
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.","Một chủng tộc cổ xưa ở ẩn ở nơi cao chót vót. Kích thước khủng bố giúp chúng có sức mạnh rất lớn, được bổ sung với chế độ ăn toàn thịt và khoáng chất."
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.","Những thực thể thần thánh, là vỏ bọc cho những linh hồn bất khuất của những nhà thám hiểm. Chúng không có mục tiêu, luôn sẵn lòng cho mượn lấy cơ thể của mình; đối với những nhà thám hiểm đã chết, đây chính là cơ hội thứ hai để trả thù hoặc chuộc lỗi. Được tạo ra từ vật chất thiên thạch, chúng rất mỏng, trong suốt và có thể bay lượn tự do xuyên qua vật chất."
-EntityDescription,"Bald by nature, their shiny heads reflect magical attacks but the lack of hair leaves them weak to the cold. They are surprisingly competent with language skills",
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Xinh đẹp, những thực thể siêu nhiên này nổi bật với đặc điểm như vầng hào quang hay cánh lông vũ. Rất hòa hợp với cuộc chiến giữa cái thiện và cái ác, họ có thể cảm nhận được tính thánh hóa của mọi vật họ chạm vào."
 EntityDescription,Beware this clockwork machine of war.,Hãy coi chừng cỗ máy của chiến tranh.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,"Những cỗ máy 2 chân tự động với trí tuệ nhân tạo gần như vô song. Được vận hành bởi một bộ lõi kim loại lỏng và cần nguồn cung cấp kim loại thô liên tục, chúng dễ bị tổn thương bởi sát thương từ nước."
@@ -1112,7 +1111,6 @@ EntityName,baby silver dragon,rồng con bạc
 EntityName,baby white dragon,rồng con trắng
 EntityName,baby yellow dragon,rồng con vàng
 EntityName,bad egg,trứng thối
-EntityName,baldorian,
 EntityName,balrog,quỷ balrog
 EntityName,baluchitherium,tê giác cổ
 EntityName,banshee,quỷ báo tử
@@ -4281,9 +4279,6 @@ QualificationName,specialist,chuyên gia
 RaceName,angel//female,thiên thần nữ
 RaceName,angel//male,thiên thần nam
 RaceName,angel//non-binary,thiên thần lưỡng tính
-RaceName,baldorian//female,
-RaceName,baldorian//male,
-RaceName,baldorian//non-binary,
 RaceName,changeling//female,yêu tinh mạo danh nữ
 RaceName,changeling//male,yêu tinh mạo danh nam
 RaceName,changeling//non-binary,yêu tinh mạo danh lưỡng tính
@@ -4293,6 +4288,9 @@ RaceName,demon//non-binary,quỷ lưỡng tính
 RaceName,dracon//female,dracon nữ
 RaceName,dracon//male,dracon nam
 RaceName,dracon//non-binary,dracon lưỡng tính
+RaceName,drowr//female,
+RaceName,drowr//male,
+RaceName,drowr//non-binary,
 RaceName,dummy//female,
 RaceName,dummy//male,
 RaceName,dummy//non-binary,
@@ -4703,7 +4701,9 @@ SpecialDescription,"Positionally uncertain, these individuals are accustomed to 
 SpecialDescription,Sculptured from living glass that reflects energy and makes a perfect but delicate emulation of their natural counterpart.,"Được điêu khắc từ thủy tinh sống phản chiếu năng lượng và khúc xạ ánh sáng, bạn là sự mô phỏng hoàn hảo nhưng tinh tế của đối tác tự nhiên của bạn."
 SpecialDescription,"Somehow still alive, albeit without the flesh required to be truly living, this peculiar existence has some advantages.","Dù không có thịt nhưng vẫn còn sống, con quái vật kì dị này có những lợi thế kiên cường."
 SpecialDescription,The habitually drunk make for brazen yet slightly unsteady adventurers; just don't ask them to recite the alphabet backwards.,Thói quen say xỉn tạo nên những nhà thám hiểm trơ trẽn nhưng hơi loạng choạng; chỉ cần không yêu cầu họ đọc ngược bảng chữ cái.
+SpecialDescription,They fight evil armed with but a shiny scalp and a trusty poncho.,
 SpecialDescription,"Whether innocent or guilty of their accused crimes, these individuals are desperate to escape custody.","Dù vô tội hay tội lỗi chăng nữa, những kẻ này cố gắng đến tuyệt vọng để thoát khỏi cuộc sống tù đày."
+SpecialName,bald,
 SpecialName,colossus,khổng lồ
 SpecialName,drunkard,người say rượu
 SpecialName,earth,đất

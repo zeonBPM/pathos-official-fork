@@ -421,6 +421,62 @@ namespace Pathos
         E.SetCorpse(Chance.Always);
       });
 
+        drowr = AddBaseEntity(Kinds.elf, Races.drowr, "drow ", E =>
+      {
+        E.Glyph = Glyphs.drow;
+        E.Description = "Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.";
+
+        E.Level = 0;
+        E.Challenge = 0;
+        E.Difficulty = 0;
+        E.Frequency = 0;
+        E.Defence = new Defence(D: 10, P: +0, S: +0, B: +0);
+        E.SetDiet(Diets.omnivore);
+        E.Speed = Speed.S5_0;
+        E.Size = Size.Medium;
+        E.Strategy = Strategy.Attack;
+        E.Weight = Weight.FromUnits(10000);
+        E.Figure.Set
+        (
+          Material: Materials.animal,
+          Head: true,
+          Mind: true,
+          Voice: true,
+          Eyes: true,
+          Ears: true,
+          Hands: true,
+          Limbs: true,
+          Feet: true,
+          Thermal: false, // drow are not infravisible.
+          Blood: true,
+          Mounted: false,
+          Amorphous: false
+        );
+        E.LifeAdvancement.Set(1, Dice.One);
+        E.ManaAdvancement.Set(2, Dice.Fixed(+3));
+        E.DefaultForm.Set(STR: 10, DEX: 10, CON: 10, INT: 10, WIS: 10, CHA: 10);
+        E.LimitForm.Set(STR: 18, DEX: 22, CON: 16, INT: 20, WIS: 20, CHA: 20);
+        E.SetGender(Genders.male, Genders.female);
+        E.Chemistry.SetVulnerability();
+        E.Startup.SetTalent(Properties.dark_vision, Properties.see_invisible); // drow do not have darkvision in Nethack lore, but it doesn't make sense.
+        E.Startup.SetResistance(Elements.sleep);
+        E.Startup.AddGrimoire(Dice.One, Spells.darkness);
+        E.Startup.Loot.AddKit(Chance.Always, Items.dark_elven_bow);
+        E.Startup.Loot.AddKit(Chance.Always, 3.d6(), Items.dark_elven_arrow);
+        E.Startup.Loot.AddKit(Chance.OneIn10, Items.dark_elven_mithrilcoat);
+        E.Startup.Loot.AddKit(Chance.OneIn2, Items.dark_elven_short_sword);
+        E.Startup.Loot.AddKit(Chance.OneIn2, Items.dark_elven_dagger);
+
+        E.AddAttack(AttackTypes.weapon, Elements.physical, 1.d2(), K =>
+        {
+          K.Apply.ApplyTransient(Properties.sleeping, 2.d4());
+        });
+
+        E.SetCorpse(Chance.Always);
+      });
+
+
+
       echo = AddBaseEntity(Kinds.echo, Races.echo, "echo", E =>
       {
         E.Description = "Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.";
@@ -657,6 +713,8 @@ namespace Pathos
                 E.SetCorpse(Chance.Always);
             });
 
+            /*
+            
         baldorian = AddBaseEntity(Kinds.human, Races.baldorian, "baldorian", E =>
         {
         E.Description = "Bald by nature, their shiny heads reflect magical attacks but the lack of hair leaves them weak to the cold. They are surprisingly competent with language skills";
@@ -701,6 +759,8 @@ namespace Pathos
         E.SetCorpse(Chance.Always);
         });
 
+
+        */
 
         kobold = AddBaseEntity(Kinds.kobold, Races.kobold, "kobold", E =>
       {
@@ -35527,6 +35587,7 @@ namespace Pathos
     public readonly Entity Yeenoghu;
     public readonly Entity Starspawn;
     public readonly Entity dummy;
-    public readonly Entity baldorian;
+//    public readonly Entity baldorian;
+    public readonly Entity drowr;
     }
 }

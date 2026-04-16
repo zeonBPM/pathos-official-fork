@@ -28,6 +28,7 @@ namespace Pathos
       dwarf = AddRace("dwarf");
       echo = AddRace("echo");
       elf = AddRace("elf");
+      drowr = AddRace("drowr");
       ettin = AddRace("ettin");
       fairy = AddRace("fairy");
       giant = AddRace("giant");
@@ -51,7 +52,7 @@ namespace Pathos
       unicorn = AddRace("unicorn");
       starspawn = AddRace("starspawn");
       dummy = AddRace("dummy");
-      baldorian = AddRace("baldorian");
+//      baldorian = AddRace("baldorian");
         }
 #endif
 
@@ -62,6 +63,7 @@ namespace Pathos
     public readonly Race dwarf;
     public readonly Race echo;
     public readonly Race elf;
+    public readonly Race drowr;
     public readonly Race ettin;
     public readonly Race fairy;
     public readonly Race giant;
@@ -85,6 +87,6 @@ namespace Pathos
     public readonly Race unicorn;
     public readonly Race starspawn;
     public readonly Race dummy;
-    public readonly Race baldorian;
+ //   public readonly Race baldorian;
     }
 }

@@ -22,6 +22,7 @@ namespace Pathos
         });
       }
 
+//      shinyhead = AddAnatomy("shinyhead", "HAIR");
       head = AddAnatomy("head", "NO HEAD");
       horns = AddAnatomy("horns", "HORNS");
       mind = AddAnatomy("mind", "MINDLESS");
@@ -45,6 +46,7 @@ namespace Pathos
     }
 #endif
 
+//    public readonly Anatomy shinyhead;
     public readonly Anatomy head;
     public readonly Anatomy horns;
     public readonly Anatomy mind;

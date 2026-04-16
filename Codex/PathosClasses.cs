@@ -1361,7 +1361,7 @@ namespace Pathos
         C.Startup.Loot.AddKit(Chance.OneIn5, Items.blindfold);
       });
 
-            arcanist = AddClass(C =>
+      arcanist = AddClass(C =>
             {
                 C.Name = "arcanist";
                 C.Description = "arcanist test";
@@ -1398,7 +1398,7 @@ namespace Pathos
                 C.Startup.Loot.AddKit(Chance.Always, 1.d100() + 100, Modifier.Plus0, Items.bullet);
             });
 
-          dummy = AddClass(C =>
+      dummy = AddClass(C =>
             {
                 C.Name = "test dummy";
                 C.Description = "class for testing purposes";
@@ -1435,7 +1435,7 @@ namespace Pathos
                 C.Startup.Loot.AddKit(Chance.Always, 1.d100() + 100, Modifier.Plus0, Items.bullet);
             });
   
-            necromancer = AddClass(C =>
+      necromancer = AddClass(C =>
       {
         C.Name = "necromancer";
         C.Description = "Obsessed with blurring the line between life and death, these meddlers of dark forces prefer to associate with cadavers over the living. To some, the rituals are grotesque, but they see pure majesty in the manipulation of the natural order.";

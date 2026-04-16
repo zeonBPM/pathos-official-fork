@@ -1020,7 +1020,6 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.","Des êtres amorphes qui ressemble ?des humanoïdes translucides. Bien qu'il soit impossible de distinguer autre chose qu'un suintement plasmatique, cette forme permet l'utilisation de vêtements et d'outils."
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.","Une ancienne race d'être imposants et reclus. Leur taille terrifiante leur donne une force immense, complétée par un régime vorace de viandes et de minéraux."
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.","Des êtres astraux qui sont le vaisseau de l'esprit indomptable d'un aventurier vaincu. N'ayant aucune motivation propre, ils sont ravis de permettre une possession; pour l'aventurier décédé, c'est une seconde chance de vengeance ou de rédemption. Né de la matière astrale , ils sont légèrement construits, translucides et peuvent se déplacer librement à travers des obstacles physiques."
-EntityDescription,"Bald by nature, their shiny heads reflect magical attacks but the lack of hair leaves them weak to the cold. They are surprisingly competent with language skills",
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","De beaux êtres d'un autre monde caractérisés par leur halo caractéristique et leurs ailes à plumes. Fortement en phase avec la lutte entre le bien et le mal, ils ressentent l'origine divine de tout ce qu'ils détiennent."
 EntityDescription,Beware this clockwork machine of war.,Méfiez-vous de cette machine de guerre mécanique.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,Automates mécaniques bipèdes avec une intelligence artificielle presque illimitée. Alimentés par un moteur à noyau en fusion qui nécessite un approvisionnement constant en métaux bruts et est susceptible à des dégâts causés par l'eau.
@@ -1112,7 +1111,6 @@ EntityName,baby silver dragon,bébé dragon d'argent
 EntityName,baby white dragon,bébé dragon blanc
 EntityName,baby yellow dragon,bébé dragon jaune
 EntityName,bad egg,mauvais oeuf
-EntityName,baldorian,
 EntityName,balrog,balrog
 EntityName,baluchitherium,baluchithérium
 EntityName,banshee,banshee
@@ -4281,9 +4279,6 @@ QualificationName,specialist,spécialiste
 RaceName,angel//female,ange
 RaceName,angel//male,ange
 RaceName,angel//non-binary,ange
-RaceName,baldorian//female,
-RaceName,baldorian//male,
-RaceName,baldorian//non-binary,
 RaceName,changeling//female,changeling
 RaceName,changeling//male,changeling
 RaceName,changeling//non-binary,changeling
@@ -4293,6 +4288,9 @@ RaceName,demon//non-binary,démon
 RaceName,dracon//female,
 RaceName,dracon//male,
 RaceName,dracon//non-binary,
+RaceName,drowr//female,
+RaceName,drowr//male,
+RaceName,drowr//non-binary,
 RaceName,dummy//female,
 RaceName,dummy//male,
 RaceName,dummy//non-binary,
@@ -4703,7 +4701,9 @@ SpecialDescription,"Positionally uncertain, these individuals are accustomed to 
 SpecialDescription,Sculptured from living glass that reflects energy and makes a perfect but delicate emulation of their natural counterpart.,"Sculptée dans du verre vivant qui reflète l'énergie et réfracte la lumière, tu es une copie parfaite mais délicate de ton homologue naturel.."
 SpecialDescription,"Somehow still alive, albeit without the flesh required to be truly living, this peculiar existence has some advantages.","Toujours en vie d'une certaine manière, bien que sans la chair requise pour être vraiment vivant, cette existence particulière a certains avantages."
 SpecialDescription,The habitually drunk make for brazen yet slightly unsteady adventurers; just don't ask them to recite the alphabet backwards.,Les personnes habituellement ivres font des aventuriers effrontés mais un peu instables ; ne leur demandez pas de réciter l'alphabet à l'envers.
+SpecialDescription,They fight evil armed with but a shiny scalp and a trusty poncho.,
 SpecialDescription,"Whether innocent or guilty of their accused crimes, these individuals are desperate to escape custody.","Qu'ils soient innocents ou coupables des crimes dont on les accuse, ces individus tentent désespérément d'échapper à l'emprisonnement."
+SpecialName,bald,
 SpecialName,colossus,colosse
 SpecialName,drunkard,ivrogne
 SpecialName,earth,terre

@@ -55,7 +55,13 @@ add daredevil class
 
 baldurians need light, might give them an infinite light source in the way of their poncho or smt
 
+
 to do:
+
+change bald to be a special instead of a race
+
+make races start with the relevant equipment instead of human ones
+
 change skill ranks to
 U-100
 P0

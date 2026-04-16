@@ -13695,6 +13695,31 @@ namespace Pathos
         I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d6()).AttackModifier = Modifier.Plus2;
       });
 
+
+      
+      dark_elven_estoc = AddMeleeWeapon("drow estoc", I =>
+      {
+        I.Description = null;
+        I.SetAppearance("black runed rapier", null);
+        I.Glyph = Glyphs.dark_elven_short_sword;
+        I.Sonic = Sonics.weapon;
+        I.OriginRace = Races.elf;
+        I.Series = null;
+        I.Rarity = 2;
+        I.Size = Size.Medium;
+        I.Weight = Weight.FromUnits(300);
+        I.Material = Materials.mithril;
+        I.Essence = WeaponEssence1;
+        I.Price = Gold.FromCoins(500);
+        I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(20), Sonics.weapon);
+        I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
+        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d8(), A =>
+        {
+          A.Macro(KnockoutPoison);
+        }).AttackModifier = Modifier.Plus3;
+      });
+
+
       sabre = AddMeleeWeapon("sabre", I =>
       {
         I.Description = "A curved single-edged blade often used by cavalry.";
@@ -14755,6 +14780,33 @@ namespace Pathos
         W.AttackDelay = Delay.FromTurns(+3);
       });
 
+      
+      drow_carbine = AddRangedWeapon(Ammunition.Bullet, "silenced carbine", I =>
+      {
+        I.Description = null;
+        I.SetAppearance("slim gun", null);
+        I.Glyph = Glyphs.submachine_gun;
+        I.Sonic = Sonics.weapon;
+        I.Series = null;
+        I.Rarity = 0;
+        I.Size = Size.Large;
+        I.Weight = Weight.FromUnits(250);
+        I.Material = Materials.iron;
+        I.Essence = WeaponEssence3;
+        I.Price = Gold.FromCoins(200);
+        I.AddObviousIngestUse(Motions.eat, 250, Delay.FromTurns(20), Sonics.weapon);
+        I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon)
+        .SetTalent(Properties.stealth);
+
+        var W = I.SetOneHandedWeapon(Skills.firearms, Sonics.rifle_burst, Elements.physical, DamageType.Bludgeon, 1.d4());
+        W.FixedRange = 10;
+        W.BurstRate = 3;
+
+        W.AttackDelay = Delay.FromTurns(+3);
+      });
+
+
+
       heavy_machine_gun = AddRangedWeapon(Ammunition.Bullet, "heavy machine gun", I =>
       {
         I.Description = null;
@@ -14881,6 +14933,33 @@ namespace Pathos
         W.FixedRange = 15;
       });
 
+      
+      drow_pistol = AddRangedWeapon(Ammunition.Bullet, "drow pistol", I =>
+      {
+        I.Description = "A silenced hand-held firearm.";
+        I.SetAppearance("thin gun", null);
+        I.Glyph = Glyphs.pistol;
+        I.Sonic = Sonics.weapon;
+        I.Series = null;
+        I.Rarity = 0;
+        I.Size = Size.Small;
+        I.Weight = Weight.FromUnits(100);
+        I.Material = Materials.mithril;
+        I.Essence = WeaponEssence3;
+        I.Price = Gold.FromCoins(150);
+        I.AddObviousIngestUse(Motions.eat, 50, Delay.FromTurns(20), Sonics.weapon);
+        I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon)
+        .SetTalent(Properties.stealth);
+
+        var W = I.SetOneHandedWeapon(Skills.firearms, Sonics.pistol_fire, Elements.physical, DamageType.Bludgeon, 1.d2());
+        W.FixedRange = 15;
+        W.AttackModifier = Modifier.Plus1;
+      });
+
+
+
+
+
       bullet = AddRangedMissile(Ammunition.Bullet, "bullet", I =>
       {
         I.Description = "A pointed metal cylinder meant to be discharged from a firearm.";
@@ -14957,6 +15036,32 @@ namespace Pathos
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.ammo);
         I.SetOneHandedWeapon(Skills.firearms, null, Elements.physical, DamageType.Pierce, 1.d25());
       });
+
+       drow_bullet = AddRangedMissile(Ammunition.Bullet, "poisoned bullet", I =>
+      {
+        I.Description = null;
+        I.SetAppearance("wet mithril slug", null);
+        I.Glyph = Glyphs.mithril_bullet;
+        I.Sonic = Sonics.ammo;
+        I.Series = null;
+        I.Rarity = 0;
+        I.Size = Size.Tiny;
+        I.Weight = Weight.FromUnits(3);
+        I.Material = Materials.mithril;
+        I.Essence = AmmoEssence3;
+        I.Price = Gold.FromCoins(45);
+        I.AddObviousIngestUse(Motions.eat, 5, Delay.FromTurns(10), Sonics.ammo);
+        I.BundleDice = 1.d6() + 6;
+        I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.ammo);
+        I.SetOneHandedWeapon(Skills.firearms, null, Elements.physical, DamageType.Pierce, 1.d25(), A =>
+        {
+          A.Macro(KnockoutPoison);
+        });
+       });
+
+    
+
+
 
       // TODO: we need to choose between enchantment modifiers and upgrades somehow?
       // - firearms can upgrade/downgrade with enchantment: sawn off -> shotgun -> autoshotgun; grenade launcher -> rocket launcher; hunting rifle -> sniper rifle; submachine gun -> assault rifle -> heavy machine gun.
@@ -15504,6 +15609,7 @@ namespace Pathos
     public readonly Item dark_elven_dagger;
     public readonly Item dark_elven_mithrilcoat;
     public readonly Item dark_elven_short_sword;
+    public readonly Item dark_elven_estoc;
 
     // dwarvish.
     public readonly Item dwarvish_cloak;
@@ -15771,6 +15877,14 @@ namespace Pathos
     public readonly Item silver_bullet;
     public readonly Item adamantine_bullet;
     public readonly Item mithril_bullet;
+    public readonly Item drow_pistol;
+    public readonly Item drow_carbine;
+    public readonly Item drow_bullet;
+
+
+
+
+
 
     // amulets.
     public readonly Item amulet_of_change;

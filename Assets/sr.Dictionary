@@ -1020,7 +1020,6 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.","Amorfna bića koja nemaju tipičan oblik, ali često poprimaju prozirni humanoidni oblik. Iako je nepogrešiv za bilo šta drugo osim za curenje nalik plazmi, ovaj oblik omogućava upotrebu odeće i alata."
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.","Drevna rasa visokih pustinjaka. Njihova zastrašujuća veličina daje im ogromnu snagu, dopunjenu proždrljivom ishranom mesa i minerala."
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.","Astralna bića koja su posuda za nesalomivi duh pobeđenog avanturiste. Bez sopstvene motivacije, rado dozvoljavaju posedovanje; za preminulog avanturiste, to je druga šansa za osvetu ili iskupljenje. Rođena iz astralne materije , blago su građeni, providni i mogu se slobodno kretati kroz fizičke prepreke."
-EntityDescription,"Bald by nature, their shiny heads reflect magical attacks but the lack of hair leaves them weak to the cold. They are surprisingly competent with language skills",
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Prelepa, vanzemaljska bića koja se odlikuju svojim prepoznatljivim oreolom i pernatim krilima. Snažno usklađeni sa borbom između dobra i zla, oni osećaju božanstvo unutar svega što drže."
 EntityDescription,Beware this clockwork machine of war.,Čuvajte se ove ratne mašinerije.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,Dvonožni mehanički automati sa gotovo neograničenom veštačkom inteligencijom. Pokretani motorom sa rastopljenim jezgrom koji zahteva stalan dotok sirovih metala i osetljiv je na oštećenja izazvana vodom.
@@ -1112,7 +1111,6 @@ EntityName,baby silver dragon,beba srebrni zmaj
 EntityName,baby white dragon,beba beli zmaj
 EntityName,baby yellow dragon,beba žuti zmaj
 EntityName,bad egg,loše jaje
-EntityName,baldorian,
 EntityName,balrog,balrog
 EntityName,baluchitherium,balučiterijum
 EntityName,banshee,banši
@@ -4281,9 +4279,6 @@ QualificationName,specialist,specijalista
 RaceName,angel//female,anđeo
 RaceName,angel//male,anđeo
 RaceName,angel//non-binary,anđeo
-RaceName,baldorian//female,
-RaceName,baldorian//male,
-RaceName,baldorian//non-binary,
 RaceName,changeling//female,preobličar
 RaceName,changeling//male,preobličar
 RaceName,changeling//non-binary,preobličar
@@ -4293,6 +4288,9 @@ RaceName,demon//non-binary,demon
 RaceName,dracon//female,drakon
 RaceName,dracon//male,drakon
 RaceName,dracon//non-binary,drakon
+RaceName,drowr//female,
+RaceName,drowr//male,
+RaceName,drowr//non-binary,
 RaceName,dummy//female,
 RaceName,dummy//male,
 RaceName,dummy//non-binary,
@@ -4703,7 +4701,9 @@ SpecialDescription,"Positionally uncertain, these individuals are accustomed to 
 SpecialDescription,Sculptured from living glass that reflects energy and makes a perfect but delicate emulation of their natural counterpart.,"Vajani od živog stakla koje reflektuje energiju i čini savršenu, ali krhku imitaciju njihovog prirodnog pandana."
 SpecialDescription,"Somehow still alive, albeit without the flesh required to be truly living, this peculiar existence has some advantages.","Nekako još uvek živi, iako bez mesa koje je potrebno za pravo življenje, ovo neobično postojanje ima svoje prednosti."
 SpecialDescription,The habitually drunk make for brazen yet slightly unsteady adventurers; just don't ask them to recite the alphabet backwards.,"Hronični pijanci su smeli, ali pomalo nesigurni avanturisti; samo ih nemojte tražiti da recituju abecedu unazad."
+SpecialDescription,They fight evil armed with but a shiny scalp and a trusty poncho.,
 SpecialDescription,"Whether innocent or guilty of their accused crimes, these individuals are desperate to escape custody.","Bez obzira da li su nevini ili krivi za zločine za koje su optuženi, ova bića očajnički žele da pobegnu iz pritvora."
+SpecialName,bald,
 SpecialName,colossus,kolosus
 SpecialName,drunkard,pijanica
 SpecialName,earth,zemlja

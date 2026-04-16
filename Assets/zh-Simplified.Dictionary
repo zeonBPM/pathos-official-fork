@@ -1020,7 +1020,6 @@ EntityDescription,A medium-sized creature prone to great ambition. Short-lived b
 EntityDescription,"Amorphous beings who have no typical shape but often take on a translucent humanoid form. While unmistakable for anything other than a plasma-like ooze, this form enables the use of clothing and tools.",可以随意变形的奇妙存在，没有固定的形状，常常被描述为等离子体一样的软泥怪。不过它们经常呈现为半透明的人形，这样就可以使用工具和衣物。
 EntityDescription,"An ancient race of towering recluses. Their terrifying size gives them immense strength, supplemented by a voracious diet of meats and minerals.",躯体庞大的远古种族。他们可怖的体型给他们带来无比的力量，需要靠进食大量肉类与岩石支撑。
 EntityDescription,"Astral beings who are a vessel for the indomitable spirit of a vanquished adventurer. Having no motivations of their own, they are glad to permit the possession; for the deceased adventurer, it is a second chance at revenge or redemption. Born from astral matter, they are slightly built, translucent and can move freely through physical obstacles.",已故冒险者残留在世间的灵魂。他们已经没有了那种世俗的欲望，因此很乐意与他人分享。对于这些已故的冒险者来说，这是他们的第二次机会，让他们能够继续自己的复仇或是寻求救赎。作为一种灵体，他们体型较大，呈半透明状，并且可以在墙壁中穿梭。
-EntityDescription,"Bald by nature, their shiny heads reflect magical attacks but the lack of hair leaves them weak to the cold. They are surprisingly competent with language skills",
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.",美丽且与俗世隔绝的生物，谣传他们带有标志型的光圈与带羽毛的翅膀。 他们能在善恶分辨中从容自如，并且能在一切所持的物品中感觉到神性。
 EntityDescription,Beware this clockwork machine of war.,当心这个发条控制的战争机器。
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,一种双足机械造物，拥有近乎无限的智能，由熔核引擎驱动。这种引擎需要持续提供金属作为原料，并且极易受到水的伤害。
@@ -1112,7 +1111,6 @@ EntityName,baby silver dragon,银色雏龙
 EntityName,baby white dragon,白色雏龙
 EntityName,baby yellow dragon,黄色雏龙
 EntityName,bad egg,坏蛋
-EntityName,baldorian,
 EntityName,balrog,巴洛炎魔
 EntityName,baluchitherium,巨犀
 EntityName,banshee,女妖
@@ -4281,9 +4279,6 @@ QualificationName,specialist,精通
 RaceName,angel//female,天使
 RaceName,angel//male,天使
 RaceName,angel//non-binary,天使
-RaceName,baldorian//female,
-RaceName,baldorian//male,
-RaceName,baldorian//non-binary,
 RaceName,changeling//female,变形人
 RaceName,changeling//male,变形人
 RaceName,changeling//non-binary,变形人
@@ -4293,6 +4288,9 @@ RaceName,demon//non-binary,恶魔
 RaceName,dracon//female,龙裔
 RaceName,dracon//male,龙裔
 RaceName,dracon//non-binary,龙裔
+RaceName,drowr//female,
+RaceName,drowr//male,
+RaceName,drowr//non-binary,
 RaceName,dummy//female,
 RaceName,dummy//male,
 RaceName,dummy//non-binary,
@@ -4703,7 +4701,9 @@ SpecialDescription,"Positionally uncertain, these individuals are accustomed to 
 SpecialDescription,Sculptured from living glass that reflects energy and makes a perfect but delicate emulation of their natural counterpart.,你的身体由活玻璃雕刻而成，完美地再现了你同族的模样，能够将光线与能量折射回去。
 SpecialDescription,"Somehow still alive, albeit without the flesh required to be truly living, this peculiar existence has some advantages.",虽然身上一块肉都没有，但从某种意义上来说还算是活着。这种奇特的体质会为你带来一些优势。
 SpecialDescription,The habitually drunk make for brazen yet slightly unsteady adventurers; just don't ask them to recite the alphabet backwards.,你是一位经常喝醉的冒险家，厚脸皮掩盖不住脚下的不稳；在你看来，你只是没办法倒背字母表而已。
+SpecialDescription,They fight evil armed with but a shiny scalp and a trusty poncho.,
 SpecialDescription,"Whether innocent or guilty of their accused crimes, these individuals are desperate to escape custody.",无论自己是不是无辜的，这些囚犯们都会想方设法越狱。
+SpecialName,bald,
 SpecialName,colossus,高大魁梧
 SpecialName,drunkard,踉跄酒鬼
 SpecialName,earth,大地使者
