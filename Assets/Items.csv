@@ -124,6 +124,7 @@ book,book,book of animate dead,thick book,,,,,,paper,0,48,500,200,15,standard,FA
 book,book,book of animate object,spotted book,,,,,,paper,0,96,500,500,15,standard,FALSE,study:LearnSpell:|/enchantment:12
 book,book,book of bind undead,black book,,,,,,paper,0,96,500,500,15,standard,FALSE,study:LearnSpell:|/necromancy:12
 book,book,book of blank paper,plain book,,,,,,paper,400,4,500,50,20,standard,FALSE,
+book,book,book of bless,holy book,,,,,,paper,0,96,500,500,25,standard,FALSE,study:LearnSpell:|/clerical:12
 book,book,book of blinking,fuzzy book,,,,,,paper,0,32,500,100,15,standard,FALSE,study:LearnSpell:|/abjuration:0
 book,book,book of cancellation,shining book,,,,,,paper,0,128,500,700,15,standard,FALSE,study:LearnSpell:|/transmutation:18
 book,book,book of charm,magenta book,,,,,,paper,0,64,500,300,20,standard,FALSE,study:LearnSpell:|/enchantment:6

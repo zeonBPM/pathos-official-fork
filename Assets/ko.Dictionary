@@ -174,6 +174,7 @@ AppearanceName,hexagonal amulet,육각형 아뮬렛
 AppearanceName,hexagonal wand,육각형 마법봉
 AppearanceName,hiking boots,등산화
 AppearanceName,hilted polearm,자루 달린 폴암
+AppearanceName,holy book,
 AppearanceName,hooded cloak,후드 달린 망토
 AppearanceName,hooked polearm,갈고리 달린 폴암
 AppearanceName,horn,뿔
@@ -2341,6 +2342,7 @@ ItemName,book of animate dead,사자소생의 책
 ItemName,book of animate object,사물 생동화의 책
 ItemName,book of bind undead,언데드 구속의 책
 ItemName,book of blank paper,빈 공책
+ItemName,book of bless,
 ItemName,book of blinking,점멸의 책
 ItemName,book of cancellation,무효화의 책
 ItemName,book of charm,매혹의 책

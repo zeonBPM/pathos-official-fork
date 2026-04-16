@@ -174,6 +174,7 @@ AppearanceName,hexagonal amulet,sześciokątny amulet
 AppearanceName,hexagonal wand,sześciokątna różdżka
 AppearanceName,hiking boots,buty wędrówkowe
 AppearanceName,hilted polearm,broń drzewcowa z głowicą
+AppearanceName,holy book,
 AppearanceName,hooded cloak,płaszcz z kapturem
 AppearanceName,hooked polearm,ohaczona broń drzewcowa
 AppearanceName,horn,róg
@@ -2341,6 +2342,7 @@ ItemName,book of animate dead,księga żywych trupów
 ItemName,book of animate object,księga obiektów ożywionych
 ItemName,book of bind undead,księga przywiązania nieumarłych
 ItemName,book of blank paper,księga czystego papieru
+ItemName,book of bless,
 ItemName,book of blinking,księga migotania
 ItemName,book of cancellation,księga odwołania
 ItemName,book of charm,księga uroku

@@ -174,6 +174,7 @@ AppearanceName,hexagonal amulet,шестигранний амулет
 AppearanceName,hexagonal wand,шестигранна паличка
 AppearanceName,hiking boots,похідні чоботи
 AppearanceName,hilted polearm,рунка
+AppearanceName,holy book,
 AppearanceName,hooded cloak,плащ з капюшоном
 AppearanceName,hooked polearm,біл-гвізарма
 AppearanceName,horn,горн
@@ -2341,6 +2342,7 @@ ItemName,book of animate dead,книга анімації трупу
 ItemName,book of animate object,книга анімації предмета
 ItemName,book of bind undead,книга зв’язування немертвих
 ItemName,book of blank paper,книга з порожніми сторінками
+ItemName,book of bless,
 ItemName,book of blinking,книга телепортування
 ItemName,book of cancellation,книга скасування
 ItemName,book of charm,книга причарування

@@ -174,6 +174,7 @@ AppearanceName,hexagonal amulet,heksagonalni amulet
 AppearanceName,hexagonal wand,heksagonalni štapić
 AppearanceName,hiking boots,planinarske čizme
 AppearanceName,hilted polearm,bojno koplje sa drškom
+AppearanceName,holy book,
 AppearanceName,hooded cloak,plašt sa kapuljačom
 AppearanceName,hooked polearm,bojno koplje sa kukom
 AppearanceName,horn,rog
@@ -2341,6 +2342,7 @@ ItemName,book of animate dead,knjiga animiranih mrtvih
 ItemName,book of animate object,knjiga animiranja objekta
 ItemName,book of bind undead,knjiga vezanja nemrtvih
 ItemName,book of blank paper,knjiga praznog papira
+ItemName,book of bless,
 ItemName,book of blinking,knjiga bljeskanja
 ItemName,book of cancellation,knjiga ukinuća
 ItemName,book of charm,knjiga šarma

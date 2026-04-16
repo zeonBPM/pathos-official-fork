@@ -125,6 +125,7 @@ namespace Pathos
       Register.Alias(dirt, "dirt floor"); // dirt is dirt, not a manufactured floor, you don't say 'grass floor'.
       Register.Alias(stone_path, "stone corridor"); // renamed so it can be used outside of dungeon corridors.
 
+     // Register.Alias(holy_book, "holy book");
       // Icons.
       Register.Alias(appetite, "apetite"); // typo fix.
     }
@@ -2796,6 +2797,8 @@ namespace Pathos
     public readonly Glyph splatter_X;
     public readonly Glyph splatter_Y;
     public readonly Glyph splatter_Z;
+
+    public readonly Glyph holy_book;
 
 
 

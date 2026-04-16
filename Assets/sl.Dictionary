@@ -174,6 +174,7 @@ AppearanceName,hexagonal amulet,šestkotni amulet
 AppearanceName,hexagonal wand,šestkotna čarobna palica
 AppearanceName,hiking boots,pohodni škornji
 AppearanceName,hilted polearm,ročajno orožje na drogu
+AppearanceName,holy book,
 AppearanceName,hooded cloak,ogrinjalo s kapuco
 AppearanceName,hooked polearm,kaveljno orožje na drogu
 AppearanceName,horn,rog
@@ -2341,6 +2342,7 @@ ItemName,book of animate dead,
 ItemName,book of animate object,
 ItemName,book of bind undead,
 ItemName,book of blank paper,
+ItemName,book of bless,
 ItemName,book of blinking,
 ItemName,book of cancellation,
 ItemName,book of charm,

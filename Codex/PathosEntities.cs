@@ -697,6 +697,7 @@ namespace Pathos
         E.Startup.SetSkill(Qualifications.proficient,
           Skills.literacy);
         E.Startup.Loot.AddKit(Chance.Always, Items.leather_cloak);
+        
         E.SetCorpse(Chance.Always);
         });
 

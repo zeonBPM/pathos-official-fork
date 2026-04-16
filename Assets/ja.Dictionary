@@ -174,6 +174,7 @@ AppearanceName,hexagonal amulet,六角形のお守り
 AppearanceName,hexagonal wand,六角形の棒
 AppearanceName,hiking boots,ハイキング靴
 AppearanceName,hilted polearm,つかのついた長い武器
+AppearanceName,holy book,
 AppearanceName,hooded cloak,フード付きマント
 AppearanceName,hooked polearm,鉤のついた長い武器
 AppearanceName,horn,角笛
@@ -2341,6 +2342,7 @@ ItemName,book of animate dead,反魂の魔法書
 ItemName,book of animate object,入魂の魔法書
 ItemName,book of bind undead,死霊束縛の魔法書
 ItemName,book of blank paper,白紙の魔法書
+ItemName,book of bless,
 ItemName,book of blinking,転位の魔法書
 ItemName,book of cancellation,魔法除去の魔法書
 ItemName,book of charm,魅了の魔法書

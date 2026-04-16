@@ -4281,7 +4281,16 @@ namespace Pathos
         AssignBookSpell(I, Codex.Spells.remove_curse);
       });
 
-      book_of_restoration = AddBook("book of restoration", I =>
+        book_of_bless = AddBook("book of bless", I =>
+        {
+        I.Description = null;
+        I.SetAppearance("holy book", null);
+        I.Glyph = Glyphs.holy_book;
+        I.Rarity = 25;
+        AssignBookSpell(I, Codex.Spells.bless);
+        });
+
+        book_of_restoration = AddBook("book of restoration", I =>
       {
         I.Description = null;
         I.SetAppearance("light brown book", null);
@@ -15840,6 +15849,7 @@ namespace Pathos
     public readonly Item book_of_turn_undead;
     public readonly Item book_of_walling;
     public readonly Item book_of_wizard_lock;
+    public readonly Item book_of_bless;
 
     // potions.
     public readonly Item potion_of_acid;

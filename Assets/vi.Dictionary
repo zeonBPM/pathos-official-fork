@@ -174,6 +174,7 @@ AppearanceName,hexagonal amulet,Bùa lục giác
 AppearanceName,hexagonal wand,Đũa phép lục giác
 AppearanceName,hiking boots,Ủng leo núi
 AppearanceName,hilted polearm,Sào chuôi kiếm
+AppearanceName,holy book,
 AppearanceName,hooded cloak,Áo choàng đầu
 AppearanceName,hooked polearm,Sào lưỡi móc
 AppearanceName,horn,Tù và
@@ -2341,6 +2342,7 @@ ItemName,book of animate dead,sách dạy tái sinh người chết
 ItemName,book of animate object,sách dạy tái sinh vật vô tri
 ItemName,book of bind undead,sách dạy trói buộc người chết
 ItemName,book of blank paper,sách rỗng
+ItemName,book of bless,
 ItemName,book of blinking,sách dạy nhấp nháy
 ItemName,book of cancellation,sách dạy phép loại bỏ
 ItemName,book of charm,sách dạy quyến rũ
