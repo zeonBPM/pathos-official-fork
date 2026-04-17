@@ -64,6 +64,7 @@ AppearanceName,black potion,שיקוי שחור
 AppearanceName,black runed arrow,חץ שחור עם רונות
 AppearanceName,black runed bow,קשת שחורה עם רונות
 AppearanceName,black runed dagger,פגיון שחור עם רונות
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,חרב קצרה שחורה עם רונות
 AppearanceName,black wand,שרביט שחור
 AppearanceName,bloody potion,שיקוי דמוי דם
@@ -92,6 +93,7 @@ AppearanceName,clear potion,שיקוי שקוף
 AppearanceName,cloth book,ספר מבד
 AppearanceName,cloudy potion,שיקוי מעונן
 AppearanceName,coarse mantelet,אצטלה גסה
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,ספר צבעוני
 AppearanceName,combat boots,מגפי קרב
 AppearanceName,compact gun,אקדח
@@ -335,6 +337,7 @@ AppearanceName,silver slug,קליע כסף
 AppearanceName,silver wand,שרביט כסף
 AppearanceName,single-edged polearm,נשק-מוט חד חוד
 AppearanceName,sky blue potion,שיקוי בצבע שמיים
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,גלימה חלקלקה
 AppearanceName,small gun,אקדח קטן
 AppearanceName,smoky potion,שיקוי מעושן
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,ברדס מרופט
 AppearanceName,thick book,ספר עבה
 AppearanceName,thin book,ספר דק
 AppearanceName,thin cake,עוגה דקה
+AppearanceName,thin gun,
 AppearanceName,thonged club,מחבט עם רצועות עור
 AppearanceName,three-pointed polearm,נשק-מוט בעל שלושה חודים
 AppearanceName,throwing axe,גרזן הטלה
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","יצורים יפיפיים שלא מן העולם הזה, בעלי הילה אופיינית וכנפיים עם נוצות. הם קשובים מאוד לקרב בין הטוב לרע, והם חשים את מידת הקדושה בכל דבר שהם אוחזים בו."
 EntityDescription,Beware this clockwork machine of war.,מכונת מלחמה מכנית ומסוכנת.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,אוטומטונים רבי עוצמה בעלי שתי רגליים ובינה מלאכותית כמעט בלתי מוגבלת. מנוע ההיתוך שמספק להם את כוחם דורש אספקה מתמדת של חומרי גלם והוא פגיע לנזקי מים.
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","יצורים ממין הפיות, מקושרים לרוחות הטבע שמסייעות להם בתעלוליהם. הם חסונים, בעלי גוף תחתון שעיר, פרסות עז שסועות וקרני כבש מסולסלות. הם גסים ופקחיים, ומנהלים חיי הנאה של שתייה, ריקוד וקרבות."
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.","יצורים מרשימים וכבדים, דומים לדרקונים אנושיים בעלי חוטם ארוך, עור קשקשי וכנפיים שימושיות."
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,טריז ברזל חד שמחובר לידית קשיחה.
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.","נשק השלכה חד ממתכת, קטן יותר מכף יד ומעוצב בצורת כוכב."
 ItemDescription,A short and light double-edged blade.,להב כפול קצר וקל.
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.","ייצור ים מרופש וקשקשי, שלם. ארוחה טובה."
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,מתקן חיתוך קטן עשוי ממתכת ובעל ידית מעץ.
 ItemDescription,A small iron tool designed for opening all sorts of locks.,"כלי קטן מברזל, שנועד לפתוח כל מיני סוגים של מנעולים."
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,מגפי הקלה
 ItemName,Dragonbane,רועצת הדרקונים
 ItemName,dread staff,מטה אימה
 ItemName,Drilanze,דרילנזה
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,תוף רעידות אדמה
 ItemName,dunce cap,כובע טמבל
 ItemName,dwarvish cloak,גלימת גמדים
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,חרב פלסטיק
 ItemName,plate barding,שריון לוחות לסוס
 ItemName,plate mail,שריון לוחות
 ItemName,poison dart,חץ מטרה מורעל
+ItemName,poisoned bullet,
 ItemName,porter,מנשא
 ItemName,potion of acid,שיקוי חומצה
 ItemName,potion of affliction,שיקוי צרות
@@ -2800,6 +2809,7 @@ ItemName,shotgun,רובה ציד
 ItemName,shotgun shell,קליע של רובה ציד
 ItemName,shuriken,שוריקן
 ItemName,sickle,מגל
+ItemName,silenced carbine,
 ItemName,silver arrow,חץ כסף
 ItemName,silver axe,גרזן כסף
 ItemName,silver bullet,כדור כסף

@@ -64,6 +64,7 @@ AppearanceName,black potion,schwarzer Trank
 AppearanceName,black runed arrow,schwarzer Runenpfeil
 AppearanceName,black runed bow,schwarzer Runenbogen
 AppearanceName,black runed dagger,schwarzer Runendolch
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,schwarzes Runenschwert
 AppearanceName,black wand,schwarzer Zauberstab
 AppearanceName,bloody potion,blutiger Trank
@@ -92,6 +93,7 @@ AppearanceName,clear potion,klarer Trank
 AppearanceName,cloth book,Stoffbuch
 AppearanceName,cloudy potion,trüber Trank
 AppearanceName,coarse mantelet,grober Mantel
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,buntes Buch
 AppearanceName,combat boots,Kampfstiefel
 AppearanceName,compact gun,Kompakte Pistole
@@ -335,6 +337,7 @@ AppearanceName,silver slug,Silberkugel
 AppearanceName,silver wand,Zauberstab aus Silber
 AppearanceName,single-edged polearm,einschneidige Stangenwaffe
 AppearanceName,sky blue potion,himmelblauer Trank
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,rutschiger Umhang
 AppearanceName,small gun,kleine Pistole
 AppearanceName,smoky potion,rauchiger Trank
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,zerfetzter Umhang
 AppearanceName,thick book,dickes Buch
 AppearanceName,thin book,dünnes Buch
 AppearanceName,thin cake,dünner Kuchen
+AppearanceName,thin gun,
 AppearanceName,thonged club,Knüppel
 AppearanceName,three-pointed polearm,dreizackige Stangenwaffe
 AppearanceName,throwing axe,Wurfaxt
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Schöne jenseitige Wesen, die sich durch ihren charakteristischen Heiligenschein und ihre gefiederten Flügel auszeichnen. Sie sind stark auf den Kampf zwischen Gut und Böse eingestellt und spüren die Göttlichkeit in allem was sie tun."
 EntityDescription,Beware this clockwork machine of war.,Vorsicht vor dieser aufziehbaren Kriegsmaschine.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Feenwesen, die durch mächtige Naturgeister gebunden sind, die sie zu Streichen anstiften. Sie sind stämmig mit dem haarigen Unterkörper, den gespaltenen Hufen einer Ziege und den spiralförmigen Hörnern eines Widders. Lachend und intelligent führen sie glücklich hedonistische Eskapaden, bei denen sie trinken, tanzen und kämpfen ."
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,Ein scharfer Eisenkeil der zu einem stabilen Griff geformt war.
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.",Eine scharfe Metallwurfwaffe kleiner als eine Hand und sternförmig.
 ItemDescription,A short and light double-edged blade.,Eine kurze und leichte zweischneidige Klinge.
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.","Ein schleimiges, schuppiges Meerestier in seiner Gesamtheit. Gut für eine Mahlzeit."
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,Ein kleines Schneidgerät aus Metall mit Holzgriff.
 ItemDescription,A small iron tool designed for opening all sorts of locks.,Ein kleines Eisenwerkzeug zum Öffnen aller Arten von Schlössern.
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,Entlastungsstiefel
 ItemName,Dragonbane,Drachenbann
 ItemName,dread staff,Mitarbeiter des Terrors
 ItemName,Drilanze,Drilanze
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,Trommel des Erdbebens
 ItemName,dunce cap,Dummkopfmütze
 ItemName,dwarvish cloak,Zwergischer Mantel
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,Plastikschwert
 ItemName,plate barding,Plattenharnisch
 ItemName,plate mail,Plattenrüstung
 ItemName,poison dart,giftiger Wurfpfeil
+ItemName,poisoned bullet,
 ItemName,porter,Träger
 ItemName,potion of acid,Trank der Säure
 ItemName,potion of affliction,Trank des Gebrechens
@@ -2800,6 +2809,7 @@ ItemName,shotgun,Schrotfline
 ItemName,shotgun shell,Flintenschrot
 ItemName,shuriken,Shuriken
 ItemName,sickle,Sichel
+ItemName,silenced carbine,
 ItemName,silver arrow,Silberpfeil
 ItemName,silver axe,Silberaxt
 ItemName,silver bullet,Silberkugel

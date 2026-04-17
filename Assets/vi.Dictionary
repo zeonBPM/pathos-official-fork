@@ -64,6 +64,7 @@ AppearanceName,black potion,Lọ thuốc màu đen
 AppearanceName,black runed arrow,Mũi tên khắc cổ ngữ màu đen
 AppearanceName,black runed bow,Cung tên khắc cổ ngữ màu đen
 AppearanceName,black runed dagger,Dao găm khắc cổ ngữ màu đen
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,Kiếm ngắn khắc cổ ngữ màu đen
 AppearanceName,black wand,Gậy phép màu đen
 AppearanceName,bloody potion,Lọ thuốc vấy máu
@@ -92,6 +93,7 @@ AppearanceName,clear potion,Lọ thuốc trong suốt
 AppearanceName,cloth book,Sách vải
 AppearanceName,cloudy potion,Lọ thuốc âm u
 AppearanceName,coarse mantelet,Cái mộc thô
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,Quyển sách sặc sỡ
 AppearanceName,combat boots,Ủng chiến đấu
 AppearanceName,compact gun,Súng nhỏ gọn
@@ -335,6 +337,7 @@ AppearanceName,silver slug,Đạn bạc nhỏ
 AppearanceName,silver wand,Đũa phép bạc
 AppearanceName,single-edged polearm,Sáo một lưỡi
 AppearanceName,sky blue potion,Lọ thuốc màu xanh da trời
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,Áo khoác trơn
 AppearanceName,small gun,Súng ngắn
 AppearanceName,smoky potion,Lọ thuốc tỏa khói
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,Áo choàng vai rách nát
 AppearanceName,thick book,Quyển sách dày
 AppearanceName,thin book,Quyển sách mỏng
 AppearanceName,thin cake,Miếng bánh mỏng
+AppearanceName,thin gun,
 AppearanceName,thonged club,Chày
 AppearanceName,three-pointed polearm,Sáo ba mũi
 AppearanceName,throwing axe,Rìu phóng
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Xinh đẹp, những thực thể siêu nhiên này nổi bật với đặc điểm như vầng hào quang hay cánh lông vũ. Rất hòa hợp với cuộc chiến giữa cái thiện và cái ác, họ có thể cảm nhận được tính thánh hóa của mọi vật họ chạm vào."
 EntityDescription,Beware this clockwork machine of war.,Hãy coi chừng cỗ máy của chiến tranh.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,"Những cỗ máy 2 chân tự động với trí tuệ nhân tạo gần như vô song. Được vận hành bởi một bộ lõi kim loại lỏng và cần nguồn cung cấp kim loại thô liên tục, chúng dễ bị tổn thương bởi sát thương từ nước."
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Những sinh vật thần tiên, được kết nối bởi linh hồn thiên nhiên mạnh mẽ để tiếp nối những trò hề của họ. Cơ thể chắc nịch, phần dưới có lông, có móng vuốt giống loài dê và sừng xoắn ốc giống loài cừu. Dâm tục và thông minh, họ vui vẻ dẫn dắt những tù nhân của sự khoái lạc vào việc uống, nhảy múa và đánh nhau."
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.","Với vẻ ngoài oai nghiêm cường hoá bởi thân hình cứng cáp, chúng có nét tương đồng với tộc người rồng với cái mõm, da vảy và bộ cánh."
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,1 lưỡi kim loại hàn chặt vào tay cầm chắc chắn.
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.","1 vũ khí kim loại ném, bé hơn bàn tay và có hình ngôi sao."
 ItemDescription,A short and light double-edged blade.,1 thanh kiếm 2 lưỡi ngắn và nhẹ.
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.",1 loài sinh vật biển có vảy và nhớt nhát. Ăn rất ngon!
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,1 dụng cụ cắt gọt làm từ kim loại và tay cầm bằng gỗ.
 ItemDescription,A small iron tool designed for opening all sorts of locks.,1 dụng cụ bằng sắt được thiết kế để mở tất cả các loại khóa.
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,đôi giày tự do
 ItemName,Dragonbane,Dragonbane
 ItemName,dread staff,gậy oai nghiêm
 ItemName,Drilanze,Drilanze
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,trống động đất
 ItemName,dunce cap,mũ ngu dốt
 ItemName,dwarvish cloak,áo choàng người lùn
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,kiếm nhựa
 ItemName,plate barding,giáp ngựa tấm
 ItemName,plate mail,giáp tấm
 ItemName,poison dart,phi tiêu tẩm độc
+ItemName,poisoned bullet,
 ItemName,porter,túi xách
 ItemName,potion of acid,lọ thuốc axít
 ItemName,potion of affliction,lọ thuốc nhiễm bệnh
@@ -2800,6 +2809,7 @@ ItemName,shotgun,shotgun
 ItemName,shotgun shell,đạn shotgun
 ItemName,shuriken,phi tiêu shuriken
 ItemName,sickle,lưỡi liềm
+ItemName,silenced carbine,
 ItemName,silver arrow,mũi tên bạc
 ItemName,silver axe,rìu bạc
 ItemName,silver bullet,đạn bạc

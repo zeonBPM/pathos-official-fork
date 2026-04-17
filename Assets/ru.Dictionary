@@ -64,6 +64,7 @@ AppearanceName,black potion,чёрное зелье
 AppearanceName,black runed arrow,чёрная руническая стрела
 AppearanceName,black runed bow,чёрный рунический лук
 AppearanceName,black runed dagger,чёрный рунический кинжал
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,чёрный рунический короткий меч
 AppearanceName,black wand,чёрная палочка
 AppearanceName,bloody potion,кровавое зелье
@@ -92,6 +93,7 @@ AppearanceName,clear potion,прозрачное зелье
 AppearanceName,cloth book,тканевая книга
 AppearanceName,cloudy potion,туманное зелье
 AppearanceName,coarse mantelet,грубая мантия
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,разноцветная книга
 AppearanceName,combat boots,боевые сапоги
 AppearanceName,compact gun,компактное оружие
@@ -335,6 +337,7 @@ AppearanceName,silver slug,серебряная пуля
 AppearanceName,silver wand,серебряная палочка
 AppearanceName,single-edged polearm,древко с клинком
 AppearanceName,sky blue potion,небесно-синее зелье
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,гладкий плащ
 AppearanceName,small gun,маленькое оружие
 AppearanceName,smoky potion,дымчатое зелье
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,рваная накидка
 AppearanceName,thick book,толстая книга
 AppearanceName,thin book,тонкая книга
 AppearanceName,thin cake,тонкая лепёшка
+AppearanceName,thin gun,
 AppearanceName,thonged club,дубинка с ремнём
 AppearanceName,three-pointed polearm,трёхконечное древко
 AppearanceName,throwing axe,метательный топор
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Прекрасные, потусторонние существа, отличающиеся своим характерным ореолом и оперёнными крыльями. Будучи твёрдо приверженными борьбе между добром и злом, они чувствуют божественность внутри всего, что они держат."
 EntityDescription,Beware this clockwork machine of war.,Бойтесь этой заводной машины войны.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,"Прямоходящие механические автоматоны с с практически неограниченным исскуственным интеллектом. Питаются от двигателя с расплавленным сердечником, который требует постоянного притока металла для функционирования и уязвим к воде."
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Могущественные духи природы, связанные с этими волшебными существами, подпитывают их шалости. Они коренастые, с мохнатой нижней частью тела, раздвоенными копытами козла и загнутыми рогами барана. Грубые и умные, они весело проводят шалости с выпивкой, танцами и драками."
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.","Внушительные и массивные, они похожи на гуманоидных драконов с мордой, чешуйчатым покровом и рабочими крыльями."
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,Острый железный клин с крепкой рукояткой.
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.","Остроконечное металлическое метательное оружие, размером меньше ладони и формой напоминающее звезду."
 ItemDescription,A short and light double-edged blade.,Короткий и лёгкий обоюдоострый клинок.
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.","Скользкое, чешуйчатое морское существо, целиком и полностью. Хорош для еды."
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,Небольшой режущий столовый прибор из металла с деревянной ручкой.
 ItemDescription,A small iron tool designed for opening all sorts of locks.,"Небольшой железный инструмент, предназначенный для открывания всевозможных замков."
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,сапоги снятия обременения
 ItemName,Dragonbane,Бич драконов
 ItemName,dread staff,посох ужаса
 ItemName,Drilanze,Дриланц
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,барабан землетрясения
 ItemName,dunce cap,дурацкий колпак
 ItemName,dwarvish cloak,дварфский плащ
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,пластмассовый меч
 ItemName,plate barding,пластинчатый бард
 ItemName,plate mail,латы
 ItemName,poison dart,отравленный дротик
+ItemName,poisoned bullet,
 ItemName,porter,сумка-носильщик
 ItemName,potion of acid,зелье кислоты
 ItemName,potion of affliction,зелье болезни
@@ -2800,6 +2809,7 @@ ItemName,shotgun,дробовик
 ItemName,shotgun shell,дробовой патрон
 ItemName,shuriken,сюрикэн
 ItemName,sickle,серп
+ItemName,silenced carbine,
 ItemName,silver arrow,серебряная стрела
 ItemName,silver axe,серебряный топор
 ItemName,silver bullet,серебряная пуля

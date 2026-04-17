@@ -64,6 +64,7 @@ AppearanceName,black potion,黑色藥水
 AppearanceName,black runed arrow,黑色符文箭
 AppearanceName,black runed bow,黑色符文弓
 AppearanceName,black runed dagger,黑色符文匕首
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,黑色符文短劍
 AppearanceName,black wand,黑色魔杖
 AppearanceName,bloody potion,血腥藥水
@@ -92,6 +93,7 @@ AppearanceName,clear potion,清澄藥水
 AppearanceName,cloth book,布制封面的書
 AppearanceName,cloudy potion,渾濁藥水
 AppearanceName,coarse mantelet,粗糙斗篷
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,彩色封面的書
 AppearanceName,combat boots,戰鬥靴
 AppearanceName,compact gun,小型槍支
@@ -335,6 +337,7 @@ AppearanceName,silver slug,銀色彈頭
 AppearanceName,silver wand,白銀魔杖
 AppearanceName,single-edged polearm,單刃長柄武器
 AppearanceName,sky blue potion,天藍藥水
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,滑順斗篷
 AppearanceName,small gun,小型槍械
 AppearanceName,smoky potion,冒煙藥水
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,破舊披肩
 AppearanceName,thick book,厚重的書
 AppearanceName,thin book,薄書
 AppearanceName,thin cake,薄餅
+AppearanceName,thin gun,
 AppearanceName,thonged club,尖頭棍
 AppearanceName,three-pointed polearm,三尖長柄武器
 AppearanceName,throwing axe,手斧
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.",美麗且與俗世隔絕的生物，謠傳他們帶有標誌型的光圈與帶羽毛的翅膀。 他們能在善惡分辨中從容自如，並且能在一切所持的物品中感覺到神性。
 EntityDescription,Beware this clockwork machine of war.,當心這個發條控制的戰爭機器。
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,一種雙足機械造物，擁有近乎無限的智能，由熔核引擎驅動。這種引擎需要持續提供金屬作為原料，並且極易受到水的傷害。
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.",受到自然之靈祝福的異族生物，擁有魁梧的身軀，毛茸茸的下半身，山羊的蹄子和公羊的角。他們野蠻而又聰明，過著每天喝酒跳舞打架的快樂生活。
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",看起來像人形的龍，體型健壯、氣勢雄偉，具有一些爬行動物的特徵，包括鱗片、呼吸孔和爪子。
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,尖鐵楔接在硬柄上。
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.",鋒利的金屬投擲武器，比手掌小，外形像星星。
 ItemDescription,A short and light double-edged blade.,短而輕的雙刃劍。
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.",某種黏黏糊糊有鱗片的海生動物。可以飽食一頓了。
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,木柄鐵質切割工具。
 ItemDescription,A small iron tool designed for opening all sorts of locks.,被設計用來打開任意鎖具的鐵製小工具。
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,負重之靴
 ItemName,Dragonbane,斬龍劍
 ItemName,dread staff,恐懼手杖
 ItemName,Drilanze,三千驚雷槍
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,地震之鼓
 ItemName,dunce cap,蠢人帽
 ItemName,dwarvish cloak,矮人族斗篷
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,塑料劍
 ItemName,plate barding,金屬馬甲
 ItemName,plate mail,板甲
 ItemName,poison dart,劇毒飛鏢
+ItemName,poisoned bullet,
 ItemName,porter,捕捉袋
 ItemName,potion of acid,強酸藥水
 ItemName,potion of affliction,感染藥水
@@ -2800,6 +2809,7 @@ ItemName,shotgun,霰彈槍
 ItemName,shotgun shell,霰彈
 ItemName,shuriken,手裡劍
 ItemName,sickle,短柄鐮刀
+ItemName,silenced carbine,
 ItemName,silver arrow,銀箭
 ItemName,silver axe,銀製斧子
 ItemName,silver bullet,銀彈

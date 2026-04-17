@@ -64,6 +64,7 @@ AppearanceName,black potion,黒い液体の入った小瓶
 AppearanceName,black runed arrow,謎の文字のついた黒い矢
 AppearanceName,black runed bow,謎の文字のついた黒い弓
 AppearanceName,black runed dagger,謎の文字のついた黒いダガー
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,謎の文字のついた黒いショートソード
 AppearanceName,black wand,黒い棒
 AppearanceName,bloody potion,血のような液体の入った小瓶
@@ -92,6 +93,7 @@ AppearanceName,clear potion,透明な液体の入った小瓶
 AppearanceName,cloth book,布表紙の本
 AppearanceName,cloudy potion,曇った液体の入った小瓶
 AppearanceName,coarse mantelet,粗末なクローク
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,カラフルな本
 AppearanceName,combat boots,半長靴
 AppearanceName,compact gun,手持ち銃
@@ -335,6 +337,7 @@ AppearanceName,silver slug,銀の小塊
 AppearanceName,silver wand,銀の棒
 AppearanceName,single-edged polearm,片刃の長い武器
 AppearanceName,sky blue potion,水色の液体の入った小瓶
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,つるつるしたマント
 AppearanceName,small gun,小さい銃
 AppearanceName,smoky potion,煙色の液体の入った小瓶
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,ぼろぼろのケープ
 AppearanceName,thick book,分厚い本
 AppearanceName,thin book,薄い本
 AppearanceName,thin cake,薄いケーキ
+AppearanceName,thin gun,
 AppearanceName,thonged club,ひものついた棍棒
 AppearanceName,three-pointed polearm,三つ又の長い武器
 AppearanceName,throwing axe,投げ斧
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.",光輪と羽毛に覆われた翼が特徴的な、別世界の美しい住人達。善と悪の闘争との関係は深く、触れるもの全てに神の威光を見出す。
 EntityDescription,Beware this clockwork machine of war.,この殺戮マシーンには気をつけろ。
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,とどまることをしらない人工知能を持つ、二足歩行の自律メカ。定期的に金属の供給が必要で、水によって損傷を受けやすい融解炉心式エンジンが動力源。
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.",強大な自然界の精霊たちとの結びつきによって得られる力を愚行のために注ぎ込む妖精界の住人達。下半身を覆う毛皮とヤギの割れた蹄、牡羊の渦巻いた角とずんぐりとした体形を特徴とする。この頭の回る助兵衛共の頭の中は快楽の二字で埋まっており、悪乗りの過ぎた酒や踊りや喧嘩のバカ騒ぎに日々明け暮れている。
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",堂々としてがっしりとした体躯を誇り、口先、鱗に覆われた体表、飛翔を可能とする翼といった特徴を持つ、人型のドラゴンとでも形容すべき種族。
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,頑丈な持ち手に鉄製の鋭い刃を持つくさび状の頭部を取り付けたもの。
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.",手の中に収まる大きさの、星形の鋭利な金属の投擲武器。
 ItemDescription,A short and light double-edged blade.,短く軽量な両刃の剣。
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.",全身がぬめぬめとしていて、鱗に覆われている海の生き物。申し分のない食糧である。
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,木製の取っ手の付いた、物を切るための金属製の道具。
 ItemDescription,A small iron tool designed for opening all sorts of locks.,様々な錠をこじ開けるために作られた小さな鉄製の道具。
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,健脚の靴
 ItemName,Dragonbane,『ドラゴンベーン』
 ItemName,dread staff,恐怖の杖
 ItemName,Drilanze,『ドリランヅェ』
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,地震の太鼓
 ItemName,dunce cap,おまぬけ帽
 ItemName,dwarvish cloak,ドワーフのマント
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,プラスチックの剣
 ItemName,plate barding,鋼鉄の馬鎧
 ItemName,plate mail,プレートメイル
 ItemName,poison dart,毒ダーツ
+ItemName,poisoned bullet,
 ItemName,porter,捕獲袋
 ItemName,potion of acid,酸の小瓶
 ItemName,potion of affliction,災難の詰まった小瓶
@@ -2800,6 +2809,7 @@ ItemName,shotgun,ショットガン
 ItemName,shotgun shell,ショットガンの弾
 ItemName,shuriken,手裏剣
 ItemName,sickle,鎌
+ItemName,silenced carbine,
 ItemName,silver arrow,銀の矢
 ItemName,silver axe,銀の斧
 ItemName,silver bullet,銀の弾丸

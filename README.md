@@ -1,12 +1,11 @@
-So far only two things have been added
 
-the Arcanist class
+*the Arcanist class
 
 its basically a wizard with guns
 starting inventory is similar to wizards, with less stuff but a knife and pistol plus a ton of bullets
 they have firearm, light armor, light blades, and the same schools as wizards minus necromancy
 
-the Starspawn race
+*the Starspawn race
 
 they have a bane in CON and WIS but two boons in INT
 gains +1 hp and +2 mp per level
@@ -15,9 +14,9 @@ resists force and sleep but weak to physical damage
 
 
 
-added dummy class/race for testing stuff
+*added dummy class/race for testing stuff
 
-added bless clerical spell
+*added bless clerical spell(need tweaking)
 
 at S it uncurses a random item, at E it uncurses a specific item, at M it blesses an item
 
@@ -56,9 +55,9 @@ add daredevil class
 baldurians need light, might give them an infinite light source in the way of their poncho or smt
 
 
-to do:
 
-change bald to be a special instead of a race
+
+*change bald to be a special instead of a race
 
 make races start with the relevant equipment instead of human ones
 
@@ -72,10 +71,10 @@ C1000
 
 have BUC colors show in inventory, and have implicit uncursed
 
-split offense skill categories into melee/ranged
+split offense skill categories into melee/ranged(not doable)
 
 
-add shield skill
+add shield skill(maybe not, TBD)
 
 
 fuse some weapon skills, like spear/polearm and mace/hammer
@@ -99,12 +98,12 @@ add topaz rapier(extra range rapier)
 witch hand revolver
 B.F.S.	big fucking sword
 add an area shotgun, see rockets
-drow guns too because of course they have guns(they are silenced tho)
-	thin gun(silenced pistol)
-	slim gun(silenced carbine)
-drow estoc
+*drow guns too because of course they have guns(they are silenced tho)
+	*thin gun(silenced pistol)
+	*slim gun(silenced carbine)
+*drow estoc
 	poisoned
-drow bullets
+*drow bullets
 	poisoned
 
 inferno fork

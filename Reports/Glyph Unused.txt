@@ -14,7 +14,6 @@ X	X	X	X	4	Tempter.png
 X	X	 	X	3	burgundy book.png
 X	X	 	X	3	froster.png
 X	X	 	X	3	healthstone.png
-X	X	 	X	3	holy book.png
 X	X	 	X	3	igniter.png
 X	 	X	X	3	mithril greatsword.png
  	X	X	X	3	mithril shuriken.png
@@ -34,6 +33,7 @@ X	 	 	X	2	astral dragon.png
 X	X	 	 	2	bandage.png
 X	 	 	X	2	credit card.png
 X	 	 	X	2	dwarvish katar.png
+X	X	 	 	2	holy book.png
 X	 	 	X	2	leash.png
 X	 	 	X	2	loadstone.png
 X	 	 	X	2	luckstone.png

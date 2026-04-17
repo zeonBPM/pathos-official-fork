@@ -64,6 +64,7 @@ AppearanceName,black potion,item na gayuma
 AppearanceName,black runed arrow,item na palaso
 AppearanceName,black runed bow,item na pana
 AppearanceName,black runed dagger,item na kutsilyo
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,item na maikling ispada
 AppearanceName,black wand,item na wand
 AppearanceName,bloody potion,gayumang duguan
@@ -92,6 +93,7 @@ AppearanceName,clear potion,gayumang malinaw
 AppearanceName,cloth book,librong tela
 AppearanceName,cloudy potion,gayumang maulap-ulap
 AppearanceName,coarse mantelet,magaspang na mantalet
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,librong makulay
 AppearanceName,combat boots,boots na panglaban
 AppearanceName,compact gun,baril na masinsin
@@ -335,6 +337,7 @@ AppearanceName,silver slug,silver na slug
 AppearanceName,silver wand,silver na wand
 AppearanceName,single-edged polearm,
 AppearanceName,sky blue potion,gayumang sky-blue
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,madulas na balabal
 AppearanceName,small gun,maliit na baril
 AppearanceName,smoky potion,gayumang mausok
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,balabal na medyo punit
 AppearanceName,thick book,librong makapal
 AppearanceName,thin book,librong manipis
 AppearanceName,thin cake,manipis na cake
+AppearanceName,thin gun,
 AppearanceName,thonged club,club na itinali
 AppearanceName,three-pointed polearm,
 AppearanceName,throwing axe,axe na pang bato
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Magagandang mga beings, na may halo at may pakpak. May magandang consensiya paukol sa kaibahan sa mabuti at masama. Kaya nilang maramdaman ang divinity ng isang bagay."
 EntityDescription,Beware this clockwork machine of war.,
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Mga fey creatures na nakalink sa makapangyarihan na espiritong kalikasan para ma-fuel ang kanilang paguugali. Puno sila ng mabalahibo sa ibabang bahagi ng katawan, mga sibol na kuko ng isang kambing at mga kulot na sungay na parang ram. Ma-chick magnet at medyo matalino, mahilig din silang uminom, sumayaw, at lumaban."
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.",
 ItemDescription,A short and light double-edged blade.,
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.",
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,
 ItemDescription,A small iron tool designed for opening all sorts of locks.,
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,
 ItemName,Dragonbane,
 ItemName,dread staff,
 ItemName,Drilanze,
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,
 ItemName,dunce cap,
 ItemName,dwarvish cloak,
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,
 ItemName,plate barding,
 ItemName,plate mail,
 ItemName,poison dart,
+ItemName,poisoned bullet,
 ItemName,porter,
 ItemName,potion of acid,
 ItemName,potion of affliction,
@@ -2800,6 +2809,7 @@ ItemName,shotgun,
 ItemName,shotgun shell,
 ItemName,shuriken,
 ItemName,sickle,
+ItemName,silenced carbine,
 ItemName,silver arrow,
 ItemName,silver axe,
 ItemName,silver bullet,

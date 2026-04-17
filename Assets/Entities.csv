@@ -206,7 +206,7 @@ elemental,,stalker,,8,3,9,65,large,animal,9000,3.7,13,defend,,16,19,14,10,15,11
 elemental,,water elemental,,12,2,14,226,huge,water,200000,2.0,16,attack,,18,14,18,5,10,8
 elemental,,water sphere,,3,2,5,24,small,water,100000,3.7,11,attack,,6,12,18,7,8,12
 elf,elf,drow,,10,1,13,225,medium,animal,10000,5.0,16,attack,,14,16,12,15,15,13
-elf,drowr,drow ,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.",0,0,0,0,medium,animal,10000,5.0,10,attack,BASE,10,10,10,10,10,10
+elf,drowr,drow ,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",0,0,0,0,medium,animal,10000,5.0,10,attack,BASE,10,10,10,10,10,10
 elf,elf,Earendil,,20,0,22,963,medium,animal,15000,5.0,20,attack,GUARDIAN|UNIQUE,14,24,14,20,20,22
 elf,elf,elf,"Spiritual beings fond of nature and magic. They are physically similar to humans, but often smaller and nimbler.",0,0,0,0,medium,animal,10000,5.0,10,attack,BASE,10,10,10,10,10,10
 elf,elf,elf king,,22,1,24,713,medium,animal,12000,5.0,18,attack,,19,19,15,16,15,23

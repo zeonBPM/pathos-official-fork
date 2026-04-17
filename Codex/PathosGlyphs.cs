@@ -2799,6 +2799,10 @@ namespace Pathos
     public readonly Glyph splatter_Z;
 
     public readonly Glyph holy_book;
+    public readonly Glyph drow_estoc;
+    public readonly Glyph drow_pistol;
+    public readonly Glyph drow_carbine;
+    public readonly Glyph drow_bullet;
 
 
 

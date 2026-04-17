@@ -64,6 +64,7 @@ AppearanceName,black potion,чорне зілля
 AppearanceName,black runed arrow,чорна рунічний стріла
 AppearanceName,black runed bow,чорний рунічний лук
 AppearanceName,black runed dagger,чорний рунічний кинджал
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,чорний рунічний короткий меч
 AppearanceName,black wand,чорна паличка
 AppearanceName,bloody potion,криваве зілля
@@ -92,6 +93,7 @@ AppearanceName,clear potion,прозоре зілля
 AppearanceName,cloth book,тканинна книжка
 AppearanceName,cloudy potion,хмарне зілля
 AppearanceName,coarse mantelet,груба мантілья
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,різнокольорова книжка
 AppearanceName,combat boots,бойові чоботи
 AppearanceName,compact gun,компактний пістолет
@@ -335,6 +337,7 @@ AppearanceName,silver slug,срібна болванка
 AppearanceName,silver wand,срібна паличка
 AppearanceName,single-edged polearm,нагіната
 AppearanceName,sky blue potion,небесно-синє зілля
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,санний плащ
 AppearanceName,small gun,малий пістолет
 AppearanceName,smoky potion,димчасте зілля
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,рвана накидка
 AppearanceName,thick book,товста книга
 AppearanceName,thin book,тонка книга
 AppearanceName,thin cake,тонкий торт
+AppearanceName,thin gun,
 AppearanceName,thonged club,кийок з ременем
 AppearanceName,three-pointed polearm,спис-тризуб
 AppearanceName,throwing axe,метальна сокирка
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Прекрасні, потойбічні істоти характеризуються ореолом підпису та пернатих крил. Сильно налаштовані на боротьбі між добром і злом, вони відчувають божественність у всьому, що їм належить."
 EntityDescription,Beware this clockwork machine of war.,Бережіться цього механічного знаряддя війни.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Чарівні істоти, пов'язані з могутніми духами природи, які наснажують їхні пустощі. Вони присадкуваті, з хутряними нижніми частинами тіла, козлячими ратицями та баранячими закрученими рогами. Грайливі та хитрі, вони з радістю влаштовують гедоністичні пригоди, сповнені випивки, танців та бійок."
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,"Гострий залізний клин, прикріплений до міцної ручки."
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.","Гостра металева метальна зброя, менша за долоню і у формі зірки."
 ItemDescription,A short and light double-edged blade.,Короткий і легкий двосічний клинок.
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.","Слизька, луската морська істота, ціла. Добра для їжі."
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,"Маленький ріжучий інструмент, зроблений з металу з дерев'яною ручкою."
 ItemDescription,A small iron tool designed for opening all sorts of locks.,"Маленький залізний інструмент, призначений для відкриття всіляких замків."
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,ботинки розгрузки
 ItemName,Dragonbane,Драконяча Погибель
 ItemName,dread staff,посох жаху
 ItemName,Drilanze,Дріленц
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,барабан землетрусу
 ItemName,dunce cap,ковпак дурника
 ItemName,dwarvish cloak,дварфський плащ
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,пластиковий меч
 ItemName,plate barding,кінські лати
 ItemName,plate mail,лати
 ItemName,poison dart,отруєний дротик
+ItemName,poisoned bullet,
 ItemName,porter,портер
 ItemName,potion of acid,зілля кислоти
 ItemName,potion of affliction,пороблене зілля
@@ -2800,6 +2809,7 @@ ItemName,shotgun,дробовик
 ItemName,shotgun shell,дробовий патрон
 ItemName,shuriken,сюрікен
 ItemName,sickle,серп
+ItemName,silenced carbine,
 ItemName,silver arrow,срібна стріла
 ItemName,silver axe,срібна сокира
 ItemName,silver bullet,срібна куля

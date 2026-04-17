@@ -64,6 +64,7 @@ AppearanceName,black potion,poção preta
 AppearanceName,black runed arrow,flecha rúnica preta
 AppearanceName,black runed bow,arco rúnico preto
 AppearanceName,black runed dagger,adaga rúnica preta
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,espada curta rúnica preta
 AppearanceName,black wand,varinha preta
 AppearanceName,bloody potion,poção sangrenta
@@ -92,6 +93,7 @@ AppearanceName,clear potion,poção transparente
 AppearanceName,cloth book,livro de pano
 AppearanceName,cloudy potion,poção nebulosa
 AppearanceName,coarse mantelet,pequeno manto grosseiro
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,livro colorido
 AppearanceName,combat boots,botas de combate
 AppearanceName,compact gun,arma compacta
@@ -335,6 +337,7 @@ AppearanceName,silver slug,lesma de prata
 AppearanceName,silver wand,varinha de prata
 AppearanceName,single-edged polearm,arma de haste com lâmina única
 AppearanceName,sky blue potion,poção azul-celeste
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,manto escorregadio
 AppearanceName,small gun,arma pequena
 AppearanceName,smoky potion,poção fumacenta
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,capa esfarrapada
 AppearanceName,thick book,livro grosso
 AppearanceName,thin book,livro fino
 AppearanceName,thin cake,bolo fino
+AppearanceName,thin gun,
 AppearanceName,thonged club,clava alongada
 AppearanceName,three-pointed polearm,arma de haste trifurcada
 AppearanceName,throwing axe,machado de arremesso
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Seres belos e celestiais, dotados de características areólas e asas emplumadas. Fortemente ligados à disputa entre o bem e o mal, podem sentir a natureza divina de tudo que tocam."
 EntityDescription,Beware this clockwork machine of war.,Cuidado com essa engenhosa máquina de guerra.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,Autômatos mecânicos bípedes com inteligência artificial praticamente ilimitada. Eles são alimentados por um motor de núcleo derretido que requer suprimento constante de metais brutos e é suscetível a danos por água.
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Criaturas féericas ligadas por poderosos espíritos da natureza para alimentar suas travessuras . Eles são atarracados com corpos inferiores peludos, cascos fendidos de cabra e chifres enrolados de carneiro . Irreverentes e espertos, eles alegremente conduzem aventuras hedonísticas de bebida , dança e luta ."
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.","Imponentes e robustos, eles lembram dragões humanoides com focinho, pele escamosa e asas funcionais."
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,Uma cunha de ferro afiada moldada a uma alça resistente.
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.","Uma arma afiada de arremesso de metal, menor que uma mão e com a forma de uma estrela."
 ItemDescription,A short and light double-edged blade.,Uma lâmina de dois gumes curta e leve.
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.","Uma criatura do mar viscosa e escamosa, em sua totalidade. Boa para uma refeição."
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,Um pequeno utensílio de corte feito de metal com cabo de madeira.
 ItemDescription,A small iron tool designed for opening all sorts of locks.,Uma pequena ferramenta de ferro projetada para abrir todos os tipos de fechaduras.
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,botas da leveza
 ItemName,Dragonbane,Ruína dos Dragões
 ItemName,dread staff,cajado do temor
 ItemName,Drilanze,Drilanze
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,tambor do terremoto
 ItemName,dunce cap,chapéu para burros
 ItemName,dwarvish cloak,manto de anão
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,espada de plástico
 ItemName,plate barding,armadura de cavalo
 ItemName,plate mail,armadura de placas
 ItemName,poison dart,dardo envenenado
+ItemName,poisoned bullet,
 ItemName,porter,o porteiro
 ItemName,potion of acid,poção de ácido
 ItemName,potion of affliction,poção de aflição
@@ -2800,6 +2809,7 @@ ItemName,shotgun,espingarda
 ItemName,shotgun shell,cápsula de espingarda
 ItemName,shuriken,shuriken
 ItemName,sickle,foice de mão
+ItemName,silenced carbine,
 ItemName,silver arrow,flecha de prata
 ItemName,silver axe,machado de prata
 ItemName,silver bullet,bala de prata

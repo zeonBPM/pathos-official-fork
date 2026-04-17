@@ -64,6 +64,7 @@ AppearanceName,black potion,fekete főzet
 AppearanceName,black runed arrow,fekete rúnás nyílvessző
 AppearanceName,black runed bow,fekete rúnás íj
 AppearanceName,black runed dagger,fekete rúnás tőr
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,fekete rúnás rövid kard
 AppearanceName,black wand,fekete pálca
 AppearanceName,bloody potion,véres főzet
@@ -92,6 +93,7 @@ AppearanceName,clear potion,tiszta főzet
 AppearanceName,cloth book,szövet könyv
 AppearanceName,cloudy potion,felhős főzet
 AppearanceName,coarse mantelet,közönséges rövid köpeny
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,színes könyv
 AppearanceName,combat boots,harci csizma
 AppearanceName,compact gun,kompakt fegyver
@@ -335,6 +337,7 @@ AppearanceName,silver slug,ezüstgolyó
 AppearanceName,silver wand,ezüstpálca
 AppearanceName,single-edged polearm,egyélű alabárd
 AppearanceName,sky blue potion,égszínkék főzet
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,csúszós köpönyeg
 AppearanceName,small gun,kis fegyver
 AppearanceName,smoky potion,füstös főzet
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,szakadt köpeny
 AppearanceName,thick book,vastag könyv
 AppearanceName,thin book,vékony könyv
 AppearanceName,thin cake,vékony sütemény
+AppearanceName,thin gun,
 AppearanceName,thonged club,szíjas bunkó
 AppearanceName,three-pointed polearm,háromágú alabárd
 AppearanceName,throwing axe,dobóbalta
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Gyönyörű, nem e világi lények, kik jellemző glóriával és tollakkal borított szárnyaikkal rendelkeznek. Ezek a lények erősen ráhangolódtak a jó és a gonosz közötti szüntelen harcra, és emiatt képesek érzékelni az üdvösséget bármiben, ami csak a kezük ügyébe kerül."
 EntityDescription,Beware this clockwork machine of war.,Óvakodj ettől a kíméletlen halálosztótól.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Túlvilági lények, kiket erőteljes természeti szellemek kötnek össze, hogy hóbortjaikat táplálják. Zömök, szőrös alsó testtel, a kecskééhez hasonló patával és a kosokra jellemző csavart szarvval rendelkeznek. Trágár és okos lények, akik vidám vezérei az ivás, a tánc és a harc hedonista kalandjainak."
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,Erős nyéllel ellátott éles vasék.
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.","Éles, kéznél kisebb, csillag alakú fém dobófegyver."
 ItemDescription,A short and light double-edged blade.,Rövid és könnyű kétélű penge.
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.",Egy nyálkás és pikkelyes tengeri élőlény. Élelemnek megfelelő.
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,"Kis fém eszköz, fából készült nyéllel."
 ItemDescription,A small iron tool designed for opening all sorts of locks.,"Kicsi, bármilyen zár feltörésére tervezett vaseszköz."
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,strapabíró csizma
 ItemName,Dragonbane,Sárkányölő
 ItemName,dread staff,rémisztő bot
 ItemName,Drilanze,Drilanze
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,földrengés dobja
 ItemName,dunce cap,fajankók sapkája
 ItemName,dwarvish cloak,törp köpeny
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,
 ItemName,plate barding,lemez lópáncél
 ItemName,plate mail,lemezpáncél
 ItemName,poison dart,mérgező nyíl
+ItemName,poisoned bullet,
 ItemName,porter,tarisznya
 ItemName,potion of acid,sav főzete
 ItemName,potion of affliction,csapás főzete
@@ -2800,6 +2809,7 @@ ItemName,shotgun,sörétes puska
 ItemName,shotgun shell,sörétes lőszer
 ItemName,shuriken,suriken
 ItemName,sickle,sarló
+ItemName,silenced carbine,
 ItemName,silver arrow,ezüst nyílvessző
 ItemName,silver axe,
 ItemName,silver bullet,ezüstgolyó

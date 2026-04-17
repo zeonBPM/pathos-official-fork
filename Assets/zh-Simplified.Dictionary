@@ -64,6 +64,7 @@ AppearanceName,black potion,黑色药水
 AppearanceName,black runed arrow,黑色符文箭
 AppearanceName,black runed bow,黑色符文弓
 AppearanceName,black runed dagger,黑色符文匕首
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,黑色符文短剑
 AppearanceName,black wand,黑色魔杖
 AppearanceName,bloody potion,血腥药水
@@ -92,6 +93,7 @@ AppearanceName,clear potion,清澄药水
 AppearanceName,cloth book,布制封面的书
 AppearanceName,cloudy potion,浑浊药水
 AppearanceName,coarse mantelet,粗糙斗篷
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,彩色封面的书
 AppearanceName,combat boots,战斗靴
 AppearanceName,compact gun,小型枪支
@@ -335,6 +337,7 @@ AppearanceName,silver slug,银色弹头
 AppearanceName,silver wand,白银魔杖
 AppearanceName,single-edged polearm,单刃长柄武器
 AppearanceName,sky blue potion,天蓝药水
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,滑顺斗篷
 AppearanceName,small gun,小型枪械
 AppearanceName,smoky potion,冒烟药水
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,破旧披肩
 AppearanceName,thick book,厚重的书
 AppearanceName,thin book,薄书
 AppearanceName,thin cake,薄饼
+AppearanceName,thin gun,
 AppearanceName,thonged club,尖头棍
 AppearanceName,three-pointed polearm,三尖长柄武器
 AppearanceName,throwing axe,手斧
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.",美丽且与俗世隔绝的生物，谣传他们带有标志型的光圈与带羽毛的翅膀。 他们能在善恶分辨中从容自如，并且能在一切所持的物品中感觉到神性。
 EntityDescription,Beware this clockwork machine of war.,当心这个发条控制的战争机器。
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,一种双足机械造物，拥有近乎无限的智能，由熔核引擎驱动。这种引擎需要持续提供金属作为原料，并且极易受到水的伤害。
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.",受到自然之灵祝福的异族生物，拥有魁梧的身躯，毛茸茸的下半身，山羊的蹄子和公羊的角。他们野蛮而又聪明，过着每天喝酒跳舞打架的快乐生活。
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",看起来像人形的龙，体型健壮、气势雄伟，具有一些爬行动物的特征，包括鳞片、呼吸孔和爪子。
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,尖铁楔接在硬柄上。
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.",锋利的金属投掷武器，比手掌小，外形像星星。
 ItemDescription,A short and light double-edged blade.,短而轻的双刃剑。
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.",某种黏黏糊糊有鳞片的海生动物。可以饱食一顿了。
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,木柄铁质切割工具。
 ItemDescription,A small iron tool designed for opening all sorts of locks.,被设计用来打开任意锁具的铁制小工具。
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,负重之靴
 ItemName,Dragonbane,斩龙剑
 ItemName,dread staff,恐惧手杖
 ItemName,Drilanze,三千惊雷枪
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,地震之鼓
 ItemName,dunce cap,蠢人帽
 ItemName,dwarvish cloak,矮人族斗篷
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,塑料剑
 ItemName,plate barding,金属马甲
 ItemName,plate mail,板甲
 ItemName,poison dart,剧毒飞镖
+ItemName,poisoned bullet,
 ItemName,porter,捕捉袋
 ItemName,potion of acid,强酸药水
 ItemName,potion of affliction,感染药水
@@ -2800,6 +2809,7 @@ ItemName,shotgun,霰弹枪
 ItemName,shotgun shell,霰弹
 ItemName,shuriken,手里剑
 ItemName,sickle,短柄镰刀
+ItemName,silenced carbine,
 ItemName,silver arrow,银箭
 ItemName,silver axe,银制斧子
 ItemName,silver bullet,银弹

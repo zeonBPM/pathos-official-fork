@@ -64,6 +64,7 @@ AppearanceName,black potion,crni napitak
 AppearanceName,black runed arrow,crna runirana strela
 AppearanceName,black runed bow,crni runirani luk
 AppearanceName,black runed dagger,crni runirani nož
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,crni runirani kratki mač
 AppearanceName,black wand,crni štap
 AppearanceName,bloody potion,krvavi napitak
@@ -92,6 +93,7 @@ AppearanceName,clear potion,čisti napitak
 AppearanceName,cloth book,tkanina knjiga
 AppearanceName,cloudy potion,oblačni napitak
 AppearanceName,coarse mantelet,grubi mantelet
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,obojena knjiga
 AppearanceName,combat boots,borbene čizme
 AppearanceName,compact gun,kompaktan pištolj
@@ -335,6 +337,7 @@ AppearanceName,silver slug,srebrna čaura
 AppearanceName,silver wand,srebrni štapić
 AppearanceName,single-edged polearm,jednoivično bojno koplje
 AppearanceName,sky blue potion,nebo plavi napitak
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,klizavi plašt
 AppearanceName,small gun,mali pištolj
 AppearanceName,smoky potion,dimski napitak
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,otrcani ogrtač
 AppearanceName,thick book,debela knjiga
 AppearanceName,thin book,tanka knjiga
 AppearanceName,thin cake,tanki kolač
+AppearanceName,thin gun,
 AppearanceName,thonged club,tangasta toljaga
 AppearanceName,three-pointed polearm,trokrako bojno koplje
 AppearanceName,throwing axe,sekira za bacanje
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.","Prelepa, vanzemaljska bića koja se odlikuju svojim prepoznatljivim oreolom i pernatim krilima. Snažno usklađeni sa borbom između dobra i zla, oni osećaju božanstvo unutar svega što drže."
 EntityDescription,Beware this clockwork machine of war.,Čuvajte se ove ratne mašinerije.
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,Dvonožni mehanički automati sa gotovo neograničenom veštačkom inteligencijom. Pokretani motorom sa rastopljenim jezgrom koji zahteva stalan dotok sirovih metala i osetljiv je na oštećenja izazvana vodom.
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.","Feja stvorenja povezana moćnim prirodnim duhovima da podstiču njihove ludosti. Oni su zdepasti sa krznenim donjim delovima tela, iscepljenim kozjim kopitima i uvijenim rogovima ovna. Ribasti i pametni, veselo vode hedonističke eskapade opijanja, plesa i tuče."
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.","Impozantni i masivne građe, podsećaju na humanoidne zmajeve sa njuškom, krljuštastom kožom i funkcionalnim krilima."
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,Oštar gvozdeni klin oblikovan za čvrstu dršku.
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.","Oštro metalno oružje za bacanje, manje od ruke i u obliku zvezde."
 ItemDescription,A short and light double-edged blade.,Kratko i lagano sečivo sa dve oštrice.
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.","Sluzavo, ljuskavo morsko stvorenje, u celini. Dobro za obrok."
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,Mali pribor za sečenje od metala sa drvenom drškom.
 ItemDescription,A small iron tool designed for opening all sorts of locks.,Mali gvozdeni alat dizajniran za otvaranje svih vrsta brava.
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,čizme za rasterećenje
 ItemName,Dragonbane,Dragonbejn
 ItemName,dread staff,štap straha
 ItemName,Drilanze,Drilenz
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,bubanj zemljotresa
 ItemName,dunce cap,dunc kapa
 ItemName,dwarvish cloak,patuljasti plašt
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,plastični mač
 ItemName,plate barding,pločasti barding
 ItemName,plate mail,pločasti oklop
 ItemName,poison dart,otrovna strelica
+ItemName,poisoned bullet,
 ItemName,porter,porter
 ItemName,potion of acid,napitak kiseline
 ItemName,potion of affliction,napitak nevolje
@@ -2800,6 +2809,7 @@ ItemName,shotgun,pumparica
 ItemName,shotgun shell,čaura za pumparicu
 ItemName,shuriken,šuriken
 ItemName,sickle,srp
+ItemName,silenced carbine,
 ItemName,silver arrow,srebrna strela
 ItemName,silver axe,srebrna sekira
 ItemName,silver bullet,srebrni metak

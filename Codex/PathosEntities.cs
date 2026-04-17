@@ -461,11 +461,11 @@ namespace Pathos
         E.Startup.SetTalent(Properties.dark_vision, Properties.see_invisible); // drow do not have darkvision in Nethack lore, but it doesn't make sense.
         E.Startup.SetResistance(Elements.sleep);
         E.Startup.AddGrimoire(Dice.One, Spells.darkness);
-        E.Startup.Loot.AddKit(Chance.Always, Items.dark_elven_bow);
-        E.Startup.Loot.AddKit(Chance.Always, 3.d6(), Items.dark_elven_arrow);
-        E.Startup.Loot.AddKit(Chance.OneIn10, Items.dark_elven_mithrilcoat);
-        E.Startup.Loot.AddKit(Chance.OneIn2, Items.dark_elven_short_sword);
-        E.Startup.Loot.AddKit(Chance.OneIn2, Items.dark_elven_dagger);
+        E.Startup.Loot.AddKit(Chance.Always, Items.book_of_bless);
+        E.Startup.Loot.AddKit(Chance.Always, 3.d6(), Items.dark_elven_bullet);
+        E.Startup.Loot.AddKit(Chance.OneIn10, Items.dark_elven_carbine);
+        E.Startup.Loot.AddKit(Chance.OneIn2, Items.dark_elven_rapier);
+        E.Startup.Loot.AddKit(Chance.OneIn2, Items.dark_elven_pistol);
 
         E.AddAttack(AttackTypes.weapon, Elements.physical, 1.d2(), K =>
         {

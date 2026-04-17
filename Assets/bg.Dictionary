@@ -64,6 +64,7 @@ AppearanceName,black potion,черно отвара
 AppearanceName,black runed arrow,черна руническая стрела
 AppearanceName,black runed bow,черен рунически лък
 AppearanceName,black runed dagger,черен рунически кинжал
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,черен рунически къс меч
 AppearanceName,black wand,черна пръчка
 AppearanceName,bloody potion,
@@ -92,6 +93,7 @@ AppearanceName,clear potion,прозрачное отвара
 AppearanceName,cloth book,тканевая книга
 AppearanceName,cloudy potion,облачное отвара
 AppearanceName,coarse mantelet,груба мантия
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,разноцветная книга
 AppearanceName,combat boots,боевые ботуши
 AppearanceName,compact gun,
@@ -335,6 +337,7 @@ AppearanceName,silver slug,
 AppearanceName,silver wand,сребърна пръчка
 AppearanceName,single-edged polearm,древко с клинком
 AppearanceName,sky blue potion,небесно-синее отвара
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,гладкий плащ
 AppearanceName,small gun,
 AppearanceName,smoky potion,дымчатое отвара
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,рваная накидка
 AppearanceName,thick book,
 AppearanceName,thin book,тонкая книга
 AppearanceName,thin cake,
+AppearanceName,thin gun,
 AppearanceName,thonged club,дубинка с ремнём
 AppearanceName,three-pointed polearm,
 AppearanceName,throwing axe,
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.",
 EntityDescription,Beware this clockwork machine of war.,
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.",
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.",
 ItemDescription,A short and light double-edged blade.,
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.",
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,
 ItemDescription,A small iron tool designed for opening all sorts of locks.,
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,
 ItemName,Dragonbane,Бич драконов
 ItemName,dread staff,посох ужаса
 ItemName,Drilanze,
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,барабан землетрясения
 ItemName,dunce cap,дурацкий колпак
 ItemName,dwarvish cloak,джуджешки плащ
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,
 ItemName,plate barding,
 ItemName,plate mail,латы
 ItemName,poison dart,
+ItemName,poisoned bullet,
 ItemName,porter,
 ItemName,potion of acid,отвара кислоты
 ItemName,potion of affliction,
@@ -2800,6 +2809,7 @@ ItemName,shotgun,дробовик
 ItemName,shotgun shell,дробовой патрон
 ItemName,shuriken,сюрикэн
 ItemName,sickle,
+ItemName,silenced carbine,
 ItemName,silver arrow,сребърна стрела
 ItemName,silver axe,
 ItemName,silver bullet,сребърна пуля

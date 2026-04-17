@@ -64,6 +64,7 @@ AppearanceName,black potion,โพชั่นสีดำ
 AppearanceName,black runed arrow,ลูกธนูสลักอักษรสีดำ
 AppearanceName,black runed bow,ธนูสลักอักษรสีดำ
 AppearanceName,black runed dagger,มีดสั้นสลักอักษรสีดำ
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,ดาบสั้นสลักอักษรสีดำ
 AppearanceName,black wand,คทาสีดำ
 AppearanceName,bloody potion,โพชั่นสีแดงกล่ำ
@@ -92,6 +93,7 @@ AppearanceName,clear potion,โพชั่นใส
 AppearanceName,cloth book,หนังสือผ้า
 AppearanceName,cloudy potion,โพชั่นขุ่นๆ
 AppearanceName,coarse mantelet,หิ้งสั้น
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,หนังสือที่มีสีสัน
 AppearanceName,combat boots,รองเท้าบู๊ตทหาร
 AppearanceName,compact gun,ปืน
@@ -335,6 +337,7 @@ AppearanceName,silver slug,ทากเงิน
 AppearanceName,silver wand,คทาเงิน
 AppearanceName,single-edged polearm,หอกปลายดาบคมเดียว
 AppearanceName,sky blue potion,โพชั่นสีฟ้าคราม
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,ผ้าคลุมลื่นๆ
 AppearanceName,small gun,ปืนเล็ก
 AppearanceName,smoky potion,โพชั่นเป็นควัน
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,ผ้าคลุมขาดรุ่งริ่
 AppearanceName,thick book,หนังสือเล่มหน้า
 AppearanceName,thin book,หนังสือเล่มบาง
 AppearanceName,thin cake,เค้กชิ้นบางๆ
+AppearanceName,thin gun,
 AppearanceName,thonged club,ไม้พันด้วยสายหนัง
 AppearanceName,three-pointed polearm,หอกปลายสามแหลม
 AppearanceName,throwing axe,ขวานขว้าง
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.",
 EntityDescription,Beware this clockwork machine of war.,
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.",
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.",
 ItemDescription,A short and light double-edged blade.,
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.",
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,
 ItemDescription,A small iron tool designed for opening all sorts of locks.,
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,
 ItemName,Dragonbane,ดราก้อนเบน
 ItemName,dread staff,
 ItemName,Drilanze,
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,
 ItemName,dunce cap,
 ItemName,dwarvish cloak,
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,
 ItemName,plate barding,
 ItemName,plate mail,
 ItemName,poison dart,ลูกดอกยาพิษ
+ItemName,poisoned bullet,
 ItemName,porter,
 ItemName,potion of acid,โพชั่นกรด
 ItemName,potion of affliction,โพชั่นความทุกข์
@@ -2800,6 +2809,7 @@ ItemName,shotgun,
 ItemName,shotgun shell,
 ItemName,shuriken,
 ItemName,sickle,
+ItemName,silenced carbine,
 ItemName,silver arrow,ลูกธนูเงิน
 ItemName,silver axe,ขวานเงิน
 ItemName,silver bullet,กระสุนเงิน

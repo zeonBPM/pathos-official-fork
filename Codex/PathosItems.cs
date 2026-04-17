@@ -13697,11 +13697,11 @@ namespace Pathos
 
 
       
-      dark_elven_estoc = AddMeleeWeapon("drow estoc", I =>
+      dark_elven_rapier = AddMeleeWeapon("dark elven estoc", I =>
       {
         I.Description = null;
         I.SetAppearance("black runed rapier", null);
-        I.Glyph = Glyphs.dark_elven_short_sword;
+        I.Glyph = Glyphs.drow_estoc;
         I.Sonic = Sonics.weapon;
         I.OriginRace = Races.elf;
         I.Series = null;
@@ -14781,12 +14781,13 @@ namespace Pathos
       });
 
       
-      drow_carbine = AddRangedWeapon(Ammunition.Bullet, "silenced carbine", I =>
+      dark_elven_carbine = AddRangedWeapon(Ammunition.Bullet, "silenced carbine", I =>
       {
         I.Description = null;
         I.SetAppearance("slim gun", null);
-        I.Glyph = Glyphs.submachine_gun;
+        I.Glyph = Glyphs.drow_carbine;
         I.Sonic = Sonics.weapon;
+        I.OriginRace = Races.elf;
         I.Series = null;
         I.Rarity = 0;
         I.Size = Size.Large;
@@ -14805,7 +14806,7 @@ namespace Pathos
         W.AttackDelay = Delay.FromTurns(+3);
       });
 
-
+      
 
       heavy_machine_gun = AddRangedWeapon(Ammunition.Bullet, "heavy machine gun", I =>
       {
@@ -14934,11 +14935,12 @@ namespace Pathos
       });
 
       
-      drow_pistol = AddRangedWeapon(Ammunition.Bullet, "drow pistol", I =>
+      dark_elven_pistol = AddRangedWeapon(Ammunition.Bullet, "silenced pistol", I =>
       {
         I.Description = "A silenced hand-held firearm.";
         I.SetAppearance("thin gun", null);
-        I.Glyph = Glyphs.pistol;
+        I.Glyph = Glyphs.drow_pistol;
+        I.OriginRace = Races.elf;
         I.Sonic = Sonics.weapon;
         I.Series = null;
         I.Rarity = 0;
@@ -14955,8 +14957,8 @@ namespace Pathos
         W.FixedRange = 15;
         W.AttackModifier = Modifier.Plus1;
       });
-
-
+      
+      
 
 
 
@@ -15037,11 +15039,14 @@ namespace Pathos
         I.SetOneHandedWeapon(Skills.firearms, null, Elements.physical, DamageType.Pierce, 1.d25());
       });
 
-       drow_bullet = AddRangedMissile(Ammunition.Bullet, "poisoned bullet", I =>
+     
+      
+       dark_elven_bullet = AddRangedMissile(Ammunition.Bullet, "poisoned bullet", I =>
       {
         I.Description = null;
-        I.SetAppearance("wet mithril slug", null);
-        I.Glyph = Glyphs.mithril_bullet;
+        I.SetAppearance("coated mithril slug", null);
+        I.Glyph = Glyphs.drow_bullet;
+        I.OriginRace = Races.elf;
         I.Sonic = Sonics.ammo;
         I.Series = null;
         I.Rarity = 0;
@@ -15057,10 +15062,8 @@ namespace Pathos
         {
           A.Macro(KnockoutPoison);
         });
-       });
-
-    
-
+      });
+ 
 
 
       // TODO: we need to choose between enchantment modifiers and upgrades somehow?
@@ -15375,6 +15378,9 @@ namespace Pathos
         Register.AddAbolitionReplacement(silver_bullet, silver_arrow);
         Register.AddAbolitionReplacement(mithril_bullet, mithril_arrow);
         Register.AddAbolitionReplacement(adamantine_bullet, adamantine_arrow);
+        Register.AddAbolitionReplacement(dark_elven_bullet, dark_elven_arrow);
+        Register.AddAbolitionReplacement(dark_elven_carbine, dark_elven_bow);
+        Register.AddAbolitionReplacement(dark_elven_pistol, dark_elven_bow);
 
         var MissingAbolitionReplacementArray = List.Where(I => I.IsAbolitionCandidate() && !I.Grade.Unique).Except(Register.AbolitionReplacements.Select(R => R.AbolitionItem)).ToArray();
         if (MissingAbolitionReplacementArray.Length > 0)
@@ -15609,7 +15615,10 @@ namespace Pathos
     public readonly Item dark_elven_dagger;
     public readonly Item dark_elven_mithrilcoat;
     public readonly Item dark_elven_short_sword;
-    public readonly Item dark_elven_estoc;
+    public readonly Item dark_elven_rapier;
+    public readonly Item dark_elven_pistol;
+    public readonly Item dark_elven_carbine;
+    public readonly Item dark_elven_bullet;
 
     // dwarvish.
     public readonly Item dwarvish_cloak;
@@ -15877,9 +15886,7 @@ namespace Pathos
     public readonly Item silver_bullet;
     public readonly Item adamantine_bullet;
     public readonly Item mithril_bullet;
-    public readonly Item drow_pistol;
-    public readonly Item drow_carbine;
-    public readonly Item drow_bullet;
+
 
 
 

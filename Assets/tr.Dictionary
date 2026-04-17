@@ -64,6 +64,7 @@ AppearanceName,black potion,siyah iksir
 AppearanceName,black runed arrow,siyah rünlü ok
 AppearanceName,black runed bow,siyah rünlü yay
 AppearanceName,black runed dagger,siyah rünlü hançer
+AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,siyah rünlü kısa kılıç
 AppearanceName,black wand,siyah asa
 AppearanceName,bloody potion,kanlı iksir
@@ -92,6 +93,7 @@ AppearanceName,clear potion,saydam iksir
 AppearanceName,cloth book,kumaş kitap
 AppearanceName,cloudy potion,bulanık iksir
 AppearanceName,coarse mantelet,kaba manto
+AppearanceName,coated mithril slug,
 AppearanceName,colourful book,renkli kitap
 AppearanceName,combat boots,savaş botları
 AppearanceName,compact gun,kompakt tabanca
@@ -335,6 +337,7 @@ AppearanceName,silver slug,gümüş mermi
 AppearanceName,silver wand,gümüş asa
 AppearanceName,single-edged polearm,tek taraflı uzun sırıklı silah
 AppearanceName,sky blue potion,gökmavisi iksir
+AppearanceName,slim gun,
 AppearanceName,slippery cloak,kaygan pelerin
 AppearanceName,small gun,küçük tabanca
 AppearanceName,smoky potion,dumanlı iksir
@@ -359,6 +362,7 @@ AppearanceName,tattered cape,paramparça cüppe
 AppearanceName,thick book,kalın kitap
 AppearanceName,thin book,ince kitap
 AppearanceName,thin cake,ince kek
+AppearanceName,thin gun,
 AppearanceName,thonged club,sırımlı sopa
 AppearanceName,three-pointed polearm,üç çatallı mızrak
 AppearanceName,throwing axe,fırlatma baltası
@@ -1023,6 +1027,7 @@ EntityDescription,"Astral beings who are a vessel for the indomitable spirit of 
 EntityDescription,"Beautiful, otherworldly beings characterised by their signature halo and feathered wings. Strongly attuned to the struggle between good and evil, they sense the divinity within anything they hold.",
 EntityDescription,Beware this clockwork machine of war.,
 EntityDescription,Bipedal mechanical automatons with nearly unbounded artificial intelligence. Powered by a molten core engine that requires a constant supply of raw metals and is susceptible to water damage.,
+EntityDescription,"Drow are the dark elves of the sunless realm. Well-suited to the dungeon environment, they have much in common with standard elves, but their specialty is their sleep attack.",
 EntityDescription,"Fey creatures linked by powerful nature spirits to fuel their antics. They are stocky with furry lower bodies, cloven hooves of a goat and curled horns of a ram. Ribald and clever, they cheerfully lead hedonistic escapades of drinking, dancing and fighting.",
 EntityDescription,for testing purposes,
 EntityDescription,"Imposing and heavily built, they resemble humanoid dragons with a snout, scaly hide and functional wings.",
@@ -2178,6 +2183,7 @@ ItemDescription,"A semi-rigid weapon made up of a notched wooden shaft with a dr
 ItemDescription,A sharp iron wedge fashioned to a sturdy handle.,
 ItemDescription,"A sharp metal throwing weapon, smaller than a hand and shaped like a star.",
 ItemDescription,A short and light double-edged blade.,
+ItemDescription,A silenced hand-held firearm.,
 ItemDescription,"A slimy, scaly sea creature, in its entirety. Good for a meal.",
 ItemDescription,A small cutting utensil made of metal with a wooden handle.,
 ItemDescription,A small iron tool designed for opening all sorts of locks.,
@@ -2463,6 +2469,8 @@ ItemName,disencumbrance boots,
 ItemName,Dragonbane,Ejderboğan
 ItemName,dread staff,dehşet değneği
 ItemName,Drilanze,
+ItemName,drow estoc,
+ItemName,drow pistol,
 ItemName,drum of earthquake,deprem davulu
 ItemName,dunce cap,aptal kepi
 ItemName,dwarvish cloak,bodur pelerini
@@ -2661,6 +2669,7 @@ ItemName,plastic sword,
 ItemName,plate barding,plaka zırh takımı
 ItemName,plate mail,plaka zırh
 ItemName,poison dart,
+ItemName,poisoned bullet,
 ItemName,porter,
 ItemName,potion of acid,asit iksiri
 ItemName,potion of affliction,bela iksiri
@@ -2800,6 +2809,7 @@ ItemName,shotgun,pompalı tabanca
 ItemName,shotgun shell,pompalı kovanı
 ItemName,shuriken,shuriken
 ItemName,sickle,
+ItemName,silenced carbine,
 ItemName,silver arrow,gümüş ok
 ItemName,silver axe,
 ItemName,silver bullet,gümüş mermi
