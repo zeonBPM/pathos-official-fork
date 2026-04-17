@@ -1,5 +1,13 @@
 AppearanceName,bubbly potion,шипучее отвара
 AppearanceName,effervescent potion,шипучее отвара
+AppearanceName,black runed arrow,черна руническая стрела
+AppearanceName,glossy arrow,черна руническая стрела
+AppearanceName,black runed bow,черен рунически лък
+AppearanceName,glossy bow,черен рунически лък
+AppearanceName,black runed dagger,черен рунически кинжал
+AppearanceName,glossy dagger,черен рунически кинжал
+AppearanceName,black runed short sword,черен рунически къс меч
+AppearanceName,glossy short sword,черен рунически къс меч
 AppearanceName,magenta book,пурпурная книга
 AppearanceName,purple book,пурпурная книга
 EntityName,dark cleric,жрец

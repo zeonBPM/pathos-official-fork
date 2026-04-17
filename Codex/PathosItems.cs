@@ -13697,10 +13697,10 @@ namespace Pathos
 
 
       
-      dark_elven_rapier = AddMeleeWeapon("dark elven estoc", I =>
+      drow_rapier = AddMeleeWeapon("dark elven estoc", I =>
       {
         I.Description = null;
-        I.SetAppearance("black runed rapier", null);
+        I.SetAppearance("glossy rapier", null);
         I.Glyph = Glyphs.drow_estoc;
         I.Sonic = Sonics.weapon;
         I.OriginRace = Races.elf;
@@ -14781,7 +14781,7 @@ namespace Pathos
       });
 
       
-      dark_elven_carbine = AddRangedWeapon(Ammunition.Bullet, "silenced carbine", I =>
+      drow_carbine = AddRangedWeapon(Ammunition.Bullet, "silenced carbine", I =>
       {
         I.Description = null;
         I.SetAppearance("slim gun", null);
@@ -14935,7 +14935,7 @@ namespace Pathos
       });
 
       
-      dark_elven_pistol = AddRangedWeapon(Ammunition.Bullet, "silenced pistol", I =>
+      drow_pistol = AddRangedWeapon(Ammunition.Bullet, "silenced pistol", I =>
       {
         I.Description = "A silenced hand-held firearm.";
         I.SetAppearance("thin gun", null);
@@ -15041,10 +15041,10 @@ namespace Pathos
 
      
       
-       dark_elven_bullet = AddRangedMissile(Ammunition.Bullet, "poisoned bullet", I =>
+       drow_bullet = AddRangedMissile(Ammunition.Bullet, "poisoned bullet", I =>
       {
         I.Description = null;
-        I.SetAppearance("coated mithril slug", null);
+        I.SetAppearance("glossy slug", null);
         I.Glyph = Glyphs.drow_bullet;
         I.OriginRace = Races.elf;
         I.Sonic = Sonics.ammo;
@@ -15378,9 +15378,9 @@ namespace Pathos
         Register.AddAbolitionReplacement(silver_bullet, silver_arrow);
         Register.AddAbolitionReplacement(mithril_bullet, mithril_arrow);
         Register.AddAbolitionReplacement(adamantine_bullet, adamantine_arrow);
-        Register.AddAbolitionReplacement(dark_elven_bullet, dark_elven_arrow);
-        Register.AddAbolitionReplacement(dark_elven_carbine, dark_elven_bow);
-        Register.AddAbolitionReplacement(dark_elven_pistol, dark_elven_bow);
+        Register.AddAbolitionReplacement(drow_bullet, drow_arrow);
+        Register.AddAbolitionReplacement(drow_carbine, drow_bow);
+        Register.AddAbolitionReplacement(drow_pistol, drow_bow);
 
         var MissingAbolitionReplacementArray = List.Where(I => I.IsAbolitionCandidate() && !I.Grade.Unique).Except(Register.AbolitionReplacements.Select(R => R.AbolitionItem)).ToArray();
         if (MissingAbolitionReplacementArray.Length > 0)
@@ -15623,10 +15623,10 @@ namespace Pathos
     public readonly Item drow_dagger;
     public readonly Item drow_short_sword;
     public readonly Item drow_mithrilcoat;
-    public readonly Item dark_elven_rapier;
-    public readonly Item dark_elven_pistol;
-    public readonly Item dark_elven_carbine;
-    public readonly Item dark_elven_bullet;
+    public readonly Item drow_rapier;
+    public readonly Item drow_pistol;
+    public readonly Item drow_carbine;
+    public readonly Item drow_bullet;
 
 
 

@@ -155,7 +155,11 @@ AppearanceName,glass wand,玻璃魔杖
 AppearanceName,glasses,眼鏡
 AppearanceName,glittering book,閃光的書
 AppearanceName,gloomy potion,漆黑的藥水
+AppearanceName,glossy arrow,黑色符文箭
+AppearanceName,glossy bow,黑色符文弓
+AppearanceName,glossy dagger,黑色符文匕首
 AppearanceName,glossy mithril-coat,光亮的秘銀夾克
+AppearanceName,glossy short sword,黑色符文短劍
 AppearanceName,gold book,金製的書
 AppearanceName,gold earrings,黃金耳環
 AppearanceName,gold ring,黃金戒指
@@ -2449,11 +2453,7 @@ ItemName,crysknife,呼嘯之刃
 ItemName,crystal ball,水晶球
 ItemName,crystal plate mail,水晶板甲
 ItemName,dagger,匕首
-ItemName,dark elven arrow,黑暗精靈箭
-ItemName,dark elven bow,黑暗精靈弓
-ItemName,dark elven dagger,黑暗精靈匕首
-ItemName,dark elven mithril-coat,黑暗精靈族秘銀夾克
-ItemName,dark elven short sword,黑暗精靈短劍
+ItemName,dark elven estoc,
 ItemName,dart,飛鏢
 ItemName,Deadwood,枯枝
 ItemName,Deagle,沙漠之鷹
@@ -2469,8 +2469,11 @@ ItemName,disencumbrance boots,負重之靴
 ItemName,Dragonbane,斬龍劍
 ItemName,dread staff,恐懼手杖
 ItemName,Drilanze,三千驚雷槍
-ItemName,drow estoc,
-ItemName,drow pistol,
+ItemName,drow arrow,黑暗精靈箭
+ItemName,drow bow,黑暗精靈弓
+ItemName,drow dagger,黑暗精靈匕首
+ItemName,drow mithril-coat,黑暗精靈族秘銀夾克
+ItemName,drow short sword,黑暗精靈短劍
 ItemName,drum of earthquake,地震之鼓
 ItemName,dunce cap,蠢人帽
 ItemName,dwarvish cloak,矮人族斗篷
@@ -2810,6 +2813,7 @@ ItemName,shotgun shell,霰彈
 ItemName,shuriken,手裡劍
 ItemName,sickle,短柄鐮刀
 ItemName,silenced carbine,
+ItemName,silenced pistol,
 ItemName,silver arrow,銀箭
 ItemName,silver axe,銀製斧子
 ItemName,silver bullet,銀彈

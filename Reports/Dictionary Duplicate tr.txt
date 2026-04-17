@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,siyah rünlü ok
+AppearanceName,glossy arrow,siyah rünlü ok
+AppearanceName,black runed bow,siyah rünlü yay
+AppearanceName,glossy bow,siyah rünlü yay
+AppearanceName,black runed dagger,siyah rünlü hançer
+AppearanceName,glossy dagger,siyah rünlü hançer
+AppearanceName,black runed short sword,siyah rünlü kısa kılıç
+AppearanceName,glossy short sword,siyah rünlü kısa kılıç
 AppearanceName,cloudy potion,bulanık iksir
 AppearanceName,murky potion,bulanık iksir
 EntityName,demon,iblis

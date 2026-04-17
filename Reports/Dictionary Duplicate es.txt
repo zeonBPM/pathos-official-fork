@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,flecha negra con runas
+AppearanceName,glossy arrow,flecha negra con runas
+AppearanceName,black runed bow,arco negro con runas
+AppearanceName,glossy bow,arco negro con runas
+AppearanceName,black runed dagger,daga negra con runas
+AppearanceName,glossy dagger,daga negra con runas
+AppearanceName,black runed short sword,espada corta negra con runas
+AppearanceName,glossy short sword,espada corta negra con runas
 GenderHis,her,su
 GenderHis,his,su
 GenderHis,its,su

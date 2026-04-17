@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,schwarzer Runenpfeil
+AppearanceName,glossy arrow,schwarzer Runenpfeil
+AppearanceName,black runed bow,schwarzer Runenbogen
+AppearanceName,glossy bow,schwarzer Runenbogen
+AppearanceName,black runed dagger,schwarzer Runendolch
+AppearanceName,glossy dagger,schwarzer Runendolch
+AppearanceName,black runed short sword,schwarzes Runenschwert
+AppearanceName,glossy short sword,schwarzes Runenschwert
 GenderHis,his,seinem
 GenderHis,its,seinem
 GenderHimself,herself,sich selbst

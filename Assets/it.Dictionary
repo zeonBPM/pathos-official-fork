@@ -155,7 +155,11 @@ AppearanceName,glass wand,bacchetta di vetro
 AppearanceName,glasses,occhiali
 AppearanceName,glittering book,libro luccicante
 AppearanceName,gloomy potion,pozione lugubre
+AppearanceName,glossy arrow,freccia runica nera
+AppearanceName,glossy bow,arco runico nero
+AppearanceName,glossy dagger,pugnale runico nero
 AppearanceName,glossy mithril-coat,cappotto di mithril
+AppearanceName,glossy short sword,spada corta runica nera
 AppearanceName,gold book,libro d'oro
 AppearanceName,gold earrings,orecchini d'oro
 AppearanceName,gold ring,anello d'oro
@@ -2449,11 +2453,7 @@ ItemName,crysknife,crisantemo
 ItemName,crystal ball,palla di cristallo
 ItemName,crystal plate mail,armatura a piastre di cristallo
 ItemName,dagger,pugnale
-ItemName,dark elven arrow,freccia degli elfi scuri
-ItemName,dark elven bow,arco degli elfi scuri
-ItemName,dark elven dagger,pugnale degli elfi scuri
-ItemName,dark elven mithril-coat,armatura di mithril degli elfi scuri
-ItemName,dark elven short sword,spada corta degli elfi scuri
+ItemName,dark elven estoc,
 ItemName,dart,dardo
 ItemName,Deadwood,Mana Reaper
 ItemName,Deagle,Desert Eagle
@@ -2469,8 +2469,11 @@ ItemName,disencumbrance boots,stivali della leggerezza
 ItemName,Dragonbane,Dragonbane
 ItemName,dread staff,verga del terrore
 ItemName,Drilanze,Mazza-Tesla
-ItemName,drow estoc,
-ItemName,drow pistol,
+ItemName,drow arrow,freccia degli elfi scuri
+ItemName,drow bow,arco degli elfi scuri
+ItemName,drow dagger,pugnale degli elfi scuri
+ItemName,drow mithril-coat,armatura di mithril degli elfi scuri
+ItemName,drow short sword,spada corta degli elfi scuri
 ItemName,drum of earthquake,tamburo dei terremoti
 ItemName,dunce cap,cappello da asino
 ItemName,dwarvish cloak,mantello nanico
@@ -2810,6 +2813,7 @@ ItemName,shotgun shell,bossolo di fucile
 ItemName,shuriken,shuriken
 ItemName,sickle,falcetto
 ItemName,silenced carbine,
+ItemName,silenced pistol,
 ItemName,silver arrow,freccia d'argento
 ItemName,silver axe,ascia d'argento
 ItemName,silver bullet,proiettile d'argento

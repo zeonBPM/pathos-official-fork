@@ -1,0 +1,8 @@
+AppearanceName,black runed arrow,謎の文字のついた黒い矢
+AppearanceName,glossy arrow,謎の文字のついた黒い矢
+AppearanceName,black runed bow,謎の文字のついた黒い弓
+AppearanceName,glossy bow,謎の文字のついた黒い弓
+AppearanceName,black runed dagger,謎の文字のついた黒いダガー
+AppearanceName,glossy dagger,謎の文字のついた黒いダガー
+AppearanceName,black runed short sword,謎の文字のついた黒いショートソード
+AppearanceName,glossy short sword,謎の文字のついた黒いショートソード

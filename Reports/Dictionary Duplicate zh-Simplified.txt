@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,黑色符文箭
+AppearanceName,glossy arrow,黑色符文箭
+AppearanceName,black runed bow,黑色符文弓
+AppearanceName,glossy bow,黑色符文弓
+AppearanceName,black runed dagger,黑色符文匕首
+AppearanceName,glossy dagger,黑色符文匕首
+AppearanceName,black runed short sword,黑色符文短剑
+AppearanceName,glossy short sword,黑色符文短剑
 EquipAction,employ,使用
 EquipAction,wield,使用
 SonicName,gibber,哼哼

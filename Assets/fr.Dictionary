@@ -155,7 +155,11 @@ AppearanceName,glass wand,baguette de verre
 AppearanceName,glasses,lunettes
 AppearanceName,glittering book,livre scintillant
 AppearanceName,gloomy potion,potion sombre
+AppearanceName,glossy arrow,flèche runique noire
+AppearanceName,glossy bow,arc runique noir
+AppearanceName,glossy dagger,dague runique noire
 AppearanceName,glossy mithril-coat,manteau de mithril brillant
+AppearanceName,glossy short sword,épée courte runique noire
 AppearanceName,gold book,livre d'or
 AppearanceName,gold earrings,boucles d'oreilles en or
 AppearanceName,gold ring,anneau d'or
@@ -2449,11 +2453,7 @@ ItemName,crysknife,kriss
 ItemName,crystal ball,boule de cristal
 ItemName,crystal plate mail,armure de plaques de cristal
 ItemName,dagger,dague
-ItemName,dark elven arrow,flèche d'elfe noir
-ItemName,dark elven bow,arc d'elfe noir
-ItemName,dark elven dagger,dague d'elfe noir
-ItemName,dark elven mithril-coat,manteau de mithril d'elfe noir
-ItemName,dark elven short sword,épée courte d'elfe noir
+ItemName,dark elven estoc,
 ItemName,dart,fléchette
 ItemName,Deadwood,Boismort
 ItemName,Deagle,Deagle
@@ -2469,8 +2469,11 @@ ItemName,disencumbrance boots,Bottes de charge augmentée
 ItemName,Dragonbane,Fléau des dragons
 ItemName,dread staff,bâton de la terreur
 ItemName,Drilanze,Drilanze
-ItemName,drow estoc,
-ItemName,drow pistol,
+ItemName,drow arrow,flèche d'elfe noir
+ItemName,drow bow,arc d'elfe noir
+ItemName,drow dagger,dague d'elfe noir
+ItemName,drow mithril-coat,manteau de mithril d'elfe noir
+ItemName,drow short sword,épée courte d'elfe noir
 ItemName,drum of earthquake,tambour de tremblement de terre
 ItemName,dunce cap,bonnet d'âne
 ItemName,dwarvish cloak,manteau nain
@@ -2810,6 +2813,7 @@ ItemName,shotgun shell,chevrotine
 ItemName,shuriken,shuriken
 ItemName,sickle,faucille
 ItemName,silenced carbine,
+ItemName,silenced pistol,
 ItemName,silver arrow,flèche d'argent
 ItemName,silver axe,hache d'argent
 ItemName,silver bullet,balle en argent

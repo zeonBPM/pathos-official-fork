@@ -1,2 +1,10 @@
+AppearanceName,black runed arrow,чорна рунічний стріла
+AppearanceName,glossy arrow,чорна рунічний стріла
+AppearanceName,black runed bow,чорний рунічний лук
+AppearanceName,glossy bow,чорний рунічний лук
+AppearanceName,black runed dagger,чорний рунічний кинджал
+AppearanceName,glossy dagger,чорний рунічний кинджал
+AppearanceName,black runed short sword,чорний рунічний короткий меч
+AppearanceName,glossy short sword,чорний рунічний короткий меч
 GenderHis,his,його
 GenderHis,its,його

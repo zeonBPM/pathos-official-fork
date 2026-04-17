@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,검은색 룬새김 화살
+AppearanceName,glossy arrow,검은색 룬새김 화살
+AppearanceName,black runed bow,검은색 룬새김 활
+AppearanceName,glossy bow,검은색 룬새김 활
+AppearanceName,black runed dagger,검은색 룬새김 단검
+AppearanceName,glossy dagger,검은색 룬새김 단검
+AppearanceName,black runed short sword,검은색 룬새김 숏소드
+AppearanceName,glossy short sword,검은색 룬새김 숏소드
 GenderHis,his,그의
 GenderHis,their,그의
 GenderHimself,himself,그 스스로

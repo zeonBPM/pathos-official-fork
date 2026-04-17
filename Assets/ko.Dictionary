@@ -155,7 +155,11 @@ AppearanceName,glass wand,유리 마법봉
 AppearanceName,glasses,안경
 AppearanceName,glittering book,반짝이는 책
 AppearanceName,gloomy potion,어둑어둑한 물약
+AppearanceName,glossy arrow,검은색 룬새김 화살
+AppearanceName,glossy bow,검은색 룬새김 활
+AppearanceName,glossy dagger,검은색 룬새김 단검
 AppearanceName,glossy mithril-coat,광택있는 미스릴 갑옷
+AppearanceName,glossy short sword,검은색 룬새김 숏소드
 AppearanceName,gold book,황금빛 책
 AppearanceName,gold earrings,황금 귀걸이
 AppearanceName,gold ring,황금 반지
@@ -2449,11 +2453,7 @@ ItemName,crysknife,크리스나이프
 ItemName,crystal ball,수정구
 ItemName,crystal plate mail,수정 판금 갑옷
 ItemName,dagger,단검
-ItemName,dark elven arrow,다크 엘프제 화살
-ItemName,dark elven bow,다크 엘프제 활
-ItemName,dark elven dagger,다크 엘프제 단검
-ItemName,dark elven mithril-coat,다크 엘프제 미스릴 갑옷
-ItemName,dark elven short sword,다크 엘프제 숏소드
+ItemName,dark elven estoc,
 ItemName,dart,다트
 ItemName,Deadwood,고목나무 가지
 ItemName,Deagle,데저트 이글
@@ -2469,8 +2469,11 @@ ItemName,disencumbrance boots,무제약의 부츠
 ItemName,Dragonbane,용살자
 ItemName,dread staff,공포의 지팡이
 ItemName,Drilanze,드릴란체
-ItemName,drow estoc,
-ItemName,drow pistol,
+ItemName,drow arrow,다크 엘프제 화살
+ItemName,drow bow,다크 엘프제 활
+ItemName,drow dagger,다크 엘프제 단검
+ItemName,drow mithril-coat,다크 엘프제 미스릴 갑옷
+ItemName,drow short sword,다크 엘프제 숏소드
 ItemName,drum of earthquake,지진의 드럼
 ItemName,dunce cap,바보 모자
 ItemName,dwarvish cloak,드워프제 망토
@@ -2810,6 +2813,7 @@ ItemName,shotgun shell,샷건 탄환
 ItemName,shuriken,수리검
 ItemName,sickle,낫
 ItemName,silenced carbine,
+ItemName,silenced pistol,
 ItemName,silver arrow,은제 화살
 ItemName,silver axe,은 도끼
 ItemName,silver bullet,은제 총알

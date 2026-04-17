@@ -1,0 +1,8 @@
+AppearanceName,black runed arrow,חץ שחור עם רונות
+AppearanceName,glossy arrow,חץ שחור עם רונות
+AppearanceName,black runed bow,קשת שחורה עם רונות
+AppearanceName,glossy bow,קשת שחורה עם רונות
+AppearanceName,black runed dagger,פגיון שחור עם רונות
+AppearanceName,glossy dagger,פגיון שחור עם רונות
+AppearanceName,black runed short sword,חרב קצרה שחורה עם רונות
+AppearanceName,glossy short sword,חרב קצרה שחורה עם רונות

@@ -155,7 +155,11 @@ AppearanceName,glass wand,varinha de vidro
 AppearanceName,glasses,óculos
 AppearanceName,glittering book,livro resplandecente
 AppearanceName,gloomy potion,poção sombria
+AppearanceName,glossy arrow,flecha rúnica preta
+AppearanceName,glossy bow,arco rúnico preto
+AppearanceName,glossy dagger,adaga rúnica preta
 AppearanceName,glossy mithril-coat,vestimenta lustrosa de mithril
+AppearanceName,glossy short sword,espada curta rúnica preta
 AppearanceName,gold book,livro dourado
 AppearanceName,gold earrings,brincos de ouro
 AppearanceName,gold ring,anel de ouro
@@ -2449,11 +2453,7 @@ ItemName,crysknife,crysknife
 ItemName,crystal ball,bola de cristal
 ItemName,crystal plate mail,armadura de cristal
 ItemName,dagger,adaga
-ItemName,dark elven arrow,flecha de elfo das sombras
-ItemName,dark elven bow,arco de elfo das sombras
-ItemName,dark elven dagger,adaga de elfo das sombras
-ItemName,dark elven mithril-coat,vestimenta de mithril de elfo das sombras
-ItemName,dark elven short sword,espada curta de elfo das sombras
+ItemName,dark elven estoc,
 ItemName,dart,dardo
 ItemName,Deadwood,Deadwood
 ItemName,Deagle,Escopeta d'Águia
@@ -2469,8 +2469,11 @@ ItemName,disencumbrance boots,botas da leveza
 ItemName,Dragonbane,Ruína dos Dragões
 ItemName,dread staff,cajado do temor
 ItemName,Drilanze,Drilanze
-ItemName,drow estoc,
-ItemName,drow pistol,
+ItemName,drow arrow,flecha de elfo das sombras
+ItemName,drow bow,arco de elfo das sombras
+ItemName,drow dagger,adaga de elfo das sombras
+ItemName,drow mithril-coat,vestimenta de mithril de elfo das sombras
+ItemName,drow short sword,espada curta de elfo das sombras
 ItemName,drum of earthquake,tambor do terremoto
 ItemName,dunce cap,chapéu para burros
 ItemName,dwarvish cloak,manto de anão
@@ -2810,6 +2813,7 @@ ItemName,shotgun shell,cápsula de espingarda
 ItemName,shuriken,shuriken
 ItemName,sickle,foice de mão
 ItemName,silenced carbine,
+ItemName,silenced pistol,
 ItemName,silver arrow,flecha de prata
 ItemName,silver axe,machado de prata
 ItemName,silver bullet,bala de prata

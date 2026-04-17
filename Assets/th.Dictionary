@@ -155,7 +155,11 @@ AppearanceName,glass wand,คทาแก้ว
 AppearanceName,glasses,แก้ว
 AppearanceName,glittering book,หนังสือระยิบระยับ
 AppearanceName,gloomy potion,โพชั่นหมองมัว
+AppearanceName,glossy arrow,ลูกธนูสลักอักษรสีดำ
+AppearanceName,glossy bow,ธนูสลักอักษรสีดำ
+AppearanceName,glossy dagger,มีดสั้นสลักอักษรสีดำ
 AppearanceName,glossy mithril-coat,ผ้าคลุมมิธริลดูแวววับ
+AppearanceName,glossy short sword,ดาบสั้นสลักอักษรสีดำ
 AppearanceName,gold book,หนังสือทอง
 AppearanceName,gold earrings,ต่างหูทอง
 AppearanceName,gold ring,แหวนทอง
@@ -2449,11 +2453,7 @@ ItemName,crysknife,
 ItemName,crystal ball,ลูกบอลผลึก
 ItemName,crystal plate mail,
 ItemName,dagger,มีดสั้น
-ItemName,dark elven arrow,ลูกธนูดาร์คเอลฟ์
-ItemName,dark elven bow,ธนูดาร์คเอลฟ์
-ItemName,dark elven dagger,มีดสั้นดาร์คเอลฟ์
-ItemName,dark elven mithril-coat,ผ้าคลุมมิธริลดาร์คเอลฟ์
-ItemName,dark elven short sword,ดาบสั้นดาร์คเอลฟ์
+ItemName,dark elven estoc,
 ItemName,dart,ลูกดอก
 ItemName,Deadwood,
 ItemName,Deagle,
@@ -2469,8 +2469,11 @@ ItemName,disencumbrance boots,
 ItemName,Dragonbane,ดราก้อนเบน
 ItemName,dread staff,
 ItemName,Drilanze,
-ItemName,drow estoc,
-ItemName,drow pistol,
+ItemName,drow arrow,ลูกธนูดาร์คเอลฟ์
+ItemName,drow bow,ธนูดาร์คเอลฟ์
+ItemName,drow dagger,มีดสั้นดาร์คเอลฟ์
+ItemName,drow mithril-coat,ผ้าคลุมมิธริลดาร์คเอลฟ์
+ItemName,drow short sword,ดาบสั้นดาร์คเอลฟ์
 ItemName,drum of earthquake,
 ItemName,dunce cap,
 ItemName,dwarvish cloak,
@@ -2810,6 +2813,7 @@ ItemName,shotgun shell,
 ItemName,shuriken,
 ItemName,sickle,
 ItemName,silenced carbine,
+ItemName,silenced pistol,
 ItemName,silver arrow,ลูกธนูเงิน
 ItemName,silver axe,ขวานเงิน
 ItemName,silver bullet,กระสุนเงิน

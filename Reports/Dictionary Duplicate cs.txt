@@ -7,4 +7,12 @@ AppearanceName,copper wand,měděná hůlka
 AppearanceName,deep book,#
 AppearanceName,etched helmet,#
 AppearanceName,faded pall,#
+AppearanceName,black runed arrow,černý runový šíp
+AppearanceName,glossy arrow,černý runový šíp
+AppearanceName,black runed bow,černý runový luk
+AppearanceName,glossy bow,černý runový luk
+AppearanceName,black runed dagger,černá runová dýka
+AppearanceName,glossy dagger,černá runová dýka
+AppearanceName,black runed short sword,černý runový krátký meč
+AppearanceName,glossy short sword,černý runový krátký meč
 AppearanceName,heavy barrelled gun,#

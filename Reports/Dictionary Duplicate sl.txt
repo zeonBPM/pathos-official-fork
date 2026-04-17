@@ -1,2 +1,10 @@
+AppearanceName,black runed arrow,črna runed puščica
+AppearanceName,glossy arrow,črna runed puščica
+AppearanceName,black runed bow,črni runed lok
+AppearanceName,glossy bow,črni runed lok
+AppearanceName,black runed dagger,črno runed bodalo
+AppearanceName,glossy dagger,črno runed bodalo
+AppearanceName,black runed short sword,črni runed kratek meč
+AppearanceName,glossy short sword,črni runed kratek meč
 AppearanceName,ragged book,raztrgana knjiga
 AppearanceName,torn book,raztrgana knjiga

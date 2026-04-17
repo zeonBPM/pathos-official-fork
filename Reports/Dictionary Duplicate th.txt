@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,ลูกธนูสลักอักษรสีดำ
+AppearanceName,glossy arrow,ลูกธนูสลักอักษรสีดำ
+AppearanceName,black runed bow,ธนูสลักอักษรสีดำ
+AppearanceName,glossy bow,ธนูสลักอักษรสีดำ
+AppearanceName,black runed dagger,มีดสั้นสลักอักษรสีดำ
+AppearanceName,glossy dagger,มีดสั้นสลักอักษรสีดำ
+AppearanceName,black runed short sword,ดาบสั้นสลักอักษรสีดำ
+AppearanceName,glossy short sword,ดาบสั้นสลักอักษรสีดำ
 EngulfmentName,engulfed,กลืนแล้ว
 EngulfmentName,swallowed,กลืนแล้ว
 GenderHimself,himself,ตัวเขาเอง

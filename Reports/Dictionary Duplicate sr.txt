@@ -1,2 +1,10 @@
+AppearanceName,black runed arrow,crna runirana strela
+AppearanceName,glossy arrow,crna runirana strela
+AppearanceName,black runed bow,crni runirani luk
+AppearanceName,glossy bow,crni runirani luk
+AppearanceName,black runed dagger,crni runirani nož
+AppearanceName,glossy dagger,crni runirani nož
+AppearanceName,black runed short sword,crni runirani kratki mač
+AppearanceName,glossy short sword,crni runirani kratki mač
 GenderHimself,himself,njega
 GenderHimself,itself,njega

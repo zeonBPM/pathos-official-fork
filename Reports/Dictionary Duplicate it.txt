@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,freccia runica nera
+AppearanceName,glossy arrow,freccia runica nera
+AppearanceName,black runed bow,arco runico nero
+AppearanceName,glossy bow,arco runico nero
+AppearanceName,black runed dagger,pugnale runico nero
+AppearanceName,glossy dagger,pugnale runico nero
+AppearanceName,black runed short sword,spada corta runica nera
+AppearanceName,glossy short sword,spada corta runica nera
 CounterName,blinks,lampeggia
 CounterName,flashes,lampeggia
 EntityName,jellyfish,medusa

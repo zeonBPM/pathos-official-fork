@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,flèche runique noire
+AppearanceName,glossy arrow,flèche runique noire
+AppearanceName,black runed bow,arc runique noir
+AppearanceName,glossy bow,arc runique noir
+AppearanceName,black runed dagger,dague runique noire
+AppearanceName,glossy dagger,dague runique noire
+AppearanceName,black runed short sword,épée courte runique noire
+AppearanceName,glossy short sword,épée courte runique noire
 GenderHis,his,son
 GenderHis,its,son
 GenderHimself,himself,lui-même

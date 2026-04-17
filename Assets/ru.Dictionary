@@ -155,7 +155,11 @@ AppearanceName,glass wand,стеклянная палочка
 AppearanceName,glasses,очки
 AppearanceName,glittering book,сверкающая книга
 AppearanceName,gloomy potion,мрачное зелье
+AppearanceName,glossy arrow,чёрная руническая стрела
+AppearanceName,glossy bow,чёрный рунический лук
+AppearanceName,glossy dagger,чёрный рунический кинжал
 AppearanceName,glossy mithril-coat,блестящий мифрильный доспех
+AppearanceName,glossy short sword,чёрный рунический короткий меч
 AppearanceName,gold book,золотая книга
 AppearanceName,gold earrings,золотые серьги
 AppearanceName,gold ring,золотое кольцо
@@ -2449,11 +2453,7 @@ ItemName,crysknife,нож из зуба червя
 ItemName,crystal ball,кристальный шар
 ItemName,crystal plate mail,кристальные латы
 ItemName,dagger,кинжал
-ItemName,dark elven arrow,стрела тёмных эльфов
-ItemName,dark elven bow,лук тёмных эльфов
-ItemName,dark elven dagger,кинжал тёмных эльфов
-ItemName,dark elven mithril-coat,мифрильный доспех тёмных эльфов
-ItemName,dark elven short sword,короткий меч тёмных эльфов
+ItemName,dark elven estoc,
 ItemName,dart,дротик
 ItemName,Deadwood,Дедвуд
 ItemName,Deagle,Дигл
@@ -2469,8 +2469,11 @@ ItemName,disencumbrance boots,сапоги снятия обременения
 ItemName,Dragonbane,Бич драконов
 ItemName,dread staff,посох ужаса
 ItemName,Drilanze,Дриланц
-ItemName,drow estoc,
-ItemName,drow pistol,
+ItemName,drow arrow,стрела тёмных эльфов
+ItemName,drow bow,лук тёмных эльфов
+ItemName,drow dagger,кинжал тёмных эльфов
+ItemName,drow mithril-coat,мифрильный доспех тёмных эльфов
+ItemName,drow short sword,короткий меч тёмных эльфов
 ItemName,drum of earthquake,барабан землетрясения
 ItemName,dunce cap,дурацкий колпак
 ItemName,dwarvish cloak,дварфский плащ
@@ -2810,6 +2813,7 @@ ItemName,shotgun shell,дробовой патрон
 ItemName,shuriken,сюрикэн
 ItemName,sickle,серп
 ItemName,silenced carbine,
+ItemName,silenced pistol,
 ItemName,silver arrow,серебряная стрела
 ItemName,silver axe,серебряный топор
 ItemName,silver bullet,серебряная пуля

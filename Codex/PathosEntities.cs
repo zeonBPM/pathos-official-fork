@@ -462,10 +462,10 @@ namespace Pathos
         E.Startup.SetResistance(Elements.sleep);
         E.Startup.AddGrimoire(Dice.One, Spells.darkness);
         E.Startup.Loot.AddKit(Chance.Always, Items.book_of_bless);
-        E.Startup.Loot.AddKit(Chance.Always, 3.d6(), Items.dark_elven_bullet);
-        E.Startup.Loot.AddKit(Chance.OneIn10, Items.dark_elven_carbine);
-        E.Startup.Loot.AddKit(Chance.OneIn2, Items.dark_elven_rapier);
-        E.Startup.Loot.AddKit(Chance.OneIn2, Items.dark_elven_pistol);
+        E.Startup.Loot.AddKit(Chance.Always, 3.d6(), Items.drow_bullet);
+        E.Startup.Loot.AddKit(Chance.OneIn10, Items.drow_carbine);
+        E.Startup.Loot.AddKit(Chance.OneIn2, Items.drow_rapier);
+        E.Startup.Loot.AddKit(Chance.OneIn2, Items.drow_pistol);
 
         E.AddAttack(AttackTypes.weapon, Elements.physical, 1.d2(), K =>
         {

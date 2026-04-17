@@ -1,2 +1,10 @@
+AppearanceName,black runed arrow,чёрная руническая стрела
+AppearanceName,glossy arrow,чёрная руническая стрела
+AppearanceName,black runed bow,чёрный рунический лук
+AppearanceName,glossy bow,чёрный рунический лук
+AppearanceName,black runed dagger,чёрный рунический кинжал
+AppearanceName,glossy dagger,чёрный рунический кинжал
+AppearanceName,black runed short sword,чёрный рунический короткий меч
+AppearanceName,glossy short sword,чёрный рунический короткий меч
 ModuleTerm,To complete this game you need to escape through the final rift.,Чтобы завершить игру, вы должны сесть на конечный транспорт.
 ModuleTerm,To complete this game you need to escape through the final transportal.,Чтобы завершить игру, вы должны сесть на конечный транспорт.

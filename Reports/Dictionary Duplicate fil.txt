@@ -1,2 +1,10 @@
+AppearanceName,black runed arrow,item na palaso
+AppearanceName,glossy arrow,item na palaso
+AppearanceName,black runed bow,item na pana
+AppearanceName,glossy bow,item na pana
+AppearanceName,black runed dagger,item na kutsilyo
+AppearanceName,glossy dagger,item na kutsilyo
+AppearanceName,black runed short sword,item na maikling ispada
+AppearanceName,glossy short sword,item na maikling ispada
 AppearanceName,engagement ring,singsing na pangkasal
 AppearanceName,wedding ring,singsing na pangkasal

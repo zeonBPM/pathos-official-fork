@@ -1,9 +1,15 @@
+AppearanceName,black runed arrow,czarna strzała pokryta runami
+AppearanceName,glossy arrow,czarna strzała pokryta runami
+AppearanceName,black runed bow,czarny łuk pokryty runami
+AppearanceName,glossy bow,czarny łuk pokryty runami
+AppearanceName,black runed dagger,czarny sztylet pokryty runami
+AppearanceName,glossy dagger,czarny sztylet pokryty runami
+AppearanceName,black runed short sword,czarny krótki miecz pokryty runami
+AppearanceName,glossy short sword,czarny krótki miecz pokryty runami
 ClassName,hunter//male,łowca
 ClassName,ranger//male,łowca
 EquipAction,employ,wyposaż
 EquipAction,wield,wyposaż
-KindName,dracon,smok
-KindName,dragon,smok
 SonicName,fizzle,syczenie
 SonicName,hiss,syczenie
 SonicName,groan,jęk

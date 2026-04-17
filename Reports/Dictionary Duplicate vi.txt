@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,Mũi tên khắc cổ ngữ màu đen
+AppearanceName,glossy arrow,Mũi tên khắc cổ ngữ màu đen
+AppearanceName,black runed bow,Cung tên khắc cổ ngữ màu đen
+AppearanceName,glossy bow,Cung tên khắc cổ ngữ màu đen
+AppearanceName,black runed dagger,Dao găm khắc cổ ngữ màu đen
+AppearanceName,glossy dagger,Dao găm khắc cổ ngữ màu đen
+AppearanceName,black runed short sword,Kiếm ngắn khắc cổ ngữ màu đen
+AppearanceName,glossy short sword,Kiếm ngắn khắc cổ ngữ màu đen
 SonicName,roar,tiếng gầm
 SonicName,roars,tiếng gầm
 SonicName,scrape,tiếng cào

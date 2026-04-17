@@ -1,5 +1,13 @@
 AppearanceName,cloudy potion,معجون تیره
 AppearanceName,gloomy potion,معجون تیره
+AppearanceName,black runed arrow,تیر رون کاری شده سیاه
+AppearanceName,glossy arrow,تیر رون کاری شده سیاه
+AppearanceName,black runed bow,کمان رون کاری شده سیاه
+AppearanceName,glossy bow,کمان رون کاری شده سیاه
+AppearanceName,black runed dagger,خنجر رون کاری شده سیاه
+AppearanceName,glossy dagger,خنجر رون کاری شده سیاه
+AppearanceName,black runed short sword,شمشیر کوتاه رون کاری شده سیاه
+AppearanceName,glossy short sword,شمشیر کوتاه رون کاری شده سیاه
 AppearanceName,agate ring,حلقه عقیق
 AppearanceName,opal ring,حلقه عقیق
 AppearanceName,glittering book,کتاب درخشان

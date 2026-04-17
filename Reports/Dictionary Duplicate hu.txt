@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,fekete rúnás nyílvessző
+AppearanceName,glossy arrow,fekete rúnás nyílvessző
+AppearanceName,black runed bow,fekete rúnás íj
+AppearanceName,glossy bow,fekete rúnás íj
+AppearanceName,black runed dagger,fekete rúnás tőr
+AppearanceName,glossy dagger,fekete rúnás tőr
+AppearanceName,black runed short sword,fekete rúnás rövid kard
+AppearanceName,glossy short sword,fekete rúnás rövid kard
 EntityName,jellyfish,medúza
 EntityName,medusa,medúza
 EntityName,ape,majom

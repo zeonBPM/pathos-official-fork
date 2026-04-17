@@ -155,7 +155,11 @@ AppearanceName,glass wand,wand na babasagin
 AppearanceName,glasses,salamin
 AppearanceName,glittering book,librong kumikinang
 AppearanceName,gloomy potion,gayumang malungkot
+AppearanceName,glossy arrow,item na palaso
+AppearanceName,glossy bow,item na pana
+AppearanceName,glossy dagger,item na kutsilyo
 AppearanceName,glossy mithril-coat,makintab na mithril-coat
+AppearanceName,glossy short sword,item na maikling ispada
 AppearanceName,gold book,librong ginto
 AppearanceName,gold earrings,
 AppearanceName,gold ring,singsing na ginto
@@ -2449,11 +2453,7 @@ ItemName,crysknife,
 ItemName,crystal ball,
 ItemName,crystal plate mail,
 ItemName,dagger,
-ItemName,dark elven arrow,
-ItemName,dark elven bow,
-ItemName,dark elven dagger,
-ItemName,dark elven mithril-coat,
-ItemName,dark elven short sword,
+ItemName,dark elven estoc,
 ItemName,dart,
 ItemName,Deadwood,
 ItemName,Deagle,
@@ -2469,8 +2469,11 @@ ItemName,disencumbrance boots,
 ItemName,Dragonbane,
 ItemName,dread staff,
 ItemName,Drilanze,
-ItemName,drow estoc,
-ItemName,drow pistol,
+ItemName,drow arrow,
+ItemName,drow bow,
+ItemName,drow dagger,
+ItemName,drow mithril-coat,
+ItemName,drow short sword,
 ItemName,drum of earthquake,
 ItemName,dunce cap,
 ItemName,dwarvish cloak,
@@ -2810,6 +2813,7 @@ ItemName,shotgun shell,
 ItemName,shuriken,
 ItemName,sickle,
 ItemName,silenced carbine,
+ItemName,silenced pistol,
 ItemName,silver arrow,
 ItemName,silver axe,
 ItemName,silver bullet,

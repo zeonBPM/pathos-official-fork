@@ -1,3 +1,11 @@
+AppearanceName,black runed arrow,flecha rúnica preta
+AppearanceName,glossy arrow,flecha rúnica preta
+AppearanceName,black runed bow,arco rúnico preto
+AppearanceName,glossy bow,arco rúnico preto
+AppearanceName,black runed dagger,adaga rúnica preta
+AppearanceName,glossy dagger,adaga rúnica preta
+AppearanceName,black runed short sword,espada curta rúnica preta
+AppearanceName,glossy short sword,espada curta rúnica preta
 CounterName,drinks,bebe
 CounterName,quaffs,bebe
 CounterName,casts,lança
