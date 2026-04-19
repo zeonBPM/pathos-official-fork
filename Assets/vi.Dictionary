@@ -13,6 +13,7 @@ AfflictionName,reflux,Trào ngược dịch dạ dày
 AfflictionName,sliming,Hóa nhờn
 AfflictionName,worms,Hóa sâu
 AnatomyAbsenceText,HORNS,SỪNG
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,VÔ TRI
 AnatomyAbsenceText,NO BLOOD,KHÔNG CÓ MÁU
 AnatomyAbsenceText,NO EARS,KHÔNG TAI
@@ -36,6 +37,7 @@ AnatomyName,horns,sừng
 AnatomyName,limbs,cánh tay
 AnatomyName,mind,tâm trí
 AnatomyName,mounted,cưỡi
+AnatomyName,shinyhead,
 AnatomyName,thermal,thân nhiệt
 AnatomyName,voice,giọng nói
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,Một chiếc áo choàng dài hở phía trước và được thắt ở ngực bằng móc gài.
@@ -64,7 +66,6 @@ AppearanceName,black potion,Lọ thuốc màu đen
 AppearanceName,black runed arrow,Mũi tên khắc cổ ngữ màu đen
 AppearanceName,black runed bow,Cung tên khắc cổ ngữ màu đen
 AppearanceName,black runed dagger,Dao găm khắc cổ ngữ màu đen
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,Kiếm ngắn khắc cổ ngữ màu đen
 AppearanceName,black wand,Gậy phép màu đen
 AppearanceName,bloody potion,Lọ thuốc vấy máu
@@ -93,7 +94,6 @@ AppearanceName,clear potion,Lọ thuốc trong suốt
 AppearanceName,cloth book,Sách vải
 AppearanceName,cloudy potion,Lọ thuốc âm u
 AppearanceName,coarse mantelet,Cái mộc thô
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,Quyển sách sặc sỡ
 AppearanceName,combat boots,Ủng chiến đấu
 AppearanceName,compact gun,Súng nhỏ gọn
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,Mũi tên khắc cổ ngữ màu đen
 AppearanceName,glossy bow,Cung tên khắc cổ ngữ màu đen
 AppearanceName,glossy dagger,Dao găm khắc cổ ngữ màu đen
 AppearanceName,glossy mithril-coat,Áo choàng mithril sáng bóng
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,Kiếm ngắn khắc cổ ngữ màu đen
+AppearanceName,glossy slug,
 AppearanceName,gold book,Quyển sách bằng vàng
 AppearanceName,gold earrings,Đôi khuyên tai bằng vàng
 AppearanceName,gold ring,Nhẫn bằng vàng
@@ -850,6 +852,8 @@ CompanionName,horse,ngựa
 CompanionName,imp,tiểu quỷ
 CompanionName,monkey,khỉ
 CompanionName,rat,chuột
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,số bệnh
 CounterName,animations,số vật phẩm tái sinh
 CounterName,anoints,số lần nhúng
@@ -1535,6 +1539,7 @@ EntityName,Orion,Orion
 EntityName,owlbear,cú gấu
 EntityName,pack rat,chuột đuôi rậm
 EntityName,page,kị sĩ
+EntityName,paige,
 EntityName,panther,báo
 EntityName,pantherwere,ma báo
 EntityName,paper golem,golem giấy
@@ -1638,6 +1643,7 @@ EntityName,spined devil,quỷ gai
 EntityName,spitting beetle,bọ cánh cứng khạc nhổ
 EntityName,spotted jelly,thạch lấm chấm
 EntityName,squealer,squealer
+EntityName,squire,
 EntityName,stalker,quái rình mò
 EntityName,star vampire,ma cà rồng sao
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,golem rơm
 EntityName,student,học sinh
 EntityName,succubus,succubus
 EntityName,swamp kobold,kobold đầm lầy
+EntityName,sworn knight,
 EntityName,tengu,thiên cẩu
 EntityName,Thorin,Thorin
 EntityName,Thoth Amon,Thoth Amon

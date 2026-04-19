@@ -13,6 +13,7 @@ AfflictionName,reflux,
 AfflictionName,sliming,превращение в слизня
 AfflictionName,worms,
 AnatomyAbsenceText,HORNS,
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,НЕМЫСЛЯЩИЙ
 AnatomyAbsenceText,NO BLOOD,
 AnatomyAbsenceText,NO EARS,
@@ -36,6 +37,7 @@ AnatomyName,horns,
 AnatomyName,limbs,
 AnatomyName,mind,
 AnatomyName,mounted,верховой
+AnatomyName,shinyhead,
 AnatomyName,thermal,
 AnatomyName,voice,
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,"Длинный плащ, открытый спереди и с застёжкой на груди."
@@ -64,7 +66,6 @@ AppearanceName,black potion,черно отвара
 AppearanceName,black runed arrow,черна руническая стрела
 AppearanceName,black runed bow,черен рунически лък
 AppearanceName,black runed dagger,черен рунически кинжал
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,черен рунически къс меч
 AppearanceName,black wand,черна пръчка
 AppearanceName,bloody potion,
@@ -93,7 +94,6 @@ AppearanceName,clear potion,прозрачное отвара
 AppearanceName,cloth book,тканевая книга
 AppearanceName,cloudy potion,облачное отвара
 AppearanceName,coarse mantelet,груба мантия
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,разноцветная книга
 AppearanceName,combat boots,боевые ботуши
 AppearanceName,compact gun,
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,черна руническая стрела
 AppearanceName,glossy bow,черен рунически лък
 AppearanceName,glossy dagger,черен рунически кинжал
 AppearanceName,glossy mithril-coat,блестящий митрилни доспехи
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,черен рунически къс меч
+AppearanceName,glossy slug,
 AppearanceName,gold book,золотая книга
 AppearanceName,gold earrings,
 AppearanceName,gold ring,золотое пръстен
@@ -850,6 +852,8 @@ CompanionName,horse,конь
 CompanionName,imp,
 CompanionName,monkey,мартышка
 CompanionName,rat,
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,
 CounterName,animations,
 CounterName,anoints,
@@ -1535,6 +1539,7 @@ EntityName,Orion,Орион
 EntityName,owlbear,совомед
 EntityName,pack rat,крыса-крадецовка
 EntityName,page,паж
+EntityName,paige,
 EntityName,panther,пантера
 EntityName,pantherwere,
 EntityName,paper golem,бумажный голем
@@ -1638,6 +1643,7 @@ EntityName,spined devil,игольчатый дьявол
 EntityName,spitting beetle,плюющийся бръмбар
 EntityName,spotted jelly,пятнистый студень
 EntityName,squealer,визгун
+EntityName,squire,
 EntityName,stalker,невидимый охотник
 EntityName,star vampire,звёздный вампир
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,соломенный голем
 EntityName,student,студент
 EntityName,succubus,суккуб
 EntityName,swamp kobold,болотный коболд
+EntityName,sworn knight,
 EntityName,tengu,тэнгу
 EntityName,Thorin,Торин
 EntityName,Thoth Amon,Тот Амон

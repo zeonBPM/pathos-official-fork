@@ -13,6 +13,7 @@ AfflictionName,reflux,reflux
 AfflictionName,sliming,nyálkásodás
 AfflictionName,worms,férgesedés
 AnatomyAbsenceText,HORNS,
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,ESZETLEN
 AnatomyAbsenceText,NO BLOOD,
 AnatomyAbsenceText,NO EARS,FÜL NÉLKÜLI
@@ -36,6 +37,7 @@ AnatomyName,horns,
 AnatomyName,limbs,
 AnatomyName,mind,
 AnatomyName,mounted,hátason
+AnatomyName,shinyhead,
 AnatomyName,thermal,
 AnatomyName,voice,
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,"Egy hosszú, elöl nyitott köpönye, melyet a mellrésznél kapoccsal rögzítenek."
@@ -64,7 +66,6 @@ AppearanceName,black potion,fekete főzet
 AppearanceName,black runed arrow,fekete rúnás nyílvessző
 AppearanceName,black runed bow,fekete rúnás íj
 AppearanceName,black runed dagger,fekete rúnás tőr
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,fekete rúnás rövid kard
 AppearanceName,black wand,fekete pálca
 AppearanceName,bloody potion,véres főzet
@@ -93,7 +94,6 @@ AppearanceName,clear potion,tiszta főzet
 AppearanceName,cloth book,szövet könyv
 AppearanceName,cloudy potion,felhős főzet
 AppearanceName,coarse mantelet,közönséges rövid köpeny
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,színes könyv
 AppearanceName,combat boots,harci csizma
 AppearanceName,compact gun,kompakt fegyver
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,fekete rúnás nyílvessző
 AppearanceName,glossy bow,fekete rúnás íj
 AppearanceName,glossy dagger,fekete rúnás tőr
 AppearanceName,glossy mithril-coat,fényes mithrilpáncél
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,fekete rúnás rövid kard
+AppearanceName,glossy slug,
 AppearanceName,gold book,aranykönyv
 AppearanceName,gold earrings,aranyfülbevaló
 AppearanceName,gold ring,aranygyűrű
@@ -850,6 +852,8 @@ CompanionName,horse,ló
 CompanionName,imp,kis ördög
 CompanionName,monkey,majom
 CompanionName,rat,patkány
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,sújtások
 CounterName,animations,felélesztések
 CounterName,anoints,felszentelések
@@ -1535,6 +1539,7 @@ EntityName,Orion,Orion
 EntityName,owlbear,bagolymedve
 EntityName,pack rat,bozótpatkány
 EntityName,page,apród
+EntityName,paige,
 EntityName,panther,párduc
 EntityName,pantherwere,párducfajzat
 EntityName,paper golem,papírgólem
@@ -1638,6 +1643,7 @@ EntityName,spined devil,tövises ördög
 EntityName,spitting beetle,köpködő bogár
 EntityName,spotted jelly,pöttyös nyálka
 EntityName,squealer,sikoltó
+EntityName,squire,
 EntityName,stalker,osonó
 EntityName,star vampire,csillagvámpír
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,szalmagólem
 EntityName,student,tanuló
 EntityName,succubus,succubus
 EntityName,swamp kobold,mocsári kobold
+EntityName,sworn knight,
 EntityName,tengu,tengu
 EntityName,Thorin,Thorin
 EntityName,Thoth Amon,Thoth Amon

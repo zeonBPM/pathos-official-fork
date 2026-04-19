@@ -353,7 +353,7 @@ namespace Pathos
       Form.SetScore(Attributes.charisma, CHA);
     }
 
-    internal static void Set(this FigureEditor Figure, Material Material, bool Head, bool Mind, bool Eyes, bool Ears, bool Hands, bool Limbs, bool Feet, bool Thermal, bool Blood, bool Mounted, bool Amorphous, bool Voice, bool Horns = false, bool Shinyhead = false)
+    internal static void Set(this FigureEditor Figure, Material Material, bool Head, bool Mind, bool Eyes, bool Ears, bool Hands, bool Limbs, bool Feet, bool Thermal, bool Blood, bool Mounted, bool Amorphous , bool Voice, bool Horns = false, bool Shinyhead = false)
     {
       var Anatomy = Codex.Anatomies;
 
@@ -371,6 +371,7 @@ namespace Pathos
       if (Blood) Figure.Set(Anatomy.blood);
       if (Mounted) Figure.Set(Anatomy.mounted);
       if (Amorphous) Figure.Set(Anatomy.amorphous);
+      if (Shinyhead) Figure.Set(Anatomy.shinyhead);
     }
     internal static void WithSourceSanctity(this ApplyEditor Apply, Action<ApplyEditor> BlessedAction, Action<ApplyEditor> UncursedAction, Action<ApplyEditor> CursedAction)
     {

@@ -13,6 +13,7 @@ AfflictionName,reflux,역류
 AfflictionName,sliming,슬라임화
 AfflictionName,worms,기생충
 AnatomyAbsenceText,HORNS,뿔
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,이성없음
 AnatomyAbsenceText,NO BLOOD,피 없음
 AnatomyAbsenceText,NO EARS,소리 없음
@@ -36,6 +37,7 @@ AnatomyName,horns,뿔
 AnatomyName,limbs,사지
 AnatomyName,mind,정신
 AnatomyName,mounted,승마가능
+AnatomyName,shinyhead,
 AnatomyName,thermal,열이 있음
 AnatomyName,voice,목소리
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,앞이 열려있고 가슴에서 걸쇠로 조이는 긴 망토이다.
@@ -64,7 +66,6 @@ AppearanceName,black potion,검은색 물약
 AppearanceName,black runed arrow,검은색 룬새김 화살
 AppearanceName,black runed bow,검은색 룬새김 활
 AppearanceName,black runed dagger,검은색 룬새김 단검
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,검은색 룬새김 숏소드
 AppearanceName,black wand,검은색 마법봉
 AppearanceName,bloody potion,핏빛 물약
@@ -93,7 +94,6 @@ AppearanceName,clear potion,투명한 물약
 AppearanceName,cloth book,천 표지 책
 AppearanceName,cloudy potion,희뿌연 물약
 AppearanceName,coarse mantelet,거친 짧은 망토
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,알록달록한 책
 AppearanceName,combat boots,전투화
 AppearanceName,compact gun,휴대용 총
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,검은색 룬새김 화살
 AppearanceName,glossy bow,검은색 룬새김 활
 AppearanceName,glossy dagger,검은색 룬새김 단검
 AppearanceName,glossy mithril-coat,광택있는 미스릴 갑옷
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,검은색 룬새김 숏소드
+AppearanceName,glossy slug,
 AppearanceName,gold book,황금빛 책
 AppearanceName,gold earrings,황금 귀걸이
 AppearanceName,gold ring,황금 반지
@@ -850,6 +852,8 @@ CompanionName,horse,말
 CompanionName,imp,임프
 CompanionName,monkey,원숭이
 CompanionName,rat,쥐
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,감염
 CounterName,animations,생동화
 CounterName,anoints,바름
@@ -1535,6 +1539,7 @@ EntityName,Orion,오리온
 EntityName,owlbear,아울베어
 EntityName,pack rat,주머니쥐
 EntityName,page,종자
+EntityName,paige,
 EntityName,panther,표범
 EntityName,pantherwere,인간표범
 EntityName,paper golem,종이 골렘
@@ -1638,6 +1643,7 @@ EntityName,spined devil,척추 가시 악마
 EntityName,spitting beetle,침 뱉는 풍뎅이
 EntityName,spotted jelly,점박이 젤리
 EntityName,squealer,스퀼러
+EntityName,squire,
 EntityName,stalker,스토커
 EntityName,star vampire,스타 뱀파이어
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,밀짚 골렘
 EntityName,student,학생
 EntityName,succubus,서큐버스
 EntityName,swamp kobold,늪 코볼트
+EntityName,sworn knight,
 EntityName,tengu,텐구
 EntityName,Thorin,토린
 EntityName,Thoth Amon,토트 아몬

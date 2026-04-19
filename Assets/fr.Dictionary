@@ -13,6 +13,7 @@ AfflictionName,reflux,reflux
 AfflictionName,sliming,amincissement
 AfflictionName,worms,des vers
 AnatomyAbsenceText,HORNS,
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,STUPIDE
 AnatomyAbsenceText,NO BLOOD,PAS DE SANG
 AnatomyAbsenceText,NO EARS,PAS D'OREILLES
@@ -36,6 +37,7 @@ AnatomyName,horns,
 AnatomyName,limbs,membres
 AnatomyName,mind,intelligent
 AnatomyName,mounted,monté
+AnatomyName,shinyhead,
 AnatomyName,thermal,chaud
 AnatomyName,voice,voix
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,Une longue cape ouverte sur le devant et attachée à la poitrine par un fermoir.
@@ -64,7 +66,6 @@ AppearanceName,black potion,potion noire
 AppearanceName,black runed arrow,flèche runique noire
 AppearanceName,black runed bow,arc runique noir
 AppearanceName,black runed dagger,dague runique noire
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,épée courte runique noire
 AppearanceName,black wand,baguette noire
 AppearanceName,bloody potion,potion couleur sang
@@ -93,7 +94,6 @@ AppearanceName,clear potion,potion transparente
 AppearanceName,cloth book,livre de tissu
 AppearanceName,cloudy potion,potion brumeuse
 AppearanceName,coarse mantelet,mantelet grossier
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,livre multicolore
 AppearanceName,combat boots,bottes de combat
 AppearanceName,compact gun,petite arme de poing
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,flèche runique noire
 AppearanceName,glossy bow,arc runique noir
 AppearanceName,glossy dagger,dague runique noire
 AppearanceName,glossy mithril-coat,manteau de mithril brillant
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,épée courte runique noire
+AppearanceName,glossy slug,
 AppearanceName,gold book,livre d'or
 AppearanceName,gold earrings,boucles d'oreilles en or
 AppearanceName,gold ring,anneau d'or
@@ -850,6 +852,8 @@ CompanionName,horse,cheval
 CompanionName,imp,diablotion
 CompanionName,monkey,singe
 CompanionName,rat,rat
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,maladies
 CounterName,animations,animations
 CounterName,anoints,onctions
@@ -1535,6 +1539,7 @@ EntityName,Orion,Orion
 EntityName,owlbear,hibours
 EntityName,pack rat,rat de meute
 EntityName,page,page
+EntityName,paige,
 EntityName,panther,panthère
 EntityName,pantherwere,panthérinés
 EntityName,paper golem,golem de papier
@@ -1638,6 +1643,7 @@ EntityName,spined devil,diable épineux
 EntityName,spitting beetle,scarabée crachant
 EntityName,spotted jelly,gelée tachetée
 EntityName,squealer,hurleur
+EntityName,squire,
 EntityName,stalker,harceleur
 EntityName,star vampire,vampire vedette
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,golem de paille
 EntityName,student,étudiant
 EntityName,succubus,succube
 EntityName,swamp kobold,kobold des marais
+EntityName,sworn knight,
 EntityName,tengu,tengu
 EntityName,Thorin,Thorin
 EntityName,Thoth Amon,Thoth Amon

@@ -32,6 +32,8 @@ namespace Pathos
       AddCompanion("egg", null, Codex.Items.egg);
       AddCompanion("imp", Codex.Entities.imp, null);
       AddCompanion("ghoul", Codex.Entities.ghast, null);
+      AddCompanion("spider", Codex.Entities.cave_spider, null);
+      AddCompanion("squire", Codex.Entities.paige, null);
 
       CodexRecruiter.Enrol(() =>
       {

@@ -68,6 +68,8 @@ namespace Pathos
       helmet = AddSlot("helmet", S =>
       {
         S.RequiresAnatomy(Anatomies.head, Anatomies.hands); // hands means they are likely to be humanoid.
+
+        S.PreventsAnatomy(Anatomies.shinyhead);
         S.PreventsAnatomy(Anatomies.horns);
       });
 

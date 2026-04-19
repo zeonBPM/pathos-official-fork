@@ -13,6 +13,7 @@ AfflictionName,reflux,噁心
 AfflictionName,sliming,史萊姆化
 AfflictionName,worms,蠕蟲
 AnatomyAbsenceText,HORNS,有角
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,無意志的
 AnatomyAbsenceText,NO BLOOD,沒有血
 AnatomyAbsenceText,NO EARS,沒有耳朵
@@ -36,6 +37,7 @@ AnatomyName,horns,有角
 AnatomyName,limbs,肢體
 AnatomyName,mind,有意志
 AnatomyName,mounted,騎乘
+AnatomyName,shinyhead,
 AnatomyName,thermal,恆溫
 AnatomyName,voice,有聲
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,一件正面敞開的長斗篷，被用一枚扣子繫住。
@@ -64,7 +66,6 @@ AppearanceName,black potion,黑色藥水
 AppearanceName,black runed arrow,黑色符文箭
 AppearanceName,black runed bow,黑色符文弓
 AppearanceName,black runed dagger,黑色符文匕首
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,黑色符文短劍
 AppearanceName,black wand,黑色魔杖
 AppearanceName,bloody potion,血腥藥水
@@ -93,7 +94,6 @@ AppearanceName,clear potion,清澄藥水
 AppearanceName,cloth book,布制封面的書
 AppearanceName,cloudy potion,渾濁藥水
 AppearanceName,coarse mantelet,粗糙斗篷
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,彩色封面的書
 AppearanceName,combat boots,戰鬥靴
 AppearanceName,compact gun,小型槍支
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,黑色符文箭
 AppearanceName,glossy bow,黑色符文弓
 AppearanceName,glossy dagger,黑色符文匕首
 AppearanceName,glossy mithril-coat,光亮的秘銀夾克
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,黑色符文短劍
+AppearanceName,glossy slug,
 AppearanceName,gold book,金製的書
 AppearanceName,gold earrings,黃金耳環
 AppearanceName,gold ring,黃金戒指
@@ -850,6 +852,8 @@ CompanionName,horse,馬
 CompanionName,imp,小惡魔
 CompanionName,monkey,猴子
 CompanionName,rat,老鼠
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,感染
 CounterName,animations,活化
 CounterName,anoints,洗滌
@@ -1535,6 +1539,7 @@ EntityName,Orion,俄裡翁
 EntityName,owlbear,鴞熊
 EntityName,pack rat,包囊鼠
 EntityName,page,騎士侍從
+EntityName,paige,
 EntityName,panther,黑豹
 EntityName,pantherwere,豹狼人
 EntityName,paper golem,紙制傀儡
@@ -1638,6 +1643,7 @@ EntityName,spined devil,針刺魔
 EntityName,spitting beetle,噴毒甲蟲
 EntityName,spotted jelly,斑點凝凍
 EntityName,squealer,尖叫者
+EntityName,squire,
 EntityName,stalker,跟蹤者
 EntityName,star vampire,星吸血鬼
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,稻草傀儡
 EntityName,student,學生
 EntityName,succubus,魅魔
 EntityName,swamp kobold,沼澤狗頭人
+EntityName,sworn knight,
 EntityName,tengu,大天狗
 EntityName,Thorin,索林
 EntityName,Thoth Amon,阿蒙

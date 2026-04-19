@@ -13,6 +13,7 @@ AfflictionName,reflux,refluks
 AfflictionName,sliming,śluz
 AfflictionName,worms,zarobaczenie
 AnatomyAbsenceText,HORNS,ROGI
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,BEZMYŚLNY
 AnatomyAbsenceText,NO BLOOD,BRAK KRWI
 AnatomyAbsenceText,NO EARS,BRAK USZU
@@ -36,6 +37,7 @@ AnatomyName,horns,rogi
 AnatomyName,limbs,kończyny
 AnatomyName,mind,umysł
 AnatomyName,mounted,osiodłany
+AnatomyName,shinyhead,
 AnatomyName,thermal,termiczny
 AnatomyName,voice,głos
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,Długi płaszcz który jest otwarty z przodu i zapinany na piersi klamrą.
@@ -64,7 +66,6 @@ AppearanceName,black potion,czarna mikstura
 AppearanceName,black runed arrow,czarna strzała pokryta runami
 AppearanceName,black runed bow,czarny łuk pokryty runami
 AppearanceName,black runed dagger,czarny sztylet pokryty runami
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,czarny krótki miecz pokryty runami
 AppearanceName,black wand,czarna różdżka
 AppearanceName,bloody potion,krwawy eliksir
@@ -93,7 +94,6 @@ AppearanceName,clear potion,przejrzysta mikstura
 AppearanceName,cloth book,szmaciana księga
 AppearanceName,cloudy potion,nieprzejrzysta mikstura
 AppearanceName,coarse mantelet,narzutka z szorstkiej tkaniny
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,kolorowa księga
 AppearanceName,combat boots,wojskowe buty
 AppearanceName,compact gun,pistolet kompaktowy
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,czarna strzała pokryta runami
 AppearanceName,glossy bow,czarny łuk pokryty runami
 AppearanceName,glossy dagger,czarny sztylet pokryty runami
 AppearanceName,glossy mithril-coat,lśniąca mithrilowa kolczuga
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,czarny krótki miecz pokryty runami
+AppearanceName,glossy slug,
 AppearanceName,gold book,złota księga
 AppearanceName,gold earrings,złote kolczyki
 AppearanceName,gold ring,złoty pierścień
@@ -850,6 +852,8 @@ CompanionName,horse,koń
 CompanionName,imp,imp
 CompanionName,monkey,małpa
 CompanionName,rat,szczur
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,dolegliwości
 CounterName,animations,animacje
 CounterName,anoints,namaszczenia
@@ -1535,6 +1539,7 @@ EntityName,Orion,Orion
 EntityName,owlbear,sowa
 EntityName,pack rat,nowik
 EntityName,page,paź
+EntityName,paige,
 EntityName,panther,pantera
 EntityName,pantherwere,łakopantera
 EntityName,paper golem,papierowy golem
@@ -1638,6 +1643,7 @@ EntityName,spined devil,grzbietowy diabeł
 EntityName,spitting beetle,plujący żuk
 EntityName,spotted jelly,cętkowana galaretka
 EntityName,squealer,piskorz
+EntityName,squire,
 EntityName,stalker,prześladowca
 EntityName,star vampire,gwiedzny wampir
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,słomiany golem
 EntityName,student,student
 EntityName,succubus,sukkub
 EntityName,swamp kobold,sprite bagienny
+EntityName,sworn knight,
 EntityName,tengu,tengu
 EntityName,Thorin,Thorin
 EntityName,Thoth Amon,Thoth Amon

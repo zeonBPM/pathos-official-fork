@@ -13,6 +13,7 @@ AfflictionName,reflux,آنفولانزا
 AfflictionName,sliming,لجنی شده
 AfflictionName,worms,کرم ها
 AnatomyAbsenceText,HORNS,
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,بی فکر/مغز
 AnatomyAbsenceText,NO BLOOD,بدون خون
 AnatomyAbsenceText,NO EARS,بدون گوش
@@ -36,6 +37,7 @@ AnatomyName,horns,
 AnatomyName,limbs,اندام/بدن
 AnatomyName,mind,فکر/مغز
 AnatomyName,mounted,قابل سوار کاری
+AnatomyName,shinyhead,
 AnatomyName,thermal,گرم/زنده است
 AnatomyName,voice,صدا
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,یک شنل بلند که از جلو باز است و با یک بند در سینه بسته میشود
@@ -64,7 +66,6 @@ AppearanceName,black potion,معجون سیاه
 AppearanceName,black runed arrow,تیر رون کاری شده سیاه
 AppearanceName,black runed bow,کمان رون کاری شده سیاه
 AppearanceName,black runed dagger,خنجر رون کاری شده سیاه
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,شمشیر کوتاه رون کاری شده سیاه
 AppearanceName,black wand,چوب دستی سیاه
 AppearanceName,bloody potion,معجون خونی
@@ -93,7 +94,6 @@ AppearanceName,clear potion,معجون شفاف
 AppearanceName,cloth book,کتاب پارچه ای
 AppearanceName,cloudy potion,معجون تیره
 AppearanceName,coarse mantelet,ردای کوتاه زخیم
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,کتاب رنگارنگ
 AppearanceName,combat boots,چکمه های رزمی
 AppearanceName,compact gun,تفنگ فشرده
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,تیر رون کاری شده سیاه
 AppearanceName,glossy bow,کمان رون کاری شده سیاه
 AppearanceName,glossy dagger,خنجر رون کاری شده سیاه
 AppearanceName,glossy mithril-coat,کت میثریلی براق
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,شمشیر کوتاه رون کاری شده سیاه
+AppearanceName,glossy slug,
 AppearanceName,gold book,کتاب طلا
 AppearanceName,gold earrings,گوشواره طلا
 AppearanceName,gold ring,حلقه طلا
@@ -850,6 +852,8 @@ CompanionName,horse,
 CompanionName,imp,
 CompanionName,monkey,
 CompanionName,rat,
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,
 CounterName,animations,
 CounterName,anoints,
@@ -1535,6 +1539,7 @@ EntityName,Orion,
 EntityName,owlbear,
 EntityName,pack rat,
 EntityName,page,
+EntityName,paige,
 EntityName,panther,
 EntityName,pantherwere,
 EntityName,paper golem,
@@ -1638,6 +1643,7 @@ EntityName,spined devil,
 EntityName,spitting beetle,
 EntityName,spotted jelly,
 EntityName,squealer,
+EntityName,squire,
 EntityName,stalker,
 EntityName,star vampire,
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,
 EntityName,student,
 EntityName,succubus,
 EntityName,swamp kobold,
+EntityName,sworn knight,
 EntityName,tengu,
 EntityName,Thorin,
 EntityName,Thoth Amon,

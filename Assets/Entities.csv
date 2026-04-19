@@ -341,11 +341,14 @@ human,human,Norn,,20,0,23,968,medium,animal,14500,3.7,17,attack,GUARDIAN|UNIQUE,
 human,human,nurse,,11,3,13,190,medium,animal,12000,3.3,17,attack,,14,16,14,15,13,16
 human,human,Oracle,,12,0,13,226,medium,animal,12000,3.5,17,attack,GUARDIAN|UNIQUE,8,16,12,25,27,24
 human,human,Orion,,20,0,22,963,medium,animal,14500,4.2,17,attack,GUARDIAN|UNIQUE,14,16,16,14,15,17
+human,human,paige,,1,0,1,5,medium,animal,14500,5.0,10,attack,,10,10,10,10,10,10
 human,human,Pelias,,20,0,22,963,medium,animal,18000,4.2,17,attack,GUARDIAN|UNIQUE,14,16,16,20,15,17
 human,human,quantum mechanic,,7,2,9,57,medium,animal,14500,3.7,14,attack,,12,16,12,18,13,12
 human,human,Shaman Karnov,,25,0,31,1263,medium,animal,13000,4.2,17,attack,GUARDIAN|UNIQUE,16,16,16,20,24,15
 human,human,Sir Lorimar,,25,0,31,1223,medium,animal,14500,5.0,26,attack,GUARDIAN|UNIQUE,17,18,19,17,15,18
+human,human,squire,,6,0,8,42,medium,animal,14500,4.5,10,attack,,13,10,13,10,10,10
 human,starspawn,starspawn,"starspawn test warning, telepathy, telekinesis. weak to physical resists sleep and force(should be psychic instead but idk what the equivalent is)",0,0,0,0,medium,animal,12000,5.0,10,attack,BASE,10,10,8,14,8,10
+human,human,sworn knight,,12,1,14,212,medium,animal,14500,4.0,12,attack,,22,11,17,11,10,12
 human,human,Thoth Amon,,15,0,20,499,medium,animal,19000,4.2,17,attack,UNIQUE,14,16,15,17,22,15
 human,human,Twoflower,,30,0,35,2461,medium,animal,14500,5.0,29,attack,GUARDIAN|UNIQUE,16,12,16,15,13,17
 human,human,Van Helsing,,30,0,33,2468,medium,animal,17000,5.0,15,attack,GUARDIAN|UNIQUE,14,21,17,18,19,21

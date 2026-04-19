@@ -105,7 +105,8 @@ namespace Pathos
           Thermal: false,
           Blood: false,
           Mounted: true,
-          Amorphous: true
+          Amorphous: true,
+          Shinyhead: false
         );
       });
 
@@ -186,20 +187,21 @@ namespace Pathos
         S.WeightMultiplier = 0.30F;
         S.SetMaskFigure().Set
         (
-          Material: Materials.bone,
+          Material: null,
           Head: true,
           Horns: true,
           Mind: true,
           Voice: true,
           Eyes: true,
-          Ears: false,
+          Ears: true,
           Hands: true,
           Limbs: true,
           Feet: true,
           Thermal: false,
-          Blood: false,
+          Blood: true,
           Mounted: true,
-          Amorphous: true
+          Amorphous: true,
+          Shinyhead: false
         );
         S.LifeAdvancement.Set(Dice.Zero - 1); // -1 per level.
         S.ManaAdvancement.Set(Dice.Zero - 1); // -1 per level.
@@ -231,7 +233,8 @@ namespace Pathos
           Thermal: false,
           Blood: true,
           Mounted: true,
-          Amorphous: true
+          Amorphous: true,
+          Shinyhead: false
         );
 
         S.Startup.SetTalent(Properties.dark_vision, Properties.slow_digestion);
@@ -257,8 +260,28 @@ namespace Pathos
         S.ManaAdvancement.Set(Dice.Zero - 1); // -1 per level.
 
         S.Startup.Loot.AddKit(Chance.Always, Items.elven_cloak);
-
+        S.Startup.Loot.AddKit(Chance.Always, Items.dwarvish_iron_helm);
         S.Startup.SetTalent(Properties.reflection);
+
+
+        S.SetMaskFigure().Set
+        (
+          Material: null,
+          Head: true,
+          Horns: true,
+          Mind: true,
+          Voice: true,
+          Eyes: true,
+          Ears: true,
+          Hands: true,
+          Limbs: true,
+          Feet: true,
+          Thermal: true,
+          Blood: true,
+          Mounted: true,
+          Amorphous: true,
+          Shinyhead: false
+        );
 
         S.SpeedRateDelta = -0.1F;
         S.WeightMultiplier = 1.10F;

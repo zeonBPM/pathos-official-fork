@@ -13,6 +13,7 @@ AfflictionName,reflux,רפלוקס
 AfflictionName,sliming,ריפוש
 AfflictionName,worms,תולעים
 AnatomyAbsenceText,HORNS,קרניים
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,אין מוח
 AnatomyAbsenceText,NO BLOOD,אין דם
 AnatomyAbsenceText,NO EARS,אין אוזניים
@@ -36,6 +37,7 @@ AnatomyName,horns,קרניים
 AnatomyName,limbs,גפיים
 AnatomyName,mind,מוח
 AnatomyName,mounted,ברכיבה
+AnatomyName,shinyhead,
 AnatomyName,thermal,עם חום גוף
 AnatomyName,voice,קול
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,"גלימה ארוכה, פתוחה מקדימה, שנרכסת באבזם סביב החזה."
@@ -64,7 +66,6 @@ AppearanceName,black potion,שיקוי שחור
 AppearanceName,black runed arrow,חץ שחור עם רונות
 AppearanceName,black runed bow,קשת שחורה עם רונות
 AppearanceName,black runed dagger,פגיון שחור עם רונות
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,חרב קצרה שחורה עם רונות
 AppearanceName,black wand,שרביט שחור
 AppearanceName,bloody potion,שיקוי דמוי דם
@@ -93,7 +94,6 @@ AppearanceName,clear potion,שיקוי שקוף
 AppearanceName,cloth book,ספר מבד
 AppearanceName,cloudy potion,שיקוי מעונן
 AppearanceName,coarse mantelet,אצטלה גסה
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,ספר צבעוני
 AppearanceName,combat boots,מגפי קרב
 AppearanceName,compact gun,אקדח
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,חץ שחור עם רונות
 AppearanceName,glossy bow,קשת שחורה עם רונות
 AppearanceName,glossy dagger,פגיון שחור עם רונות
 AppearanceName,glossy mithril-coat,שריון מיתריל מבריק
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,חרב קצרה שחורה עם רונות
+AppearanceName,glossy slug,
 AppearanceName,gold book,ספר זהב
 AppearanceName,gold earrings,עגילי זהב
 AppearanceName,gold ring,טבעת זהב
@@ -850,6 +852,8 @@ CompanionName,horse,סוס
 CompanionName,imp,שדון
 CompanionName,monkey,קוף
 CompanionName,rat,חולדה
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,צרות
 CounterName,animations,החייאות
 CounterName,anoints,משיחות
@@ -1535,6 +1539,7 @@ EntityName,Orion,אוריון
 EntityName,owlbear,ינשודוב
 EntityName,pack rat,חולדה סוחרת
 EntityName,page,שליח
+EntityName,paige,
 EntityName,panther,פנתר
 EntityName,pantherwere,פנתר-אדם
 EntityName,paper golem,גולם נייר
@@ -1638,6 +1643,7 @@ EntityName,spined devil,שטן קוצני
 EntityName,spitting beetle,חיפושית יורקת
 EntityName,spotted jelly,ג’לי מנוקד
 EntityName,squealer,צרחן
+EntityName,squire,
 EntityName,stalker,אורב
 EntityName,star vampire,ערפד כוכבים
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,גולם קש
 EntityName,student,תלמיד
 EntityName,succubus,סוקובוס
 EntityName,swamp kobold,קובולד ביצות
+EntityName,sworn knight,
 EntityName,tengu,טנגו
 EntityName,Thorin,תורין
 EntityName,Thoth Amon,תות אמון

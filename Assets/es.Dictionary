@@ -13,6 +13,7 @@ AfflictionName,reflux,reflujo
 AfflictionName,sliming,baboseo
 AfflictionName,worms,lombrices
 AnatomyAbsenceText,HORNS,CUERNOS
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,SIN CONSCIENCIA
 AnatomyAbsenceText,NO BLOOD,SIN SANGRE
 AnatomyAbsenceText,NO EARS,SIN OIDOS
@@ -36,6 +37,7 @@ AnatomyName,horns,cuernos
 AnatomyName,limbs,extremidades
 AnatomyName,mind,consciencia
 AnatomyName,mounted,montado
+AnatomyName,shinyhead,
 AnatomyName,thermal,temperatura corporal
 AnatomyName,voice,voz
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,Una larga capa abierta en la parte del frente y ajustada al pecho con un broche.
@@ -64,7 +66,6 @@ AppearanceName,black potion,poción negra
 AppearanceName,black runed arrow,flecha negra con runas
 AppearanceName,black runed bow,arco negro con runas
 AppearanceName,black runed dagger,daga negra con runas
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,espada corta negra con runas
 AppearanceName,black wand,varita negra
 AppearanceName,bloody potion,poción sangrienta
@@ -93,7 +94,6 @@ AppearanceName,clear potion,poción cristalina
 AppearanceName,cloth book,libro de tela
 AppearanceName,cloudy potion,poción turbia
 AppearanceName,coarse mantelet,manta gruesa
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,libro colorido
 AppearanceName,combat boots,botas de combate
 AppearanceName,compact gun,arma compacta
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,flecha negra con runas
 AppearanceName,glossy bow,arco negro con runas
 AppearanceName,glossy dagger,daga negra con runas
 AppearanceName,glossy mithril-coat,capa lustrosa de mithril
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,espada corta negra con runas
+AppearanceName,glossy slug,
 AppearanceName,gold book,libro de oro
 AppearanceName,gold earrings,pendientes de oro
 AppearanceName,gold ring,anillo de oro
@@ -850,6 +852,8 @@ CompanionName,horse,caballo
 CompanionName,imp,diablillo
 CompanionName,monkey,mono
 CompanionName,rat,rata
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,aflicciones
 CounterName,animations,animaciones
 CounterName,anoints,unciones
@@ -1535,6 +1539,7 @@ EntityName,Orion,Orión
 EntityName,owlbear,oso búho
 EntityName,pack rat,manada de ratas
 EntityName,page,paje
+EntityName,paige,
 EntityName,panther,pantera
 EntityName,pantherwere,pantera monstruosa
 EntityName,paper golem,golem de papel
@@ -1638,6 +1643,7 @@ EntityName,spined devil,diablo espinado
 EntityName,spitting beetle,escarabajo escupidor
 EntityName,spotted jelly,gelatina moteada
 EntityName,squealer,chillon
+EntityName,squire,
 EntityName,stalker,acosador
 EntityName,star vampire,vampiro estrella
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,golem de paja
 EntityName,student,estudiante
 EntityName,succubus,súcubo
 EntityName,swamp kobold,kobold de pantano
+EntityName,sworn knight,
 EntityName,tengu,tengu
 EntityName,Thorin,Thorin
 EntityName,Thoth Amon,Thoth Amon

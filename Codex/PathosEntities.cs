@@ -461,11 +461,8 @@ namespace Pathos
         E.Startup.SetTalent(Properties.dark_vision, Properties.see_invisible); // drow do not have darkvision in Nethack lore, but it doesn't make sense.
         E.Startup.SetResistance(Elements.sleep);
         E.Startup.AddGrimoire(Dice.One, Spells.darkness);
-        E.Startup.Loot.AddKit(Chance.Always, Items.book_of_bless);
-        E.Startup.Loot.AddKit(Chance.Always, 3.d6(), Items.drow_bullet);
-        E.Startup.Loot.AddKit(Chance.OneIn10, Items.drow_carbine);
-        E.Startup.Loot.AddKit(Chance.OneIn2, Items.drow_rapier);
-        E.Startup.Loot.AddKit(Chance.OneIn2, Items.drow_pistol);
+        E.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus2, Items.mithril_whip);//add drow whip? no one will care about it so idk
+
 
         E.AddAttack(AttackTypes.weapon, Elements.physical, 1.d2(), K =>
         {
@@ -19639,6 +19636,148 @@ namespace Pathos
         E.AddAttack(AttackTypes.weapon, Elements.physical, 1.d4());
         E.SetCorpse(Chance.Always);
       });
+
+
+      paige = AddEntity(Kinds.human, Races.human, "paige", E =>
+      {
+        E.Glyph = Glyphs.human;
+        E.Level = 1;
+        E.Challenge = 5;
+        E.Difficulty = 1;
+        E.Frequency = 0;
+        E.Defence = new Defence(D: 10, P: +0, S: +0, B: +0);
+        E.SetDiet(Diets.omnivore);
+        E.Speed = Speed.S5_0;
+        E.Size = Size.Medium;
+        E.Strategy = Strategy.Attack;
+        E.Weight = Weight.FromUnits(14500);
+        E.Figure.Set
+        (
+          Material: Materials.animal,
+          Head: true,
+          Mind: true,
+          Voice: true,
+          Eyes: true,
+          Ears: true,
+          Hands: true,
+          Limbs: true,
+          Feet: true,
+          Thermal: true,
+          Blood: true,
+          Mounted: false,
+          Amorphous: false
+        );
+        E.LifeAdvancement.Set(1.d8());
+        E.ManaAdvancement.Set(1.d4());
+        E.DefaultForm.Set(STR: 10, DEX: 10, CON: 10, INT: 10, WIS: 10, CHA: 10);
+        E.LimitForm.Set(STR: 30, DEX: 30, CON: 30, INT: 30, WIS: 30, CHA: 30);
+        E.SetGender(Genders.male, Genders.female);
+        E.SetGreed(SentientGreed);
+        E.Chemistry.SetVulnerability();
+        E.Startup.SetSkill(Qualifications.proficient, Skills.light_blade, Skills.club);
+        E.Startup.SetTalent();
+        E.Startup.Loot.AddKit(1.d2(), Items.food_ration);
+        E.Startup.Loot.AddKit(Chance.OneIn2, Items.knife);
+        E.Startup.Loot.AddKit(Chance.OneIn2, Items.club);
+        E.AddAttack(AttackTypes.weapon, Elements.physical, 1.d3());
+        E.SetCorpse(Chance.Always);
+      });
+
+      
+      squire = AddEntity(Kinds.human, Races.human, "squire", E =>
+      {
+        E.Glyph = Glyphs.yeoman;
+        E.Level = 6;
+        E.Challenge = 42;
+        E.Difficulty = 8;
+        E.Frequency = 0;
+        E.Defence = new Defence(D: 10, P: +0, S: +0, B: +0);
+        E.SetDiet(Diets.omnivore);
+        E.Speed = Speed.S4_5;
+        E.Size = Size.Medium;
+        E.Strategy = Strategy.Attack;
+        E.Weight = Weight.FromUnits(14500);
+        E.Figure.Set
+        (
+          Material: Materials.animal,
+          Head: true,
+          Mind: true,
+          Voice: true,
+          Eyes: true,
+          Ears: true,
+          Hands: true,
+          Limbs: true,
+          Feet: true,
+          Thermal: true,
+          Blood: true,
+          Mounted: false,
+          Amorphous: false
+        );
+        E.LifeAdvancement.Set(1.d8());
+        E.ManaAdvancement.Set(1.d4());
+        E.DefaultForm.Set(STR: 13, DEX: 10, CON: 13, INT: 10, WIS: 10, CHA: 10);
+        E.LimitForm.Set(STR: 30, DEX: 30, CON: 30, INT: 30, WIS: 30, CHA: 30);
+        E.SetGender(Genders.male, Genders.female);
+        E.SetGreed(GuardianGreed);
+        E.Chemistry.SetVulnerability();
+        E.Startup.SetSkill(Qualifications.proficient, Skills.polearm, Skills.medium_blade, Skills.club, Skills.light_blade, Skills.light_armour);
+        E.Startup.SetTalent();
+        E.Startup.Loot.AddKit(Chance.OneIn2, Items.halberd);
+        E.Startup.Loot.AddKit(Chance.OneIn2, [Items.short_sword, Items.silver_short_sword]);
+        E.Startup.Loot.AddKit(Chance.Always, [Items.leather_armour, Items.helmet]);
+        E.AddAttack(AttackTypes.weapon, Elements.physical, 1.d7()); // +1 from str.
+        E.SetCorpse(Chance.Always);
+      });
+
+
+      sworn_knight = AddEntity(Kinds.human, Races.human, "sworn knight", E =>
+      {
+        E.Glyph = Glyphs.male_knight;
+        E.Level = 12;
+        E.Challenge = 212;
+        E.Difficulty = 14;
+        E.Frequency = 1; 
+        E.Defence = new Defence(D: 12, P: +0, S: +0, B: +0);
+        E.SetDiet(Diets.omnivore);
+        E.Speed = Speed.S4_0;
+        E.Size = Size.Medium;
+        E.Strategy = Strategy.Attack;
+        E.Weight = Weight.FromUnits(14500);
+        E.Figure.Set
+        (
+          Material: Materials.animal,
+          Head: true,
+          Mind: true,
+          Voice: true,
+          Eyes: true,
+          Ears: true,
+          Hands: true,
+          Limbs: true,
+          Feet: true,
+          Thermal: true,
+          Blood: true,
+          Mounted: false,
+          Amorphous: false
+        );
+        E.LifeAdvancement.Set(1.d8());
+        E.ManaAdvancement.Set(1.d4());
+        E.DefaultForm.Set(STR: 22, DEX: 11, CON: 17, INT: 11, WIS: 10, CHA: 12);
+        E.LimitForm.Set(STR: 30, DEX: 30, CON: 30, INT: 30, WIS: 30, CHA: 30);
+        E.SetGender(Genders.male, Genders.female);
+        E.SetGreed(GuardianGreed);
+        E.Chemistry.SetVulnerability();
+        E.Startup.SetSkill(Qualifications.proficient, Skills.polearm, Skills.light_blade, Skills.heavy_armour, Skills.heavy_blade);
+        E.Startup.SetTalent();
+        E.Startup.Loot.AddKit(Chance.Always, Items.plate_mail);
+        E.Startup.Loot.AddKit(Chance.Always, Items.large_shield);
+        E.Startup.Loot.AddKit(Chance.Always, [Items.long_sword, Items.silver_long_sword]);
+        E.Startup.Loot.AddKit(Chance.OneIn2, 2.d4(), [Items.dagger, Items.silver_dagger]);
+        E.AddAttack(AttackTypes.weapon, Elements.physical, 4.d7()); // +6 from str.
+        E.SetCorpse(Chance.OneIn3);
+      });
+
+
+
       #endregion
 
       #region flayer.
@@ -35589,5 +35728,8 @@ namespace Pathos
     public readonly Entity dummy;
 //    public readonly Entity baldorian;
     public readonly Entity drowr;
+    public readonly Entity paige;
+    public readonly Entity squire;
+    public readonly Entity sworn_knight;
     }
 }

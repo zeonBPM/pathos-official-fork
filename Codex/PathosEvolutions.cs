@@ -189,7 +189,7 @@ namespace Pathos
 
       AddEvolution(Entities.sewer_rat, Entities.giant_rat, Entities.black_rat, Entities.pack_rat, Entities.rat_king);
 
-      AddEvolution(Entities.cave_spider, Entities.giant_spider);
+      AddEvolution(Entities.cave_spider, Entities.giant_spider, Entities.phase_spider);
 
       AddEvolution(Entities.pony, Entities.horse, Entities.warhorse);
 
@@ -208,6 +208,10 @@ namespace Pathos
       AddEvolution(Entities.spark_bug, Entities.arc_bug, Entities.lightning_bug);
 
       AddEvolution(Entities.yeoman, Entities.yeoman_warder, Entities.chief_yeoman_warder);
+
+      AddEvolution(Entities.paige, Entities.squire, Entities.sworn_knight);
+
+
 
       AddEvolution(Entities.earth_seeker, Entities.earth_binder, Entities.earth_maker);
       AddEvolution(Entities.flame_seeker, Entities.flame_binder, Entities.flame_maker);

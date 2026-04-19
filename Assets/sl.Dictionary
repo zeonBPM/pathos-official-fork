@@ -13,6 +13,7 @@ AfflictionName,reflux,refluks
 AfflictionName,sliming,hujšanje
 AfflictionName,worms,gliste
 AnatomyAbsenceText,HORNS,
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,
 AnatomyAbsenceText,NO BLOOD,
 AnatomyAbsenceText,NO EARS,
@@ -36,6 +37,7 @@ AnatomyName,horns,
 AnatomyName,limbs,
 AnatomyName,mind,
 AnatomyName,mounted,
+AnatomyName,shinyhead,
 AnatomyName,thermal,
 AnatomyName,voice,
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,Dolgo ogrinjalo ki je spredaj odprto in se na prsih zapenja z zaponko.
@@ -64,7 +66,6 @@ AppearanceName,black potion,črni napoj
 AppearanceName,black runed arrow,črna runed puščica
 AppearanceName,black runed bow,črni runed lok
 AppearanceName,black runed dagger,črno runed bodalo
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,črni runed kratek meč
 AppearanceName,black wand,črna čarobna palica
 AppearanceName,bloody potion,krvavi napoj
@@ -93,7 +94,6 @@ AppearanceName,clear potion,čist napoj
 AppearanceName,cloth book,knjiga iz blaga
 AppearanceName,cloudy potion,oblačen napoj
 AppearanceName,coarse mantelet,grobi mantelet
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,barvna knjiga
 AppearanceName,combat boots,bojni škornji
 AppearanceName,compact gun,kompaktna puška
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,črna runed puščica
 AppearanceName,glossy bow,črni runed lok
 AppearanceName,glossy dagger,črno runed bodalo
 AppearanceName,glossy mithril-coat,sijajni mitrilni-plašč
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,črni runed kratek meč
+AppearanceName,glossy slug,
 AppearanceName,gold book,zlata knjiga
 AppearanceName,gold earrings,zlati uhani
 AppearanceName,gold ring,zlat prstan
@@ -850,6 +852,8 @@ CompanionName,horse,
 CompanionName,imp,
 CompanionName,monkey,
 CompanionName,rat,
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,
 CounterName,animations,
 CounterName,anoints,
@@ -1535,6 +1539,7 @@ EntityName,Orion,
 EntityName,owlbear,
 EntityName,pack rat,
 EntityName,page,
+EntityName,paige,
 EntityName,panther,
 EntityName,pantherwere,
 EntityName,paper golem,
@@ -1638,6 +1643,7 @@ EntityName,spined devil,
 EntityName,spitting beetle,
 EntityName,spotted jelly,
 EntityName,squealer,
+EntityName,squire,
 EntityName,stalker,
 EntityName,star vampire,
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,
 EntityName,student,
 EntityName,succubus,
 EntityName,swamp kobold,
+EntityName,sworn knight,
 EntityName,tengu,
 EntityName,Thorin,
 EntityName,Thoth Amon,

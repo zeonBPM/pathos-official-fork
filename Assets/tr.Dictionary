@@ -13,6 +13,7 @@ AfflictionName,reflux,mide yanması
 AfflictionName,sliming,çamurlu
 AfflictionName,worms,solucanlı
 AnatomyAbsenceText,HORNS,
+AnatomyAbsenceText,INFINITE FOREHEAD,
 AnatomyAbsenceText,MINDLESS,ZİHİNSİZ
 AnatomyAbsenceText,NO BLOOD,KANSIZ
 AnatomyAbsenceText,NO EARS,KULAKSIZ
@@ -36,6 +37,7 @@ AnatomyName,horns,
 AnatomyName,limbs,uzuv
 AnatomyName,mind,akıl
 AnatomyName,mounted,binildi
+AnatomyName,shinyhead,
 AnatomyName,thermal,termal
 AnatomyName,voice,ses
 AppearanceDescription,A long cloak which is open in the front and fastened at the breast with a clasp.,Önü açık ve göğüsten toka ile bağlanan uzun bir pelerin.
@@ -64,7 +66,6 @@ AppearanceName,black potion,siyah iksir
 AppearanceName,black runed arrow,siyah rünlü ok
 AppearanceName,black runed bow,siyah rünlü yay
 AppearanceName,black runed dagger,siyah rünlü hançer
-AppearanceName,black runed rapier,
 AppearanceName,black runed short sword,siyah rünlü kısa kılıç
 AppearanceName,black wand,siyah asa
 AppearanceName,bloody potion,kanlı iksir
@@ -93,7 +94,6 @@ AppearanceName,clear potion,saydam iksir
 AppearanceName,cloth book,kumaş kitap
 AppearanceName,cloudy potion,bulanık iksir
 AppearanceName,coarse mantelet,kaba manto
-AppearanceName,coated mithril slug,
 AppearanceName,colourful book,renkli kitap
 AppearanceName,combat boots,savaş botları
 AppearanceName,compact gun,kompakt tabanca
@@ -159,7 +159,9 @@ AppearanceName,glossy arrow,siyah rünlü ok
 AppearanceName,glossy bow,siyah rünlü yay
 AppearanceName,glossy dagger,siyah rünlü hançer
 AppearanceName,glossy mithril-coat,cilalı mitril palto
+AppearanceName,glossy rapier,
 AppearanceName,glossy short sword,siyah rünlü kısa kılıç
+AppearanceName,glossy slug,
 AppearanceName,gold book,altın kitap
 AppearanceName,gold earrings,altın küpe
 AppearanceName,gold ring,altın yüzük
@@ -850,6 +852,8 @@ CompanionName,horse,at
 CompanionName,imp,cin
 CompanionName,monkey,maymun
 CompanionName,rat,sıçan
+CompanionName,spider,
+CompanionName,squire,
 CounterName,afflictions,ızdırap
 CounterName,animations,hareketlenir
 CounterName,anoints,yağlanır
@@ -1535,6 +1539,7 @@ EntityName,Orion,Oryon
 EntityName,owlbear,Bayıkuş
 EntityName,pack rat,ev faresi
 EntityName,page,sayfa
+EntityName,paige,
 EntityName,panther,panter
 EntityName,pantherwere,panterimsi
 EntityName,paper golem,kağıt golem
@@ -1638,6 +1643,7 @@ EntityName,spined devil,omurgalı iblis
 EntityName,spitting beetle,tüküren örümcek
 EntityName,spotted jelly,lekeli jöle
 EntityName,squealer,sahyal
+EntityName,squire,
 EntityName,stalker,takipçi
 EntityName,star vampire,yıldız vampiri
 EntityName,starspawn,
@@ -1650,6 +1656,7 @@ EntityName,straw golem,hasır golem
 EntityName,student,öğrenci
 EntityName,succubus,succubus
 EntityName,swamp kobold,bataklık kobold
+EntityName,sworn knight,
 EntityName,tengu,tengu
 EntityName,Thorin,Thorin
 EntityName,Thoth Amon,Thoth Amon
