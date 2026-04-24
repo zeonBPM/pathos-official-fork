@@ -231,7 +231,7 @@ namespace Pathos
       void EquipPellet(ItemEditor I, Dice Damage)
       {
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.gem);
-        var W = I.SetOneHandedWeapon(Skills.sling, null, Elements.physical, DamageType.Bludgeon, Damage);
+        var W = I.SetOneHandedWeapon(Skills.dart, null, Elements.physical, DamageType.Bludgeon, Damage);
         W.Ammunition = Ammunition.Pellet;
       }
       void SugarRush(ItemEditor I, ApplyEditor A, int? Duration = null)
@@ -510,7 +510,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(1400);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon)
          .SetTalent(Properties.tunnelling);
-        var W = I.SetTwoHandedWeapon(Skills.pick, null, Elements.physical, DamageType.Pierce, 1.d12() + 6);
+        var W = I.SetTwoHandedWeapon(Skills.axe, null, Elements.physical, DamageType.Pierce, 1.d12() + 6);
         W.AddVersus([Materials.stone], Elements.physical, 2.d12() + 12);
         I.AddObviousUse(Motions.dig, Delay.FromTurns(10), Sonics.pick_axe, Use =>
         {
@@ -1233,7 +1233,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(1000);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.leather)
          .SetBoostAttribute(Attributes.strength);
-        var Weapon = I.SetOneHandedWeapon(Skills.sling, Sonics.sling_shot, Elements.physical, DamageType.Bludgeon, Dice.One);
+        var Weapon = I.SetOneHandedWeapon(Skills.dart, Sonics.sling_shot, Elements.physical, DamageType.Bludgeon, Dice.One);
         Weapon.AddVersus([Kinds.giant], Elements.physical, 2.d4());
         Weapon.AttackModifier = Modifier.Plus2;
         Weapon.BurstRate = 2;
@@ -1453,7 +1453,7 @@ namespace Pathos
         I.Essence = ArtifactEssence;
         I.Price = Gold.FromCoins(1100);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d10(), D => D.WhenChance(Chance.OneIn4, T =>
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Pierce, 1.d10(), D => D.WhenChance(Chance.OneIn4, T =>
         {
           T.WithSourceSanctity
           (
@@ -1553,7 +1553,7 @@ namespace Pathos
             S => S.Backfire(F => F.CreateDevice(Codex.Devices.hole, Destruction: false))
           );
         });
-        I.SetTwoHandedMomentumWeapon(Skills.lance, null, Elements.physical, DamageType.Pierce, 2.d6(), A => A.WhenChance(Chance.OneIn4, T =>
+        I.SetTwoHandedMomentumWeapon(Skills.spear, null, Elements.physical, DamageType.Pierce, 2.d6(), A => A.WhenChance(Chance.OneIn4, T =>
         {
           T.WithSourceSanctity
           (
@@ -1597,7 +1597,7 @@ namespace Pathos
         I.Essence = ArtifactEssence;
         I.Price = Gold.FromCoins(50);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Slash, 1.d5());
+        I.SetOneHandedWeapon(Skills.heavy_blade, null, Elements.physical, DamageType.Slash, 1.d5());
       });
 
       Masamune = AddMeleeWeapon("Masamune", I =>
@@ -1637,7 +1637,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(1000);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon)
          .SetTalent(Properties.berserking);
-        var W = I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Slash, 2.d4(), D =>
+        var W = I.SetOneHandedWeapon(Skills.heavy_blade, null, Elements.physical, DamageType.Slash, 2.d4(), D =>
         {
           D.HarmEntity(Elements.disintegrate, 1.d8());
         });
@@ -7519,7 +7519,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(150);
         I.AddObviousIngestUse(Motions.eat, 15, Delay.FromTurns(10), Sonics.ring, A =>
         {
-          A.WhenChance(Chance.OneIn2, T => T.GainSkill(RandomPoints: false, Skills.bow, Skills.crossbow, Skills.firearms, Skills.disc, Skills.dart, Skills.sling), E => E.Nothing());
+          A.WhenChance(Chance.OneIn2, T => T.GainSkill(RandomPoints: false, Skills.bow, Skills.firearms, Skills.dart), E => E.Nothing());
         });
         I.SetWeakness(RingWeakness);
         I.SetEquip(EquipAction.Wear, Delay.FromTurns(10), Sonics.ring)
@@ -7541,7 +7541,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(150);
         I.AddObviousIngestUse(Motions.eat, 15, Delay.FromTurns(10), Sonics.ring, A =>
         {
-          A.WhenChance(Chance.OneIn2, T => T.GainSkill(RandomPoints: false, Skills.heavy_blade, Skills.hammer, Skills.axe, Skills.club, Skills.mace, Skills.pick), E => E.Nothing());
+          A.WhenChance(Chance.OneIn2, T => T.GainSkill(RandomPoints: false, Skills.heavy_blade, Skills.hammer, Skills.axe, Skills.mace, Skills.axe), E => E.Nothing());
         });
         I.SetWeakness(RingWeakness);
         I.SetEquip(EquipAction.Wear, Delay.FromTurns(10), Sonics.ring)
@@ -10709,7 +10709,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(50);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon)
          .SetTalent(Properties.tunnelling);
-        var W = I.SetOneHandedWeapon(Skills.pick, null, Elements.physical, DamageType.Pierce, 1.d6());
+        var W = I.SetOneHandedWeapon(Skills.axe, null, Elements.physical, DamageType.Pierce, 1.d6());
         W.AddVersus([Materials.stone], Elements.physical, 2.d6());
         I.AddObviousUse(Motions.dig, Delay.FromTurns(30), Sonics.pick_axe, Use =>
         {
@@ -10735,7 +10735,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(50);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon)
          .SetTalent(Properties.tunnelling);
-        var W = I.SetTwoHandedWeapon(Skills.pick, null, Elements.physical, DamageType.Pierce, 1.d12());
+        var W = I.SetTwoHandedWeapon(Skills.axe, null, Elements.physical, DamageType.Pierce, 1.d12());
         W.AddVersus([Materials.stone], Elements.physical, 2.d12());
         I.AddObviousUse(Motions.dig, Delay.FromTurns(30), Sonics.pick_axe, Use =>
         {
@@ -12236,7 +12236,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(4);
         I.AddObviousIngestUse(Motions.eat, 75, Delay.FromTurns(15), Sonics.weapon);
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.club, null, Elements.physical, DamageType.Bludgeon, 1.d6());
+        I.SetOneHandedWeapon(Skills.mace, null, Elements.physical, DamageType.Bludgeon, 1.d6());
       });
 
       arrow = AddRangedMissile(Ammunition.Arrow, "arrow", I =>
@@ -12418,7 +12418,7 @@ namespace Pathos
         I.Price = HorshoePrice;
         I.AddObviousIngestUse(Motions.eat, 125, Delay.FromTurns(10), Sonics.weapon);
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.disc, Sonics.throw_object, Elements.physical, DamageType.Bludgeon, 1.d5());
+        I.SetOneHandedWeapon(Skills.dart, Sonics.throw_object, Elements.physical, DamageType.Bludgeon, 1.d5());
       });
 
       magic_horseshoe = AddThrownWeapon("magic horseshoe", I =>
@@ -12437,7 +12437,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(50);
         I.AddObviousIngestUse(Motions.eat, 250, Delay.FromTurns(10), Sonics.weapon);
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.disc, Sonics.throw_object, Elements.physical, DamageType.Bludgeon, 1.d10(), D => D.ApplyTransient(Properties.confusion, 3.d6()));
+        I.SetOneHandedWeapon(Skills.dart, Sonics.throw_object, Elements.physical, DamageType.Bludgeon, 1.d10(), D => D.ApplyTransient(Properties.confusion, 3.d6()));
       });
 
       SetUpgradeDowngradePair(horseshoe, magic_horseshoe);
@@ -12458,7 +12458,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(20);
         I.AddObviousIngestUse(Motions.eat, 25, Delay.FromTurns(10), Sonics.weapon);
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.disc, Sonics.throw_object, Elements.physical, DamageType.Bludgeon, 1.d7());
+        I.SetOneHandedWeapon(Skills.dart, Sonics.throw_object, Elements.physical, DamageType.Bludgeon, 1.d7());
       });
 
       bow = AddRangedWeapon(Ammunition.Arrow, "bow", I =>
@@ -12566,7 +12566,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(3);
         I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(30), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.club, null, Elements.physical, DamageType.Bludgeon, 1.d6());
+        I.SetOneHandedWeapon(Skills.mace, null, Elements.physical, DamageType.Bludgeon, 1.d6());
       });
 
       stone_club = AddMeleeWeapon("stone club", I =>
@@ -12583,7 +12583,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(30);
         I.AddObviousIngestUse(Motions.eat, 1000, Delay.FromTurns(60), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        var W = I.SetOneHandedWeapon(Skills.club, null, Elements.physical, DamageType.Bludgeon, 2.d10());
+        var W = I.SetOneHandedWeapon(Skills.mace, null, Elements.physical, DamageType.Bludgeon, 2.d10());
         W.AttackModifier = Modifier.Minus5;
       });
 
@@ -12601,7 +12601,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(60);
         I.AddObviousIngestUse(Motions.eat, 300, Delay.FromTurns(50), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetTwoHandedWeapon(Skills.club, null, Elements.physical, DamageType.Bludgeon, 2.d5());
+        I.SetTwoHandedWeapon(Skills.hammer, null, Elements.physical, DamageType.Bludgeon, 2.d5());
       });
 
       crossbow = AddRangedWeapon(Ammunition.Bolt, "crossbow", I =>
@@ -12618,7 +12618,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(40);
         I.AddObviousIngestUse(Motions.eat, 250, Delay.FromTurns(30), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.crossbow, Sonics.bow_fire, Elements.physical, DamageType.Bludgeon, Dice.One);
+        I.SetOneHandedWeapon(Skills.bow, Sonics.bow_fire, Elements.physical, DamageType.Bludgeon, Dice.One);
       });
 
       crossbow_bolt = AddRangedMissile(Ammunition.Bolt, "crossbow bolt", I =>
@@ -12637,7 +12637,7 @@ namespace Pathos
         I.SetWeakness(AmmoWeakness);
         I.BundleDice = 1.d6() + 6;
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.ammo);
-        I.SetOneHandedWeapon(Skills.crossbow, null, Elements.physical, DamageType.Pierce, 1.d4() + 1);
+        I.SetOneHandedWeapon(Skills.bow, null, Elements.physical, DamageType.Pierce, 1.d4() + 1);
       });
 
       mithril_crossbow_bolt = AddRangedMissile(Ammunition.Bolt, "mithril crossbow bolt", I =>
@@ -12657,7 +12657,7 @@ namespace Pathos
         I.SetWeakness(AmmoWeakness);
         I.BundleDice = 1.d6() + 6;
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.ammo);
-        I.SetOneHandedWeapon(Skills.crossbow, null, Elements.physical, DamageType.Pierce, 1.d4() + 2);
+        I.SetOneHandedWeapon(Skills.bow, null, Elements.physical, DamageType.Pierce, 1.d4() + 2);
       });
 
       silver_crossbow_bolt = AddRangedMissile(Ammunition.Bolt, "silver crossbow bolt", I =>
@@ -12676,7 +12676,7 @@ namespace Pathos
         I.SetWeakness(AmmoWeakness);
         I.BundleDice = 1.d6() + 6;
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.ammo);
-        I.SetOneHandedWeapon(Skills.crossbow, null, Elements.physical, DamageType.Pierce, 1.d4() + 1);
+        I.SetOneHandedWeapon(Skills.bow, null, Elements.physical, DamageType.Pierce, 1.d4() + 1);
       });
 
       crysknife = AddMeleeWeapon("crysknife", I =>
@@ -12811,7 +12811,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(10);
         I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d8(), A =>
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Pierce, 1.d8(), A =>
         {
           A.Macro(KnockoutPoison);
         });
@@ -12917,7 +12917,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(10);
         I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d7());
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Pierce, 1.d7());
       });
 
       elven_arrow = AddRangedMissile(Ammunition.Arrow, "elven arrow", I =>
@@ -13016,7 +13016,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(15);
         I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d8());
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Pierce, 1.d8());
       });
 
       fauchard = AddReachWeapon("fauchard", I =>
@@ -13051,7 +13051,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(4);
         I.AddObviousIngestUse(Motions.eat, 225, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.flail, null, Elements.physical, DamageType.Bludgeon, 1.d6() + 1);
+        I.SetOneHandedWeapon(Skills.whip, null, Elements.physical, DamageType.Bludgeon, 1.d6() + 1);
       });
 
       glaive = AddReachWeapon("glaive", I =>
@@ -13244,7 +13244,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(20);
         I.AddObviousIngestUse(Motions.eat, 75, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        var W = I.SetOneHandedWeapon(Skills.flail, null, Elements.physical, DamageType.Bludgeon, 1.d3() + 1, A =>
+        var W = I.SetOneHandedWeapon(Skills.whip, null, Elements.physical, DamageType.Bludgeon, 1.d3() + 1, A =>
         {
           A.SpecialDisarm();
         });
@@ -13284,7 +13284,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(40);
         I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Slash, 1.d7());
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Slash, 1.d7());
       });
 
       katana = AddMeleeWeapon("katana", I =>
@@ -13372,7 +13372,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(10);
         I.AddObviousIngestUse(Motions.eat, 900, Delay.FromTurns(40), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedMomentumWeapon(Skills.lance, null, Elements.physical, DamageType.Pierce, 1.d6());
+        I.SetOneHandedMomentumWeapon(Skills.spear, null, Elements.physical, DamageType.Pierce, 1.d6());
       });
 
       long_sword = AddMeleeWeapon("long sword", I =>
@@ -13520,7 +13520,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(10);
         I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d5());
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Pierce, 1.d5());
       });
 
       partisan = AddReachWeapon("partisan", I =>
@@ -13692,7 +13692,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(40);
         I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d6()).AttackModifier = Modifier.Plus2;
+        I.SetOneHandedWeapon(Skills.heavy_blade, null, Elements.physical, DamageType.Pierce, 1.d6()).AttackModifier = Modifier.Plus2;
       });
 
 
@@ -13713,7 +13713,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(500);
         I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d8(), A =>
+        I.SetOneHandedWeapon(Skills.heavy_blade, null, Elements.physical, DamageType.Pierce, 1.d8(), A =>
         {
           A.Macro(KnockoutPoison);
         }).AttackModifier = Modifier.Plus3;
@@ -13734,7 +13734,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(20);
         I.AddObviousIngestUse(Motions.eat, 200, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedMomentumWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Slash, 1.d6() + 1);
+        I.SetOneHandedMomentumWeapon(Skills.light_blade, null, Elements.physical, DamageType.Slash, 1.d6() + 1);
       });
 
       scalpel = AddMeleeWeapon("scalpel", I =>
@@ -13826,7 +13826,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(10);
         I.AddObviousIngestUse(Motions.eat, 150, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d6());
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Pierce, 1.d6());
       });
 
       plastic_sword = AddMeleeWeapon("plastic sword", I =>
@@ -13844,7 +13844,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(5);
         //I.AddObviousIngestUse(Motions.eat, 50, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d4());
+        I.SetOneHandedWeapon(Skills.heavy_blade, null, Elements.physical, DamageType.Pierce, 1.d4());
       });
 
       shuriken = AddThrownWeapon("shuriken", I =>
@@ -13864,7 +13864,7 @@ namespace Pathos
         I.BundleDice = 1.d6() + 6;
         I.AddObviousIngestUse(Motions.eat, 5, Delay.FromTurns(10), Sonics.weapon);
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.disc, Sonics.throw_object, Elements.physical, DamageType.Pierce, 1.d6());
+        I.SetOneHandedWeapon(Skills.dart, Sonics.throw_object, Elements.physical, DamageType.Pierce, 1.d6());
       });
 
       chakram = AddThrownWeapon("chakram", I =>
@@ -13884,7 +13884,7 @@ namespace Pathos
         I.SetWeakness(AmmoWeakness);
         I.BundleDice = 1.d3() + 3;
         I.SetEquip(EquipAction.Ready, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.disc, Sonics.throw_object, Elements.physical, DamageType.Slash, 1.d8());
+        I.SetOneHandedWeapon(Skills.dart, Sonics.throw_object, Elements.physical, DamageType.Slash, 1.d8());
       });
 
       mithril_arrow = AddRangedMissile(Ammunition.Arrow, "mithril arrow", I =>
@@ -13959,7 +13959,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(100);
         I.AddObviousIngestUse(Motions.eat, 75, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d6() + 1);
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Pierce, 1.d6() + 1);
       });
 
       mithril_battleaxe = AddMeleeWeapon("mithril battle-axe", I =>
@@ -13995,7 +13995,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(100);
         I.AddObviousIngestUse(Motions.eat, 900, Delay.FromTurns(40), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedMomentumWeapon(Skills.lance, null, Elements.physical, DamageType.Pierce, 1.d6() + 1);
+        I.SetOneHandedMomentumWeapon(Skills.spear, null, Elements.physical, DamageType.Pierce, 1.d6() + 1);
       });
 
       mithril_sabre = AddMeleeWeapon("mithril sabre", I =>
@@ -14012,7 +14012,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(150);
         I.AddObviousIngestUse(Motions.eat, 100, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedMomentumWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Slash, 1.d6() + 2);
+        I.SetOneHandedMomentumWeapon(Skills.light_blade, null, Elements.physical, DamageType.Slash, 1.d6() + 2);
       });
 
       silver_arrow = AddRangedMissile(Ammunition.Arrow, "silver arrow", I =>
@@ -14100,7 +14100,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(75);
         I.AddObviousIngestUse(Motions.eat, 200, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedMomentumWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Slash, 1.d6() + 1);
+        I.SetOneHandedMomentumWeapon(Skills.light_blade, null, Elements.physical, DamageType.Slash, 1.d6() + 1);
       });
 
       silver_short_sword = AddMeleeWeapon("silver short sword", I =>
@@ -14117,7 +14117,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(50);
         I.AddObviousIngestUse(Motions.eat, 180, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d6());
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Pierce, 1.d6());
       });
 
       silver_spear = AddReachWeapon("silver spear", I =>
@@ -14151,7 +14151,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(50);
         I.AddObviousIngestUse(Motions.eat, 900, Delay.FromTurns(40), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedMomentumWeapon(Skills.lance, null, Elements.physical, DamageType.Pierce, 1.d6());
+        I.SetOneHandedMomentumWeapon(Skills.spear, null, Elements.physical, DamageType.Pierce, 1.d6());
       });
 
       blowgun = AddRangedWeapon(Ammunition.Dart, "blowgun", I =>
@@ -14185,7 +14185,7 @@ namespace Pathos
         I.Price = Gold.FromCoins(20);
         I.AddObviousIngestUse(Motions.eat, 15, Delay.FromTurns(10), Sonics.leather);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.leather);
-        I.SetOneHandedWeapon(Skills.sling, Sonics.sling_shot, Elements.physical, DamageType.Bludgeon, Dice.One);
+        I.SetOneHandedWeapon(Skills.dart, Sonics.sling_shot, Elements.physical, DamageType.Bludgeon, Dice.One);
       });
 
       spear = AddReachWeapon("spear", I =>
@@ -14493,7 +14493,7 @@ namespace Pathos
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon)
          .SetTalent(Properties.invisibility, Properties.stealth)
          .SetResistance(Elements.magical);
-        var W = I.SetTwoHandedWeapon(Skills.crossbow, Sonics.bow_fire, Elements.physical, DamageType.Bludgeon, 1.d6());
+        var W = I.SetTwoHandedWeapon(Skills.bow, Sonics.bow_fire, Elements.physical, DamageType.Bludgeon, 1.d6());
         W.BurstRate = 2;
         W.AttackModifier = Modifier.Plus2;
       });
@@ -15229,7 +15229,7 @@ namespace Pathos
         I.Series = null;
         //I.AddObviousIngestUse(Motions.eat, 30, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d6() + 1).AttackModifier = Modifier.Plus2;
+        I.SetOneHandedWeapon(Skills.heavy_blade, null, Elements.physical, DamageType.Pierce, 1.d6() + 1).AttackModifier = Modifier.Plus2;
       });
 
       adamantine_sabre = AddMeleeWeapon("adamantine sabre", I =>
@@ -15241,7 +15241,7 @@ namespace Pathos
         I.Series = null;
         //I.AddObviousIngestUse(Motions.eat, 40, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedMomentumWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Slash, 1.d6() + 2);
+        I.SetOneHandedMomentumWeapon(Skills.light_blade, null, Elements.physical, DamageType.Slash, 1.d6() + 2);
       });
 
       adamantine_short_sword = AddMeleeWeapon("adamantine short sword", I =>
@@ -15253,7 +15253,7 @@ namespace Pathos
         I.Series = null;
         //I.AddObviousIngestUse(Motions.eat, 30, Delay.FromTurns(20), Sonics.weapon);
         I.SetEquip(EquipAction.Wield, Delay.FromTurns(10), Sonics.weapon);
-        I.SetOneHandedWeapon(Skills.medium_blade, null, Elements.physical, DamageType.Pierce, 1.d6() + 1);
+        I.SetOneHandedWeapon(Skills.light_blade, null, Elements.physical, DamageType.Pierce, 1.d6() + 1);
       });
 
       adamantine_spear = AddReachWeapon("adamantine spear", I =>

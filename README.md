@@ -93,6 +93,18 @@ add shield skill(maybe not, TBD)
 
 fuse some weapon skills, like spear/polearm and mace/hammer
 
+*lance>spear
+*club>hammer
+*flail>whip
+*sling,disc>dart
+*pickaxe>axe
+*crossbow>bow
+*medium blade > light/heavy (depends on item, one handed or two handed weapons) short swords, sabres are light. rapiers are heavy
+
+medium armor> light/heavy based on item
+
+
+
 give partial resistance/weakness at start(not doable)
 
 

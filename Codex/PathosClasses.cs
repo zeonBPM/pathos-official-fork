@@ -114,8 +114,8 @@ namespace Pathos
           Skills.dual_wielding, Skills.literacy, Skills.riding, Skills.swimming,
           Skills.evocation,
           Skills.light_armour, Skills.medium_armour, Skills.heavy_armour,
-          Skills.light_blade, Skills.medium_blade, Skills.heavy_blade,
-          Skills.axe, Skills.club, Skills.hammer, Skills.mace, Skills.pick, Skills.polearm, Skills.spear);
+          Skills.light_blade, Skills.heavy_blade,
+          Skills.axe, Skills.hammer, Skills.mace, Skills.polearm, Skills.spear);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.twohanded_sword);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.axe);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.ring_mail);
@@ -146,8 +146,8 @@ namespace Pathos
         C.Startup.SetSkill(Qualifications.proficient,
           Skills.dual_wielding, Skills.riding, Skills.swimming,
           Skills.light_armour, Skills.medium_armour,
-          Skills.light_blade, Skills.medium_blade, Skills.heavy_blade,
-          Skills.axe, Skills.club, Skills.hammer, Skills.mace, Skills.polearm, Skills.spear, Skills.unarmed_combat, Skills.whip);
+          Skills.light_blade, Skills.heavy_blade,
+          Skills.axe, Skills.hammer, Skills.mace, Skills.polearm, Skills.spear, Skills.unarmed_combat, Skills.whip);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, [Items.trident, Items.spear, Items.voulge, Items.halberd, Items.guisarme, Items.billguisarme, Items.bec_de_corbin, Items.bardiche, Items.ranseur, Items.partisan, Items.spetum, Items.fauchard, Items.glaive, Items.lucern_hammer]);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.brass_knuckles);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.brass_knuckles);
@@ -188,8 +188,8 @@ namespace Pathos
           Skills.bartering, Skills.crafting, Skills.dual_wielding, Skills.literacy, Skills.locks, Skills.music, Skills.riding, Skills.swimming,
           Skills.abjuration, Skills.clerical, Skills.divination, Skills.enchantment,
           Skills.light_armour, Skills.medium_armour,
-          Skills.light_blade, Skills.medium_blade,
-          Skills.crossbow, Skills.whip
+          Skills.light_blade,
+          Skills.bow, Skills.whip
           );
         C.Startup.AddGrimoire(Dice.One, DesireableSpellArray(C));
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.rapier);
@@ -235,8 +235,8 @@ namespace Pathos
         C.Startup.SetSkill(Qualifications.proficient,
           Skills.transmutation,
           Skills.light_armour, Skills.medium_armour,
-          Skills.light_blade, Skills.medium_blade,
-          Skills.axe, Skills.disc, Skills.bow, Skills.club, Skills.flail, Skills.hammer, Skills.mace, Skills.polearm, Skills.sling, Skills.spear, Skills.staff);
+          Skills.light_blade,
+          Skills.axe, Skills.dart, Skills.bow, Skills.whip, Skills.hammer, Skills.mace, Skills.polearm, Skills.spear, Skills.staff);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.club);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus2, Items.sling);
         C.Startup.Loot.AddKit(Chance.Always, 1.d10() + 10, Modifier.Plus0, Items.flint); // 11-20
@@ -299,8 +299,8 @@ namespace Pathos
           Skills.bartering, Skills.crafting, Skills.literacy, Skills.riding, Skills.swimming,
           Skills.divination,
           Skills.light_armour, Skills.medium_armour,
-          Skills.light_blade, Skills.medium_blade,
-          Skills.disc, Skills.club, Skills.pick, Skills.sling, Skills.spear, Skills.staff, Skills.whip);
+          Skills.light_blade,
+          Skills.dart, Skills.mace, Skills.axe, Skills.spear, Skills.staff, Skills.whip);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus3, Items.bullwhip);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.leather_jacket);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.fedora);
@@ -336,7 +336,7 @@ namespace Pathos
           Skills.bartering, Skills.crafting, Skills.literacy, Skills.traps,
           Skills.abjuration, Skills.transmutation,
           Skills.light_armour, Skills.medium_armour, Skills.heavy_armour,
-          Skills.club, Skills.hammer, Skills.pick, Skills.sling, Skills.unarmed_combat, Skills.firearms);
+          Skills.mace, Skills.hammer, Skills.axe, Skills.dart, Skills.unarmed_combat, Skills.firearms);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.heavy_hammer);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus2, Items.pickaxe);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.tshirt);
@@ -428,8 +428,8 @@ namespace Pathos
           Skills.bartering, Skills.crafting, Skills.literacy,
           Skills.abjuration, Skills.enchantment, Skills.clerical, Skills.necromancy,
           Skills.light_armour, Skills.medium_armour, Skills.heavy_armour,
-          Skills.light_blade, Skills.medium_blade,
-          Skills.club, Skills.dart, Skills.disc, Skills.sling, Skills.spear, Skills.staff);
+          Skills.light_blade,
+          Skills.mace, Skills.dart, Skills.spear, Skills.staff);
         C.Startup.AddGrimoire(Dice.One, Spells.healing);
         C.Startup.AddGrimoire(Dice.One, Spells.extra_healing);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus3, Items.scalpel);
@@ -514,7 +514,7 @@ namespace Pathos
           Skills.abjuration, Skills.enchantment, Skills.divination,
           Skills.light_armour,
           Skills.light_blade,
-          Skills.disc, Skills.mace, Skills.whip);
+          Skills.dart, Skills.mace, Skills.whip);
         C.Startup.AddGrimoire(Dice.One, Spells.confusion);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.morning_star);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.boomerang);
@@ -566,9 +566,9 @@ namespace Pathos
         C.Startup.SetSkill(Qualifications.proficient,
           Skills.dual_wielding, Skills.literacy, Skills.riding,
           Skills.evocation,
-          Skills.light_blade, Skills.medium_blade, Skills.heavy_blade,
+          Skills.light_blade, Skills.heavy_blade,
           Skills.light_armour, Skills.medium_armour, Skills.heavy_armour,
-          Skills.axe, Skills.crossbow, Skills.lance, Skills.mace, Skills.polearm, Skills.spear, Skills.hammer, Skills.flail);
+          Skills.axe, Skills.bow, Skills.mace, Skills.polearm, Skills.spear, Skills.hammer, Skills.whip);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.long_sword);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.ring_mail);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.helmet);
@@ -667,7 +667,7 @@ namespace Pathos
           Skills.divination, Skills.enchantment, Skills.evocation, Skills.transmutation,
           Skills.light_armour,
           Skills.light_blade,
-          Skills.dart, Skills.sling, Skills.staff);
+          Skills.dart, Skills.staff);
         C.Startup.AddGrimoire(Dice.One, Spells.identify);
         C.Startup.AddGrimoire(Dice.One, DesireableSpellArray(C));
         C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, Items.stiletto);
@@ -719,9 +719,9 @@ namespace Pathos
         C.Startup.SetSkill(Qualifications.proficient,
           Skills.dual_wielding, Skills.locks, Skills.literacy, Skills.traps,
           Skills.enchantment,
-          Skills.light_armour, Skills.medium_blade,
+          Skills.light_armour,
           Skills.light_blade,
-          Skills.polearm, Skills.flail, Skills.disc, Skills.unarmed_combat);
+          Skills.polearm, Skills.whip, Skills.dart, Skills.unarmed_combat);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, [Items.nunchaku, Items.sai]);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, [Items.nunchaku, Items.sai]);
         C.Startup.Loot.AddKit(Dice.One, Chance.Always, 1.d20() + 26, Sanctities.Blessed, [Modifier.Plus1], [Items.shuriken]); // blessed 21-47
@@ -761,7 +761,7 @@ namespace Pathos
           Skills.riding, Skills.literacy,
           Skills.abjuration, Skills.clerical,
           Skills.medium_armour, Skills.heavy_armour,
-          Skills.medium_blade, Skills.heavy_blade, Skills.mace, Skills.hammer);
+          Skills.heavy_blade, Skills.mace, Skills.hammer);
         C.Startup.AddGrimoire(Dice.One, Spells.healing);
         C.Startup.AddGrimoire(Dice.One, Spells.turn_undead);
         C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus0, Items.long_sword);
@@ -797,7 +797,7 @@ namespace Pathos
         C.Startup.SetSkill(Qualifications.proficient,
           Skills.bartering, Skills.crafting, Skills.dual_wielding, Skills.locks, Skills.music, Skills.swimming,
           Skills.light_armour, Skills.medium_armour,
-          Skills.light_blade, Skills.medium_blade,
+          Skills.light_blade,
           Skills.axe, Skills.spear, Skills.unarmed_combat, Skills.firearms);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.silver_sabre);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.oilskin_cloak);
@@ -844,7 +844,7 @@ namespace Pathos
           Skills.crafting, Skills.literacy,
           Skills.clerical, Skills.conjuration, Skills.divination, Skills.necromancy,
           Skills.light_armour, Skills.medium_armour,
-          Skills.club, Skills.mace, Skills.flail, Skills.hammer, Skills.staff);
+          Skills.mace, Skills.whip, Skills.hammer, Skills.staff);
         C.Startup.AddGrimoire(Dice.One, DesireableSpellArray(C));
         C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, Items.mace);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.robe);
@@ -882,9 +882,9 @@ namespace Pathos
         C.Startup.SetSkill(Qualifications.proficient,
           Skills.dual_wielding, Skills.crafting, Skills.literacy, Skills.riding, Skills.swimming,
           Skills.clerical, 
-          Skills.light_blade, Skills.medium_blade, Skills.heavy_blade,
+          Skills.light_blade, Skills.heavy_blade,
           Skills.light_armour, Skills.medium_armour, Skills.heavy_armour,
-          Skills.club, Skills.mace, Skills.flail, Skills.hammer, Skills.spear, Skills.staff);
+          Skills.mace, Skills.whip, Skills.hammer, Skills.spear, Skills.staff);
         C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, [Items.silver_mace, Items.silver_long_sword, Items.silver_spear]);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.shield_of_reflection);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.helmet);
@@ -947,7 +947,7 @@ namespace Pathos
           Skills.dual_wielding, Skills.literacy,
           Skills.necromancy,
           Skills.light_armour, Skills.medium_armour, Skills.heavy_armour,
-          Skills.light_blade, Skills.medium_blade, Skills.heavy_blade,
+          Skills.light_blade, Skills.heavy_blade,
           Skills.unarmed_combat, Skills.axe, Skills.hammer, Skills.mace);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus3, Items.battleaxe);
         C.Startup.Loot.AddKit(Chance.Always, 1.d3() + 2, Modifier.Plus0, Items.hatchet); // 3-5
@@ -994,8 +994,8 @@ namespace Pathos
           Skills.crafting, Skills.dual_wielding, Skills.literacy, Skills.riding, Skills.swimming, Skills.traps,
           Skills.divination,
           Skills.light_armour, Skills.medium_armour,
-          Skills.light_blade, Skills.medium_blade,
-          Skills.axe, Skills.disc, Skills.bow, Skills.crossbow, Skills.dart, Skills.flail, Skills.polearm, Skills.sling, Skills.spear);
+          Skills.light_blade,
+          Skills.axe, Skills.bow, Skills.dart, Skills.whip, Skills.polearm, Skills.spear);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.bow);
         C.Startup.Loot.AddKit(Chance.Always, 1.d10() + 50, Modifier.Plus2, Items.arrow); // 51-60
         C.Startup.Loot.AddKit(Chance.Always, 1.d10() + 30, Modifier.Plus0, Items.arrow); // 31-40
@@ -1037,8 +1037,8 @@ namespace Pathos
           Skills.bartering, Skills.dual_wielding, Skills.literacy, Skills.locks, Skills.swimming, Skills.traps,
           Skills.abjuration, Skills.divination, Skills.transmutation,
           Skills.light_armour,
-          Skills.light_blade, Skills.medium_blade,
-          Skills.club, Skills.crossbow, Skills.dart, Skills.mace, Skills.disc);
+          Skills.light_blade,
+          Skills.bow, Skills.dart, Skills.mace);
         C.Startup.Loot.AddKit(Chance.Always, 1.d250() + 250, Items.gold_coin);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.short_sword);
         C.Startup.Loot.AddKit(Chance.Always, 1.d10() + 6, Modifier.Plus0, Items.dagger); // 7-16
@@ -1082,8 +1082,8 @@ namespace Pathos
           Skills.dual_wielding, Skills.literacy, Skills.riding,
           Skills.clerical, Skills.evocation,
           Skills.light_armour, Skills.medium_armour, Skills.heavy_armour,
-          Skills.light_blade, Skills.medium_blade, Skills.heavy_blade,
-          Skills.bow, Skills.flail, Skills.lance, Skills.polearm, Skills.disc);
+          Skills.light_blade, Skills.heavy_blade,
+          Skills.bow, Skills.whip, Skills.spear, Skills.polearm, Skills.dart);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.katana);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.wakizashi);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.yumi);
@@ -1127,7 +1127,7 @@ namespace Pathos
           Skills.abjuration, Skills.divination, Skills.enchantment, Skills.evocation, Skills.necromancy,
           Skills.light_armour,
           Skills.light_blade,
-          Skills.axe, Skills.club, Skills.dart, Skills.sling, Skills.staff);
+          Skills.axe, Skills.mace, Skills.dart, Skills.staff);
         C.Startup.AddGrimoire(Dice.One, Spells.magic_missile);
         C.Startup.AddGrimoire(Dice.One, DesireableSpellArray(C));
         C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, [Items.dread_staff, Items.flash_staff, Items.thunder_staff, Items.battle_staff]);
@@ -1169,7 +1169,7 @@ namespace Pathos
           Skills.abjuration, Skills.divination, Skills.enchantment, Skills.transmutation, Skills.conjuration, 
           Skills.light_armour,
           Skills.light_blade,
-          Skills.disc, Skills.club, Skills.polearm, Skills.staff);
+          Skills.dart, Skills.mace, Skills.polearm, Skills.staff);
         C.Startup.AddGrimoire(Dice.One, Spells.summoning);
         C.Startup.AddGrimoire(Dice.One, DesireableSpellArray(C));
         C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus2, Items.scythe);
@@ -1207,7 +1207,7 @@ namespace Pathos
           Skills.abjuration, Skills.divination, Skills.transmutation, Skills.enchantment, Skills.evocation,
           Skills.light_armour, Skills.medium_armour,
           Skills.light_blade, 
-          Skills.club, Skills.crossbow, Skills.hammer, Skills.mace, Skills.pick);
+          Skills.bow, Skills.hammer, Skills.mace, Skills.axe);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus2, Items.war_hammer);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus3, Items.alchemy_smock);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.dented_pot);
@@ -1301,8 +1301,8 @@ namespace Pathos
         C.Startup.SetSkill(Qualifications.proficient,
           Skills.dual_wielding, Skills.literacy, Skills.riding, Skills.swimming,
           Skills.light_armour, Skills.medium_armour, Skills.heavy_armour,
-          Skills.light_blade, Skills.medium_blade, Skills.heavy_blade,
-          Skills.axe, Skills.hammer, Skills.lance, Skills.pick, Skills.polearm, Skills.spear);
+          Skills.light_blade, Skills.heavy_blade,
+          Skills.axe, Skills.hammer, Skills.polearm, Skills.spear);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus1, Items.spear);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus0, Items.dagger);
         C.Startup.Loot.AddKit(Chance.Always, Modifier.Plus3, Items.small_shield);
@@ -1348,7 +1348,7 @@ namespace Pathos
           Skills.abjuration, Skills.divination, Skills.enchantment, Skills.evocation, Skills.necromancy, Skills.transmutation,
           Skills.light_armour,
           Skills.light_blade,
-          Skills.club, Skills.dart, Skills.sling, Skills.staff);
+          Skills.mace, Skills.dart, Skills.staff);
         C.Startup.AddGrimoire(Dice.One, Spells.force_bolt);
         C.Startup.AddGrimoire(Dice.One, DesireableSpellArray(C));
         C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, Items.quarterstaff);
@@ -1464,7 +1464,7 @@ namespace Pathos
           Skills.abjuration, Skills.conjuration, Skills.divination, Skills.enchantment, Skills.necromancy, Skills.transmutation,
           Skills.light_armour,
           Skills.light_blade,
-          Skills.whip, Skills.mace, Skills.flail, Skills.staff);
+          Skills.whip, Skills.mace, Skills.staff);
         C.Startup.AddGrimoire(Dice.One, Spells.animate_dead);
         C.Startup.AddGrimoire(Dice.One, DesireableSpellArray(C));
         C.Startup.Loot.AddKit(Chance.Always, Sanctities.Blessed, Modifier.Plus1, Items.athame);

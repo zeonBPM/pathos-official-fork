@@ -103,17 +103,20 @@ namespace Pathos
       // offensive.
 
        dart = AddSkill(SkillCategory.Offensive, "dart", S => { });
+      //throwing = AddSkill(SkillCategory.Offensive, "throwing", S => { });
 
-       disc = AddSkill(SkillCategory.Offensive, "disc", S =>
+      /*disc = AddSkill(SkillCategory.Offensive, "disc", S =>
       {
         S.Description = null;
         S.WeaponRotation = true;
       });
+      */
+
 
       bow = AddSkill(SkillCategory.Offensive, "bow", S => { });
 
 
-      crossbow = AddSkill(SkillCategory.Offensive, "crossbow", S => { });
+      //crossbow = AddSkill(SkillCategory.Offensive, "crossbow", S => { });
 
 
 
@@ -126,7 +129,7 @@ namespace Pathos
 
       light_blade = AddSkill(SkillCategory.Offensive, "light blade", S => { });
 
-      medium_blade = AddSkill(SkillCategory.Offensive, "medium blade", S => { });
+      //medium_blade = AddSkill(SkillCategory.Offensive, "medium blade", S => { });
             
       heavy_blade = AddSkill(SkillCategory.Offensive, "heavy blade", S => { });
 
@@ -138,25 +141,25 @@ namespace Pathos
 
             ;
 
-      club = AddSkill(SkillCategory.Offensive, "club", S => { });
+      //club = AddSkill(SkillCategory.Offensive, "club", S => { });
 
 
       mace = AddSkill(SkillCategory.Offensive, "mace", S => { });
 
 
-      flail = AddSkill(SkillCategory.Offensive, "flail", S => { });
+      //flail = AddSkill(SkillCategory.Offensive, "flail", S => { });
 
       hammer = AddSkill(SkillCategory.Offensive, "hammer", S => { });
 
-      pick = AddSkill(SkillCategory.Offensive, "pick", S => { });
+      //pick = AddSkill(SkillCategory.Offensive, "pick", S => { });
 
       spear = AddSkill(SkillCategory.Offensive, "spear", S => { });
 
       polearm = AddSkill(SkillCategory.Offensive, "polearm", S => { });
 
-      lance = AddSkill(SkillCategory.Offensive, "lance", S => { });
+      //lance = AddSkill(SkillCategory.Offensive, "lance", S => { });
 
-      sling = AddSkill(SkillCategory.Offensive, "sling", S => { });
+      //sling = AddSkill(SkillCategory.Offensive, "sling", S => { });
 
 
       staff = AddSkill(SkillCategory.Offensive, "staff", S => { });
@@ -187,12 +190,15 @@ namespace Pathos
       transmutation = AddSkill(SkillCategory.Mystical, "transmutation", S => { });
 
       Register.Alias(clerical, "healing");
-      Register.Alias(disc, "boomerang");
+      //Register.Alias(disc, "boomerang");
 
       // TODO: skills requiring further abstraction in the engine.
       Register.dual_wielding = dual_wielding;
     }
 #endif
+
+   // public readonly Skill throwing;
+
 
     public readonly Skill bartering;
     public readonly Skill crafting;
